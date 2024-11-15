@@ -486,37 +486,29 @@ script = ExtResource("1_pn4qh")
 
 [node name="BG_level_1" type="ParallaxBackground" parent="."]
 layer = -1
-offset = Vector2(0, 305.91)
-scale = Vector2(0.5, 0.5)
-transform = Transform2D(0.5, 0, 0, 0.5, 0, 305.91)
+offset = Vector2(500, 500)
+scale = Vector2(0.4, 0.4)
+transform = Transform2D(0.4, 0, 0, 0.4, 500, 500)
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="BG_level_1"]
-scale = Vector2(0.8, 0.8)
-motion_mirroring = Vector2(800, 0)
+motion_mirroring = Vector2(1600, 0)
 
 [node name="BackgroundLayer1" type="Sprite2D" parent="BG_level_1/ParallaxLayer"]
-position = Vector2(576.25, 453.363)
-scale = Vector2(3.60156, 3.56264)
+scale = Vector2(5, 5)
 texture = ExtResource("3_s1vjy")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="BG_level_1"]
-position = Vector2(3.19995, 102.18)
-scale = Vector2(0.8, 0.8)
-motion_mirroring = Vector2(800, 0)
+motion_mirroring = Vector2(1600, 0)
 
 [node name="BackgroundLayer2" type="Sprite2D" parent="BG_level_1/ParallaxLayer2"]
-position = Vector2(573.5, 325.25)
-scale = Vector2(3.60938, 3.55833)
+scale = Vector2(5, 5)
 texture = ExtResource("4_33i7t")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="BG_level_1"]
-position = Vector2(3.19995, 102.18)
-scale = Vector2(0.8, 0.8)
-motion_mirroring = Vector2(800, 0)
+motion_mirroring = Vector2(1600, 0)
 
 [node name="BackgroundLayer3" type="Sprite2D" parent="BG_level_1/ParallaxLayer3"]
-position = Vector2(572.25, 325.25)
-scale = Vector2(3.60156, 3.55833)
+scale = Vector2(5, 5)
 texture = ExtResource("5_vd7kf")
 
 [node name="Shop" parent="." instance=ExtResource("4_n061r")]
