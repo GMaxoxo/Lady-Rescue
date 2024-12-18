@@ -1,3 +1,4 @@
+Timer
 Node2D
 Node
 CollisionShape2D
@@ -8,7 +9,6 @@ AnimatedSprite2D
 CharacterBody2D
 PointLight2D
 DirectionalLight2D
-Timer
 Label
 CanvasLayer
 CanvasGroup
