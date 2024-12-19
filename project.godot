@@ -11,9 +11,8 @@ config_version=5
 [application]
 
 config/name="Adventure_time"
-run/main_scene="res://Scene/Main_menu/main_menu.tscn"
+run/main_scene="res://Scene/Main_menu/Main.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
-config/icon="res://icon.svg"
 
 [autoload]
 

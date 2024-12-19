@@ -5,10 +5,11 @@
 [ext_resource type="PackedScene" uid="uid://bc4xdjsl460ie" path="res://Player/player.tscn" id="2_k3q0u"]
 [ext_resource type="Texture2D" uid="uid://c8gqmjxnsiduu" path="res://Assets/background/background_layer_1.png" id="3_s1vjy"]
 [ext_resource type="Texture2D" uid="uid://bx22ebdtyhf64" path="res://Assets/background/background_layer_2.png" id="4_33i7t"]
-[ext_resource type="PackedScene" uid="uid://dgrf2qouamhkn" path="res://Build/shop.tscn" id="4_n061r"]
+[ext_resource type="PackedScene" uid="uid://dgrf2qouamhkn" path="res://Assets/Build/shop.tscn" id="4_n061r"]
 [ext_resource type="Texture2D" uid="uid://dfwshhlyvw3y5" path="res://Assets/background/background_layer_3.png" id="5_vd7kf"]
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_84km8"]
-[ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Enemy/moshroomhead.tscn" id="8_wxrvj"]
+[ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Assets/Enemy/moshroomhead.tscn" id="8_wxrvj"]
+
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3kjax"]
 texture = ExtResource("1_uipwf")

@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 res://Assets/character/Mushroom
 res://Assets/character/Player/blue
 res://Scene/Damage_box
 res://Scene
 res://Enemy
 res://Build
+=======
+res://Scene/Main_menu
+res://Scene
+res://
+res://Scene/Damage_box
+res://Assets/character/Mushroom
+>>>>>>> Flanity
 res://Assets/decorations
 res://Assets/character/Player
 res://Coins
 res://Assets/coins
-res://
