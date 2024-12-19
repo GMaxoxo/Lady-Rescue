@@ -1,11 +1,10 @@
-res://Scene/Damage_box
+res://Scene/Main_menu
 res://Scene
-res://Enemy
+res://
+res://Scene/Damage_box
 res://Assets/character/Mushroom
-res://Build
 res://Assets/decorations
 res://Assets/character/Player/blue
 res://Assets/character/Player
 res://Coins
 res://Assets/coins
-res://
