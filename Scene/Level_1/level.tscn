@@ -10,7 +10,6 @@
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_84km8"]
 [ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Assets/Enemy/moshroomhead.tscn" id="8_wxrvj"]
 
-
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3kjax"]
 texture = ExtResource("1_uipwf")
 0:0/0 = 0
@@ -462,8 +461,8 @@ func _ready() -> void:
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
-	text = \"Монеты: \" + str($\"../../Player/Player\".gold)
+#func _process(_delta: float) -> void:
+	#text = \"Монеты: \" + str($\"../../Player/Player\".gold)
 "
 
 [sub_resource type="GDScript" id="GDScript_s6eah"]
