@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://7drtp223lbux"]
+[gd_scene load_steps=16 format=4 uid="uid://7drtp223lbux"]
 
 [ext_resource type="Texture2D" uid="uid://bc23hjknnv04b" path="res://Assets/oak_woods_tileset.png" id="1_uipwf"]
 [ext_resource type="PackedScene" uid="uid://bc4xdjsl460ie" path="res://Player/player.tscn" id="2_k3q0u"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://dfwshhlyvw3y5" path="res://Assets/background/background_layer_3.png" id="5_vd7kf"]
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_84km8"]
 [ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Enemy/moshroomhead.tscn" id="8_wxrvj"]
+[ext_resource type="PackedScene" uid="uid://clmy56e64g4dm" path="res://Enemy/skeleton.tscn" id="9_qax7l"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3kjax"]
 texture = ExtResource("1_uipwf")
@@ -564,6 +565,10 @@ texture_scale = 1.5
 
 [node name="Moshroomhead" parent="Enemy" instance=ExtResource("8_wxrvj")]
 position = Vector2(-600, 590)
+
+[node name="Skeleton" parent="Enemy" instance=ExtResource("9_qax7l")]
+position = Vector2(445, 593)
+collision_layer = 2
 
 [node name="Player" type="Node2D" parent="."]
 

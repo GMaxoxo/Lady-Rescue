@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c3gi3bnyr28cn"
+path="res://.godot/imported/Bow Impact Hit 2.ogg-d25df03d01702a6f98b42fb53b2edbd8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Bow Attacks Hits and Blocks/Bow Impact Hit 2.ogg"
+dest_files=["res://.godot/imported/Bow Impact Hit 2.ogg-d25df03d01702a6f98b42fb53b2edbd8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -7,7 +7,6 @@ enum {
 	CHASE,     # Преследование
 	DAMAGE,    # Получение урона
 	DEATH,     # Смерть
-	RECOVER    # Состояние после смерти
 }
 
 # Состояние врага
@@ -28,8 +27,6 @@ var state: int = IDLE:
 					damage_state()
 				DEATH:
 					death_state()
-				RECOVER:
-					pass
 
 # Переменные для анимации
 @onready var anim = $Moshroomhead_anim_player  # Анимационный плеер врага
@@ -43,7 +40,7 @@ var alive = true                 # Статус врага
 var chase = false                # Флаг преследования
 
 # Радиус атаки
-const ATTACK_RANGE = 45.0
+const ATTACK_RANGE = 40.0
 
 func _ready() -> void:
 	# Подключение сигналов игрока
@@ -53,6 +50,9 @@ func _ready() -> void:
 # Обновление позиции игрока
 func _on_player_position_update(player_pos: Vector2) -> void:
 	player = player_pos
+
+func set_state(new_state: int) -> void:
+	state = new_state
 
 # Основной цикл обработки физики
 func _physics_process(delta: float) -> void:
@@ -96,13 +96,13 @@ func chase_state():
 func _on_agro_zone_moshroom_body_entered(body: Node2D) -> void:
 	if body.name == "Player":
 		chase = true
-		state = CHASE
+		call_deferred("set_state", CHASE)
 
 # Обработка выхода из зоны агрессии
 func _on_agro_zone_moshroom_body_exited(body: Node2D) -> void:
 	if body.name == "Player":
 		chase = false
-		state = IDLE
+		call_deferred("set_state", IDLE)
 
 # Состояние атаки
 func attack_state():
@@ -135,10 +135,12 @@ func death_state():
 
 # Получение урона от игрока
 func _on_damage_received(player_damage: int) -> void:
-	if state != DEATH:  # Игнорируем урон, если моб уже мёртв
-		health -= player_damage
-		if health <= 0:
-			alive = false
-			state = DEATH
-		else:
-			state = DAMAGE
+	if state == DEATH:
+		return  # Если моб уже мёртв, игнорируем урон
+
+	health -= player_damage
+	if health <= 0:
+		alive = false
+		call_deferred("set_state", DEATH)  # Отложенное переключение в состояние смерти
+	else:
+		call_deferred("set_state", DAMAGE)  # Отложенное переключение в состояние получения урона

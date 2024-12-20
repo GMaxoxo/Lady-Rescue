@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bweisoa5rheyy"
+path="res://.godot/imported/Stone Chain Land.ogg-f955680418f7d71f531b621ba51cf8ea.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Stone/Stone Chain Land.ogg"
+dest_files=["res://.godot/imported/Stone Chain Land.ogg-f955680418f7d71f531b621ba51cf8ea.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

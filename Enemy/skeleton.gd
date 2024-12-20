@@ -1,42 +1,143 @@
 extends CharacterBody2D
 
-var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+# Определение состояний врага
+enum {
+	IDLE,      # Ожидание
+	ATTACK,    # Атака
+	CHASE,     # Преследование
+	DAMAGE,    # Получение урона
+	DEATH,     # Смерть
+}
 
-var alive = true
-var chase = false
-var SPEED = 150
-@onready var anim = $Skeleton_Anim
+# Состояние врага
+var state: int = IDLE:
+	set(value):
+		# Прерываем текущую анимацию при изменении состояния
+		if state != value:
+			state = value
+			match state:
+				IDLE:
+					idle_state()
+				ATTACK:
+					attack_state()
+				CHASE:
+					chase_state()
+				DAMAGE:
+					damage_state()
+				DEATH:
+					death_state()
 
+# Переменные для взаимодействия с игроком и движения
+var player                       # Позиция игрока
+var health = 75                  # Здоровье врага
+var damage = 5                   # Урон врага
+var move_speed = 75              # Скорость движения врага
+var alive = true                 # Статус врага
+var chase = false                # Флаг преследования
+
+# Радиус атаки
+const ATTACK_RANGE = 35.0
+
+@onready var anim = $Skeleton_anim_player
+
+func _ready() -> void:
+	# Подключение сигналов игрока
+	PlayerSignal.connect("player_position_update", Callable(self, "_on_player_position_update"))
+	PlayerSignal.connect("player_attack", Callable(self, "_on_damage_received"))
+
+# Обновление позиции игрока
+func _on_player_position_update(player_pos: Vector2) -> void:
+	player = player_pos
+
+func set_state(new_state: int) -> void:
+	state = new_state
+
+# Основной цикл обработки физики
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-	var player = $"../../Player/Player"
-	var direction = (player.position - self.position).normalized()
-	if alive == true:
-		if chase == true:
-			velocity.x = direction.x * SPEED
-			anim.play("Run")
-		else:
-			velocity.x = 0
-			anim.play("Idle")
-			
-		if direction.x < 0:
-			$Skeleton_Anim.flip_h = true
-		else:
-			$Skeleton_Anim.flip_h = false
-		move_and_slide()
+	if not alive:
+		return
 
+	if state == DAMAGE or state == DEATH:
+		velocity.x = 0
+		return
+
+	if chase:
+		var distance_to_player = position.distance_to(player)
+
+		# Если игрок в зоне атаки, переключаемся в состояние ATTACK
+		if distance_to_player <= ATTACK_RANGE and state != ATTACK:
+			state = ATTACK
+			return
+
+		# Преследование игрока
+		if state == CHASE:
+			var direction = (player - position).normalized()
+			velocity.x = direction.x * move_speed
+			anim.play("Run")
+			$Skeleton_Anim.flip_h = direction.x < 0
+	else:
+		velocity.x = 0
+		anim.play("Idle")
+
+	move_and_slide()
+
+# Состояние ожидания
+func idle_state():
+	velocity.x = 0
+	anim.play("Idle")
+
+# Состояние преследования
+func chase_state():
+	anim.play("Run")
+
+# Обработка входа в зону агрессии
 func _on_skeleton_agro_area_body_entered(body):
 	if body.name == "Player":
 		chase = true
+		call_deferred("set_state", CHASE)
 
+# Обработка выхода из зоны агрессии
 func _on_skeleton_agro_area_body_exited(body):
 	if body.name == "Player":
 		chase = false
+		call_deferred("set_state", IDLE)
 
-func death():
-	alive = false
+# Состояние атаки
+func attack_state():
+	velocity.x = 0
+	anim.play("Attack")
+	await anim.animation_finished  # Ожидание завершения анимации атаки
+
+	# Проверка, что игрок всё ещё находится в зоне атаки перед нанесением урона
+	if position.distance_to(player) <= ATTACK_RANGE and state == ATTACK:
+		PlayerSignal.emit_signal("enemy_attack", damage)  # Наносим урон игроку
+
+	state = CHASE  # Возвращаемся к преследованию
+
+# Состояние получения урона
+func damage_state():
+	velocity.x = 0  # Остановка перед проигрыванием анимации
+	anim.play("Damage")
+	await anim.animation_finished  # Ожидание завершения анимации получения урона
+	# Возврат в активное состояние
+	if alive:
+		state = CHASE if chase else IDLE
+
+# Состояние смерти
+func death_state():
+	velocity.x = 0
 	anim.play("Death")
 	await anim.animation_finished
 	queue_free()
+
+# Получение урона от игрока
+func _on_damage_received(player_damage: int) -> void:
+	if state == DEATH:
+		return  # Если моб уже мёртв, игнорируем урон
+
+	health -= player_damage
+	if health <= 0:
+		alive = false
+		call_deferred("set_state", DEATH)  # Отложенное переключение в состояние смерти
+	else:
+		call_deferred("set_state", DAMAGE)  # Отложенное переключение в состояние получения урона

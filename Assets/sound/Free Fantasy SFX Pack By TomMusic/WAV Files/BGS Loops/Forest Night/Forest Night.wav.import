@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bn0cdd3mk4yko"
+path="res://.godot/imported/Forest Night.wav-4d86eb644b637359540a3daaea63bc5f.sample"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Night/Forest Night.wav"
+dest_files=["res://.godot/imported/Forest Night.wav-4d86eb644b637359540a3daaea63bc5f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
