@@ -1,3 +1,5 @@
+res://Scene/Main_menu
+res://Scene/Level_king
 res://Assets/character/Skeleton
 <<<<<<< HEAD
 res://Assets/character/Mushroom
@@ -6,7 +8,6 @@ res://Scene/Damage_box
 res://Scene
 res://Enemy
 =======
-res://Scene/Main_menu
 res://Scene
 res://
 res://Scene/Damage_box

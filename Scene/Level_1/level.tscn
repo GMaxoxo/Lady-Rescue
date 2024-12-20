@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Enemy/moshroomhead.tscn" id="8_wxrvj"]
 [ext_resource type="PackedScene" uid="uid://clmy56e64g4dm" path="res://Enemy/skeleton.tscn" id="9_qax7l"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3kjax"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a1scu"]
 texture = ExtResource("1_uipwf")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -439,7 +439,7 @@ texture = ExtResource("1_uipwf")
 
 [sub_resource type="TileSet" id="TileSet_afths"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_3kjax")
+sources/0 = SubResource("TileSetAtlasSource_a1scu")
 
 [sub_resource type="GDScript" id="GDScript_i3wuo"]
 script/source = "extends Label
@@ -550,6 +550,7 @@ occluder = SubResource("OccluderPolygon2D_chm1b")
 [node name="Shop_light" type="PointLight2D" parent="Light"]
 position = Vector2(94, 580)
 scale = Vector2(0.148125, 0.148125)
+energy = 0.5
 shadow_enabled = true
 texture = ExtResource("8_84km8")
 texture_scale = 1.5
@@ -557,6 +558,7 @@ texture_scale = 1.5
 [node name="Shop_light_2" type="PointLight2D" parent="Light"]
 position = Vector2(191, 580)
 scale = Vector2(0.148, 0.148)
+energy = 0.5
 shadow_enabled = true
 texture = ExtResource("8_84km8")
 texture_scale = 1.5
