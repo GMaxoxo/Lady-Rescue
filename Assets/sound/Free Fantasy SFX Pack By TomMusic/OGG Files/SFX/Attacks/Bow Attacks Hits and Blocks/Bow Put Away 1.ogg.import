@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cy1y6563gkkjy"
+path="res://.godot/imported/Bow Put Away 1.ogg-61836f057d4dfe9b53950d0992671eab.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Bow Attacks Hits and Blocks/Bow Put Away 1.ogg"
+dest_files=["res://.godot/imported/Bow Put Away 1.ogg-61836f057d4dfe9b53950d0992671eab.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

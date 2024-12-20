@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://djo71ee432nef"
+path="res://.godot/imported/Forest Day Rain.ogg-050fbd7465a90866b31e6d3f7c995264.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Day/Forest Day Rain.ogg"
+dest_files=["res://.godot/imported/Forest Day Rain.ogg-050fbd7465a90866b31e6d3f7c995264.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

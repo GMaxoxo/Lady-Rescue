@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://biofsccvim8xb"
+path="res://.godot/imported/Ice Barrage 1.ogg-5d60569a63ba39c4985b380bcd50dbb3.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Ice Barrage 1.ogg"
+dest_files=["res://.godot/imported/Ice Barrage 1.ogg-5d60569a63ba39c4985b380bcd50dbb3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

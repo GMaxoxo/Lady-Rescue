@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dot453t8ws2kd"
+path="res://.godot/imported/Fireball 2.wav-9cae885beb702c71bd06a1747453aa39.sample"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Spells/Fireball 2.wav"
+dest_files=["res://.godot/imported/Fireball 2.wav-9cae885beb702c71bd06a1747453aa39.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

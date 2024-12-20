@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=3 uid="uid://clmy56e64g4dm"]
+[gd_scene load_steps=50 format=3 uid="uid://clmy56e64g4dm"]
 
 [ext_resource type="Texture2D" uid="uid://dipnobt3v1qmc" path="res://Assets/character/Skeleton/Take Hit.png" id="1_8n372"]
 [ext_resource type="Script" path="res://Enemy/skeleton.gd" id="1_ln7qe"]
@@ -6,6 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://cqaaal6fsskhd" path="res://Assets/character/Skeleton/Death.png" id="2_yrurk"]
 [ext_resource type="Texture2D" uid="uid://c1fpvp2gte2dj" path="res://Assets/character/Skeleton/Idle.png" id="3_118tj"]
 [ext_resource type="Texture2D" uid="uid://jjhrqrlsdqyj" path="res://Assets/character/Skeleton/Walk.png" id="4_3520k"]
+[ext_resource type="PackedScene" uid="uid://cn05ji35m1xp8" path="res://Scene/Damage_box/damage_box.tscn" id="7_hdifi"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_eyxjy"]
+radius = 142.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rgo25"]
 size = Vector2(20, 32)
@@ -276,11 +280,187 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_eyxjy"]
-radius = 142.0
+[sub_resource type="Animation" id="Animation_smhj1"]
+length = 0.533333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton_Anim:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.133333, 0.2, 0.266667, 0.333333, 0.4, 0.466667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton_Anim:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Attack"]
+}
+
+[sub_resource type="Animation" id="Animation_li88h"]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton_Anim:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.125, 0.25, 0.375),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton_Anim:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Damage"]
+}
+
+[sub_resource type="Animation" id="Animation_yvb60"]
+length = 0.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton_Anim:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton_Anim:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Death"]
+}
+
+[sub_resource type="Animation" id="Animation_kleih"]
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton_Anim:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton_Anim:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Idle"]
+}
+
+[sub_resource type="Animation" id="Animation_ro52b"]
+length = 0.466667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton_Anim:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.133333, 0.2, 0.266667, 0.333333, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton_Anim:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Recover"]
+}
+
+[sub_resource type="Animation" id="Animation_wync7"]
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton_Anim:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton_Anim:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Run"]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_d4r7j"]
+_data = {
+"Attack": SubResource("Animation_smhj1"),
+"Damage": SubResource("Animation_li88h"),
+"Death": SubResource("Animation_yvb60"),
+"Idle": SubResource("Animation_kleih"),
+"Recover": SubResource("Animation_ro52b"),
+"Run": SubResource("Animation_wync7")
+}
 
 [node name="Skeleton" type="CharacterBody2D"]
 script = ExtResource("1_ln7qe")
+
+[node name="Skeleton_Agro_Area" type="Area2D" parent="."]
+
+[node name="Skeleton_Agro_Collision" type="CollisionShape2D" parent="Skeleton_Agro_Area"]
+shape = SubResource("CircleShape2D_eyxjy")
 
 [node name="Skeleton_Collision" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
@@ -290,13 +470,23 @@ shape = SubResource("RectangleShape2D_rgo25")
 position = Vector2(-1, -1)
 scale = Vector2(0.628333, 0.628333)
 sprite_frames = SubResource("SpriteFrames_gw5ia")
-animation = &"Idle"
+animation = &"Attack"
 autoplay = "Idle"
 
-[node name="Skeleton_Agro_Area" type="Area2D" parent="."]
+[node name="Skeleton_anim_player" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_d4r7j")
+}
+autoplay = "Idle"
 
-[node name="Skeleton_Agro_Collision" type="CollisionShape2D" parent="Skeleton_Agro_Area"]
-shape = SubResource("CircleShape2D_eyxjy")
+[node name="Damage_box" parent="." instance=ExtResource("7_hdifi")]
+
+[node name="Hitbox" parent="Damage_box" index="1"]
+collision_layer = 0
+collision_mask = 16
 
 [connection signal="body_entered" from="Skeleton_Agro_Area" to="." method="_on_skeleton_agro_area_body_entered"]
 [connection signal="body_exited" from="Skeleton_Agro_Area" to="." method="_on_skeleton_agro_area_body_exited"]
+[connection signal="area_entered" from="Damage_box/Hitbox" to="." method="_on_hitbox_area_entered"]
+
+[editable path="Damage_box"]

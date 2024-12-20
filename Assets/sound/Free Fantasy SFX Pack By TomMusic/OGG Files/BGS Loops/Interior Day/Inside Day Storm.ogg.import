@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c8g3j6iedk4mr"
+path="res://.godot/imported/Inside Day Storm.ogg-2123f22a765b332f951dc8b830356134.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Day/Inside Day Storm.ogg"
+dest_files=["res://.godot/imported/Inside Day Storm.ogg-2123f22a765b332f951dc8b830356134.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

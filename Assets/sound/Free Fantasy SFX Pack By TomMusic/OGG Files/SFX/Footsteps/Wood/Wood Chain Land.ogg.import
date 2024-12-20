@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c2ieedupd2hpl"
+path="res://.godot/imported/Wood Chain Land.ogg-6c6ce0133ede0e25e92a2b9c18b708be.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/Wood Chain Land.ogg"
+dest_files=["res://.godot/imported/Wood Chain Land.ogg-6c6ce0133ede0e25e92a2b9c18b708be.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

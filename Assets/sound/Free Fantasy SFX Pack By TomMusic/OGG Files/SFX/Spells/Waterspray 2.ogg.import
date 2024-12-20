@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cbhyvm0tiedpt"
+path="res://.godot/imported/Waterspray 2.ogg-ca86ccf8d95c98eff24d0ac83c316b7a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/Waterspray 2.ogg"
+dest_files=["res://.godot/imported/Waterspray 2.ogg-ca86ccf8d95c98eff24d0ac83c316b7a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
