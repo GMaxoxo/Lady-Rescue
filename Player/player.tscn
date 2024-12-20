@@ -1124,9 +1124,10 @@ occluder = SubResource("OccluderPolygon2D_qic6d")
 [node name="Flashlight" type="PointLight2D" parent="Ambient"]
 position = Vector2(0, 2.38419e-07)
 scale = Vector2(0.0404297, 0.05175)
+energy = 0.3
 shadow_enabled = true
 texture = ExtResource("5_jn0db")
-texture_scale = 1.2
+texture_scale = 0.75
 
 [node name="Attack_area" type="Node2D" parent="."]
 

@@ -80,40 +80,6 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "Окно без рамки"
 
-[node name="Resolution" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 30
-alignment = 1
-
-[node name="LabelResolution" type="Label" parent="MarginContainer/HBoxContainer/Resolution"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "Разрешение экрана"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Resoluton1" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "1280x720"
-
-[node name="Resoluton2" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "1920x1080"
-
-[node name="Resoluton3" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 16
-text = "2560x1440"
-
 [node name="Sound" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
@@ -196,5 +162,6 @@ text = "назад
 [connection signal="pressed" from="MarginContainer/HBoxContainer/DisplayMode/DisplayMode1" to="." method="_on_display_mode_1_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/DisplayMode/DisplayMode2" to="." method="_on_display_mode_2_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/DisplayMode/DisplayMode3" to="." method="_on_display_mode_3_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/Resoluton1" to="." method="_on_resoluton_1_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundYes" to="." method="_on_sound_yes_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundNo" to="." method="_on_sound_no_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/SettingsExit" to="." method="_on_settings_exit_pressed"]
