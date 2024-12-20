@@ -133,14 +133,12 @@ func death_state():
 
 # Получение урона от игрока
 func _on_damage_received(player_damage: int) -> void:
-	print("Damage received:", player_damage)
-	if state == DEATH:
-		return  # Если моб уже мёртв, игнорируем урон
+	if alive:
+		health -= 10  # Уменьшаем здоровье
+		print("Персонаж получил урон, здоровье:", health)
 
-	health -= player_damage
-	print("Current health:", health)
 	if health <= 0:
 		alive = false
-		call_deferred("set_state", DEATH)  # Отложенное переключение в состояние смерти
+		set_state(DEATH)
 	else:
-		call_deferred("set_state", DAMAGE)  # Отложенное переключение в состояние получения урона
+		set_state(DAMAGE)
