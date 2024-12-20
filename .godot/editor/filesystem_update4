@@ -1,3 +1,10 @@
 res://Scene/Main_menu/Main.tscn
-res://Scene/Main_menu/main.gd
 res://Scene/Level_1/level.tscn
+res://Player/player.tscn
+res://Player/player.gd
+res://Enemy/moshroomhead.tscn
+res://Enemy/moshroomhead.gd
+res://Scene/Level_1/level.gd
+res://Enemy/skeleton.tscn
+res://Enemy/skeleton.gd
+res://Scene/Main_menu/main.gd
