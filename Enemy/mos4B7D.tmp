@@ -12,9 +12,6 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nb18k"]
 size = Vector2(22, 37)
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_vxlpp"]
-radius = 162.0
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_n2lkt"]
 atlas = ExtResource("1_1sk4l")
 region = Rect2(0, 0, 150, 150)
@@ -582,6 +579,9 @@ _data = {
 "Run": SubResource("Animation_1164p")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_w1bkd"]
+radius = 142.032
+
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_22teq"]
 polygon = PackedVector2Array(-3, 16, -8, 18, 0, 18, 7, 18, 3, 16)
 
@@ -596,11 +596,6 @@ script = ExtResource("1_q2ax3")
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_nb18k")
 
-[node name="Agro_zone_Moshroom" type="Area2D" parent="."]
-
-[node name="Agro_collision_moshroom" type="CollisionShape2D" parent="Agro_zone_Moshroom"]
-shape = SubResource("CircleShape2D_vxlpp")
-
 [node name="Moshroomhead_anim" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_g5jtd")
@@ -612,6 +607,11 @@ libraries = {
 "": SubResource("AnimationLibrary_v4as5")
 }
 autoplay = "Idle"
+
+[node name="Agro_zone_Moshroomhead" type="Area2D" parent="."]
+
+[node name="Agro_collision" type="CollisionShape2D" parent="Agro_zone_Moshroomhead"]
+shape = SubResource("CircleShape2D_w1bkd")
 
 [node name="Ambient" type="Node2D" parent="."]
 
@@ -649,11 +649,9 @@ collision_mask = 16
 [node name="Run_speed" type="Timer" parent="."]
 autostart = true
 
-[connection signal="body_entered" from="Agro_zone_Moshroom" to="." method="_on_agro_zone_moshroom_body_entered"]
-[connection signal="body_exited" from="Agro_zone_Moshroom" to="." method="_on_agro_zone_moshroom_body_exited"]
+[connection signal="body_entered" from="Agro_zone_Moshroomhead" to="." method="_on_agro_zone_moshroomhead_body_entered"]
+[connection signal="body_exited" from="Agro_zone_Moshroomhead" to="." method="_on_agro_zone_moshroomhead_body_exited"]
 [connection signal="body_entered" from="Attack_area/Attack" to="." method="_on_attack_body_entered"]
-[connection signal="body_entered" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_body_entered"]
-[connection signal="body_exited" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_body_exited"]
 [connection signal="area_entered" from="Attack_area/Damage_box/Hitbox" to="." method="_on_hitbox_area_entered"]
 [connection signal="timeout" from="Run_speed" to="." method="_on_run_speed_timeout"]
 

@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+CollisionShape2D
+Area2D
 Timer
-=======
 Button
 TabBar
 HBoxContainer
@@ -11,20 +11,5 @@ MarginContainer
 TextureRect
 Control
 Container
->>>>>>> Flanity
 Node2D
 Node
-CollisionShape2D
-Area2D
-<<<<<<< HEAD
-LightOccluder2D
-AnimationPlayer
-AnimatedSprite2D
-CharacterBody2D
-PointLight2D
-DirectionalLight2D
-Label
-CanvasLayer
-CanvasGroup
-=======
->>>>>>> Flanity
