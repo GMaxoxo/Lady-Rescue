@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxoh1c7qifbhc"
+path="res://.godot/imported/Wood Walk 5.wav-ab5395878a5231324b156ce5086b60c4.sample"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Wood/Wood Walk 5.wav"
+dest_files=["res://.godot/imported/Wood Walk 5.wav-ab5395878a5231324b156ce5086b60c4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

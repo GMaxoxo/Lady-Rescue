@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 res://Scene/Main_menu/settings_menu.tscn
 res://Scene/Main_menu/Main.tscn
 res://Scene/Main_menu/settings_menu.gd
@@ -7,3 +8,10 @@ res://Enemy/moshroomhead.gd
 res://Scene/Level_king/king_palace.tscn
 res://Scene/Level_1/level.tscn
 res://Player/player.tscn
+=======
+res://Enemy/skeleton.tscn
+res://Enemy/moshroomhead.tscn
+res://Enemy/skeleton.gd
+res://Player/player.tscn
+res://Scene/Level_1/level.tscn
+>>>>>>> Master

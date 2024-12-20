@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dbuk7ykqb36gs"
+path="res://.godot/imported/Dirt Chain Run 5.ogg-eb161e17abd56f67e40986c6a08531ae.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Dirt/Dirt Chain Run 5.ogg"
+dest_files=["res://.godot/imported/Dirt Chain Run 5.ogg-eb161e17abd56f67e40986c6a08531ae.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

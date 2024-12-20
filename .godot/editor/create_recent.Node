@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 AudioStreamPlayer2D
+=======
+Node2D
+AnimationPlayer
+>>>>>>> Master
 CollisionShape2D
 Area2D
 Timer
@@ -12,4 +17,7 @@ MarginContainer
 TextureRect
 Control
 Container
+<<<<<<< HEAD
 Node2D
+=======
+>>>>>>> Master
