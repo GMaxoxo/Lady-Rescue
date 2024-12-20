@@ -604,7 +604,7 @@ shape = SubResource("CircleShape2D_vxlpp")
 [node name="Moshroomhead_anim" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_g5jtd")
-animation = &"Idle"
+animation = &"Attack"
 autoplay = "Idle"
 
 [node name="Moshroomhead_anim_player" type="AnimationPlayer" parent="."]

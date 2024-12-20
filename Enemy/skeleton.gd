@@ -50,6 +50,7 @@ func _on_player_position_update(player_pos: Vector2) -> void:
 	player = player_pos
 
 func set_state(new_state: int) -> void:
+	print("State changing from", state, "to", new_state)
 	state = new_state
 
 # Основной цикл обработки физики
@@ -132,10 +133,12 @@ func death_state():
 
 # Получение урона от игрока
 func _on_damage_received(player_damage: int) -> void:
+	print("Damage received:", player_damage)
 	if state == DEATH:
 		return  # Если моб уже мёртв, игнорируем урон
 
 	health -= player_damage
+	print("Current health:", health)
 	if health <= 0:
 		alive = false
 		call_deferred("set_state", DEATH)  # Отложенное переключение в состояние смерти

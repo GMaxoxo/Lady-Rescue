@@ -8,6 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://jjhrqrlsdqyj" path="res://Assets/character/Skeleton/Walk.png" id="4_3520k"]
 [ext_resource type="PackedScene" uid="uid://cn05ji35m1xp8" path="res://Scene/Damage_box/damage_box.tscn" id="7_hdifi"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_eyxjy"]
+radius = 142.0
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rgo25"]
 size = Vector2(20, 32)
 
@@ -451,11 +454,13 @@ _data = {
 "Run": SubResource("Animation_wync7")
 }
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_eyxjy"]
-radius = 142.0
-
 [node name="Skeleton" type="CharacterBody2D"]
 script = ExtResource("1_ln7qe")
+
+[node name="Skeleton_Agro_Area" type="Area2D" parent="."]
+
+[node name="Skeleton_Agro_Collision" type="CollisionShape2D" parent="Skeleton_Agro_Area"]
+shape = SubResource("CircleShape2D_eyxjy")
 
 [node name="Skeleton_Collision" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
@@ -465,7 +470,7 @@ shape = SubResource("RectangleShape2D_rgo25")
 position = Vector2(-1, -1)
 scale = Vector2(0.628333, 0.628333)
 sprite_frames = SubResource("SpriteFrames_gw5ia")
-animation = &"Idle"
+animation = &"Attack"
 autoplay = "Idle"
 
 [node name="Skeleton_anim_player" type="AnimationPlayer" parent="."]
@@ -473,11 +478,6 @@ libraries = {
 "": SubResource("AnimationLibrary_d4r7j")
 }
 autoplay = "Idle"
-
-[node name="Skeleton_Agro_Area" type="Area2D" parent="."]
-
-[node name="Skeleton_Agro_Collision" type="CollisionShape2D" parent="Skeleton_Agro_Area"]
-shape = SubResource("CircleShape2D_eyxjy")
 
 [node name="Damage_box" parent="." instance=ExtResource("7_hdifi")]
 

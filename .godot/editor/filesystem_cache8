@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734687974
+::res://::1734694592
 ::res://addons/::1734680484
 ::res://addons/AS2P/::1734680484
 InspectorConvertor.gd::GDScript::-1::1734527172::0::1::::<>EditorInspectorPlugin<>::
@@ -81,37 +81,37 @@ sign.png::CompressedTexture2D::322235133629697319::1734527172::1734597745::1::::
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/::1734687016
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/::1688999504
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/::1688994492
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Beach/::1688993978
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Beach/::1734687977
 Beach Rain.ogg::AudioStreamOggVorbis::4083064315695973736::1688993940::1734687977::1::::<><>::
 Beach Storm.ogg::AudioStreamOggVorbis::1094819492260571397::1688993963::1734687977::1::::<><>::
 Beach.ogg::AudioStreamOggVorbis::221949019281801061::1688993979::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Cave/::1688994038
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Cave/::1734687977
 Cave Rain.ogg::AudioStreamOggVorbis::4899948682458510592::1688994012::1734687977::1::::<><>::
 Cave Storm.ogg::AudioStreamOggVorbis::7966865195343810410::1688994026::1734687977::1::::<><>::
 Cave.ogg::AudioStreamOggVorbis::1558703891270343717::1688994038::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Day/::1688994125
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Day/::1734687977
 Forest Day Rain.ogg::AudioStreamOggVorbis::7821852524417224953::1688994100::1734687977::1::::<><>::
 Forest Day Storm.ogg::AudioStreamOggVorbis::8999013459482873595::1688994113::1734687977::1::::<><>::
 Forest Day.ogg::AudioStreamOggVorbis::2783005022186044564::1688994126::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Night/::1688994178
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Night/::1734687977
 Forest Night Rain.ogg::AudioStreamOggVorbis::6887933379891290211::1688994153::1734687977::1::::<><>::
 Forest Night Storm.ogg::AudioStreamOggVorbis::2774865103509120828::1688994165::1734687977::1::::<><>::
 Forest Night.ogg::AudioStreamOggVorbis::4960101413281771174::1688994179::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Day/::1688994253
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Day/::1734687977
 Inside Day Rain.ogg::AudioStreamOggVorbis::6594121219501084354::1688994222::1734687977::1::::<><>::
 Inside Day Storm.ogg::AudioStreamOggVorbis::7103177262676701981::1688994239::1734687977::1::::<><>::
 Inside Day.ogg::AudioStreamOggVorbis::8770399522618490436::1688994254::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Night/::1688994328
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Night/::1734687977
 Inside Night Rain.ogg::AudioStreamOggVorbis::6750881920880925252::1688994298::1734687977::1::::<><>::
 Inside Night Storm.ogg::AudioStreamOggVorbis::9180593900501301147::1688994311::1734687977::1::::<><>::
 Inside Night.ogg::AudioStreamOggVorbis::2614862093401093266::1688994329::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Sea/::1688994447
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Sea/::1734687977
 Sea Rain.ogg::AudioStreamOggVorbis::1826152210661728478::1688994422::1734687977::1::::<><>::
 Sea Storm.ogg::AudioStreamOggVorbis::7718527775686550020::1688994434::1734687977::1::::<><>::
 Sea.ogg::AudioStreamOggVorbis::1079820668958117675::1688994448::1734687977::1::::<><>::
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/::1689697902
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/::1688404772
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1688994813
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1734687977
 Bow Attack 1.ogg::AudioStreamOggVorbis::684523551531951773::1688994670::1734687977::1::::<><>::
 Bow Attack 2.ogg::AudioStreamOggVorbis::2202458285796981971::1688994700::1734687977::1::::<><>::
 Bow Blocked 1.ogg::AudioStreamOggVorbis::9161612096907425532::1688994713::1734687977::1::::<><>::
@@ -122,7 +122,7 @@ Bow Impact Hit 2.ogg::AudioStreamOggVorbis::6751051067667011197::1688994775::173
 Bow Impact Hit 3.ogg::AudioStreamOggVorbis::6405897080316480753::1688994790::1734687977::1::::<><>::
 Bow Put Away 1.ogg::AudioStreamOggVorbis::6512561628612036450::1688994802::1734687977::1::::<><>::
 Bow Take Out 1.ogg::AudioStreamOggVorbis::6613931777582410826::1688994813::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1688995190
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1734687977
 Sword Attack 1.ogg::AudioStreamOggVorbis::8647978457464204598::1688994835::1734687977::1::::<><>::
 Sword Attack 2.ogg::AudioStreamOggVorbis::7363985360646782770::1688994995::1734687977::1::::<><>::
 Sword Attack 3.ogg::AudioStreamOggVorbis::5691591665777958431::1688995008::1734687977::1::::<><>::
@@ -139,7 +139,7 @@ Sword Sheath 1.ogg::AudioStreamOggVorbis::4829288526119024235::1688995152::17346
 Sword Sheath 2.ogg::AudioStreamOggVorbis::8594746663773353208::1688995164::1734687977::1::::<><>::
 Sword Unsheath 1.ogg::AudioStreamOggVorbis::6680634469887917368::1688995178::1734687977::1::::<><>::
 Sword Unsheath 2.ogg::AudioStreamOggVorbis::1138044676075996425::1688995190::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Chopping and Mining/::1688995353
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Chopping and Mining/::1734687977
 chop 1.ogg::AudioStreamOggVorbis::4428887894424941482::1688995250::1734687977::1::::<><>::
 chop 2.ogg::AudioStreamOggVorbis::3663280807197317980::1688995267::1734687977::1::::<><>::
 chop 3.ogg::AudioStreamOggVorbis::4794438163301909921::1688995278::1734687977::1::::<><>::
@@ -149,7 +149,7 @@ mine 2.ogg::AudioStreamOggVorbis::3328097021638654990::1688995319::1734687977::1
 mine 3.ogg::AudioStreamOggVorbis::3416461679084171935::1688995330::1734687977::1::::<><>::
 mine 4.ogg::AudioStreamOggVorbis::1936939697748755118::1688995342::1734687977::1::::<><>::
 mine 5.ogg::AudioStreamOggVorbis::2461509034161137973::1688995353::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Doors Gates and Chests/::1688995568
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Doors Gates and Chests/::1734687977
 Chest Close 1.ogg::AudioStreamOggVorbis::8848760462746694285::1688995387::1734687977::1::::<><>::
 Chest Close 2.ogg::AudioStreamOggVorbis::2452759712279210987::1688995406::1734687977::1::::<><>::
 Chest Open 1.ogg::AudioStreamOggVorbis::1080845559204154079::1688995425::1734687977::1::::<><>::
@@ -163,7 +163,7 @@ Gate Open.ogg::AudioStreamOggVorbis::8660933234440866432::1688995514::1734687977
 Lock Unlock.ogg::AudioStreamOggVorbis::5643725933590463083::1688995532::1734687977::1::::<><>::
 Portcullis Gate.ogg::AudioStreamOggVorbis::68987818774378253::1688995568::1734687977::1::::<><>::
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/::1688494573
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Dirt/::1688995950
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Dirt/::1734687977
 Dirt Chain Jump.ogg::AudioStreamOggVorbis::4351915650029308365::1688995623::1734687977::1::::<><>::
 Dirt Chain Land.ogg::AudioStreamOggVorbis::3544481444880181648::1688995653::1734687977::1::::<><>::
 Dirt Chain Run 1.ogg::AudioStreamOggVorbis::6858869892659903595::1688995665::1734687977::1::::<><>::
@@ -188,7 +188,7 @@ Dirt Walk 2.ogg::AudioStreamOggVorbis::8287068251167476150::1688995912::17346879
 Dirt Walk 3.ogg::AudioStreamOggVorbis::7521263019791832986::1688995924::1734687977::1::::<><>::
 Dirt Walk 4.ogg::AudioStreamOggVorbis::1877945942929858616::1688995936::1734687977::1::::<><>::
 Dirt Walk 5.ogg::AudioStreamOggVorbis::2700786762738285583::1688995950::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Stone/::1688996493
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Stone/::1734687977
 Stone Chain Jump.ogg::AudioStreamOggVorbis::2719737514939354468::1688995995::1734687977::1::::<><>::
 Stone Chain Land.ogg::AudioStreamOggVorbis::3939351371691435488::1688996015::1734687977::1::::<><>::
 Stone Chain Run 1.ogg::AudioStreamOggVorbis::5532882474944025098::1688996026::1734687977::1::::<><>::
@@ -213,7 +213,7 @@ Stone Walk 2.ogg::AudioStreamOggVorbis::4026000480048929510::1688996383::1734687
 Stone Walk 3.ogg::AudioStreamOggVorbis::770992252386465031::1688996469::1734687977::1::::<><>::
 Stone Walk 4.ogg::AudioStreamOggVorbis::7306944248836030977::1688996480::1734687977::1::::<><>::
 Stone Walk 5.ogg::AudioStreamOggVorbis::3583723202663080525::1688996493::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Water/::1688996873
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Water/::1734687977
 Water Chain Jump.ogg::AudioStreamOggVorbis::2905909058017065985::1688996532::1734687977::1::::<><>::
 Water Chain Land.ogg::AudioStreamOggVorbis::2214355463741392576::1688996544::1734687977::1::::<><>::
 Water Chain Run 1.ogg::AudioStreamOggVorbis::1722421538677619314::1688996557::1734687977::1::::<><>::
@@ -238,7 +238,7 @@ Water Walk 2.ogg::AudioStreamOggVorbis::1269397652730426055::1688996839::1734687
 Water Walk 3.ogg::AudioStreamOggVorbis::6984446867690839261::1688996850::1734687976::1::::<><>::
 Water Walk 4.ogg::AudioStreamOggVorbis::7185404481837676275::1688996861::1734687976::1::::<><>::
 Water Walk 5.ogg::AudioStreamOggVorbis::6616338720159917669::1688996873::1734687976::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/::1688997162
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/::1734687977
 Wood Chain Jump.ogg::AudioStreamOggVorbis::8012670662759770703::1688996910::1734687976::1::::<><>::
 Wood Chain Land.ogg::AudioStreamOggVorbis::6684705367944989069::1688996923::1734687976::1::::<><>::
 Wood Chain Run 1.ogg::AudioStreamOggVorbis::4372783682884718799::1688996934::1734687976::1::::<><>::
@@ -263,7 +263,7 @@ Wood Walk 2.ogg::AudioStreamOggVorbis::6390313449082948607::1688997129::17346879
 Wood Walk 3.ogg::AudioStreamOggVorbis::2342479788610884340::1688997139::1734687977::1::::<><>::
 Wood Walk 4.ogg::AudioStreamOggVorbis::2108382451719037752::1688997153::1734687977::1::::<><>::
 Wood Walk 5.ogg::AudioStreamOggVorbis::7737410503224617022::1688997162::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/::1688998976
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/::1734687977
 Fireball 1.ogg::AudioStreamOggVorbis::5727984884363393175::1688998609::1734687977::1::::<><>::
 Fireball 2.ogg::AudioStreamOggVorbis::1118926361140476474::1688998618::1734687977::1::::<><>::
 Fireball 3.ogg::AudioStreamOggVorbis::1577704721475423396::1688998633::1734687977::1::::<><>::
@@ -292,7 +292,7 @@ Waterspray 1.ogg::AudioStreamOggVorbis::637286974792878273::1688998943::17346879
 Waterspray 2.ogg::AudioStreamOggVorbis::4858976234575487965::1688998953::1734687977::1::::<><>::
 Wave Attack 1.ogg::AudioStreamOggVorbis::1172714298848772805::1688998964::1734687977::1::::<><>::
 Wave Attack 2.ogg::AudioStreamOggVorbis::875180018296020253::1688998976::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Torch/::1688999386
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Torch/::1734687977
 Light Torch 1.ogg::AudioStreamOggVorbis::4037308388230475305::1688999257::1734687977::1::::<><>::
 Light Torch 2.ogg::AudioStreamOggVorbis::5076092577499238539::1688999297::1734687977::1::::<><>::
 Light Torch with Starting Loop 1.ogg::AudioStreamOggVorbis::4038935832980339622::1688999308::1734687977::1::::<><>::
@@ -302,43 +302,43 @@ Torch Attack Strike 2.ogg::AudioStreamOggVorbis::1443600045050569788::1688999341
 Torch Impact 1.ogg::AudioStreamOggVorbis::7716146625799694617::1688999366::1734687977::1::::<><>::
 Torch Impact 2.ogg::AudioStreamOggVorbis::8720337252120947695::1688999376::1734687977::1::::<><>::
 Torch Loop.ogg::AudioStreamOggVorbis::2933929645209514042::1688999386::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Waterfalls Rivers and Streams/::1688999469
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Waterfalls Rivers and Streams/::1734687977
 River Loop.ogg::AudioStreamOggVorbis::8525004276084697928::1688999449::1734687977::1::::<><>::
 River Stream Loop.ogg::AudioStreamOggVorbis::2296519273175108173::1688999460::1734687977::1::::<><>::
 Waterfall Loop.ogg::AudioStreamOggVorbis::658407230263066823::1688999470::1734687977::1::::<><>::
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/::1688999496
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/::1686832028
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Beach/::1686832030
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Beach/::1734687979
 Beach Rain.wav::AudioStreamWAV::413229363176201215::1686831991::1734687979::1::::<><>::
 Beach Storm.wav::AudioStreamWAV::5165218425257622491::1686832001::1734687979::1::::<><>::
 Beach.wav::AudioStreamWAV::7761135584974803413::1686831980::1734687979::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Cave/::1686831210
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Cave/::1734687979
 Cave Rain.wav::AudioStreamWAV::8613607059271887381::1686828704::1734687979::1::::<><>::
 Cave Storm.wav::AudioStreamWAV::708857147624857963::1686828718::1734687979::1::::<><>::
 Cave.wav::AudioStreamWAV::2117542665528161228::1686828729::1734687979::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Day/::1686839035
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Day/::1734687979
 Forest Day Rain.wav::AudioStreamWAV::3773963067633613943::1686838971::1734687979::1::::<><>::
 Forest Day Storm.wav::AudioStreamWAV::7545574972659452869::1686838921::1734687979::1::::<><>::
 Forest Day.wav::AudioStreamWAV::4477845476558339110::1686838449::1734687979::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Night/::1686831200
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Night/::1734687979
 Forest Night Rain.wav::AudioStreamWAV::3593926961735578195::1686828527::1734687979::1::::<><>::
 Forest Night Storm.wav::AudioStreamWAV::6546003054321310687::1686828542::1734687979::1::::<><>::
 Forest Night.wav::AudioStreamWAV::3350612087590594506::1686828513::1734687979::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Day/::1686831243
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Day/::1734687980
 Inside Day Rain.wav::AudioStreamWAV::3125502169050399280::1686828566::1734687979::1::::<><>::
 Inside Day Storm.wav::AudioStreamWAV::7353771310824585096::1686828577::1734687980::1::::<><>::
 Inside Day.wav::AudioStreamWAV::542788595149295828::1686828554::1734687980::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Night/::1686831257
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Night/::1734687980
 Inside Night Rain.wav::AudioStreamWAV::2612152016484067633::1686828593::1734687980::1::::<><>::
 Inside Night Storm.wav::AudioStreamWAV::3547329413569356179::1686828608::1734687980::1::::<><>::
 Inside Night.wav::AudioStreamWAV::451035697802124037::1686828620::1734687980::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Sea/::1686831447
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Sea/::1734687980
 Sea Rain.wav::AudioStreamWAV::2397221146014137909::1686828671::1734687980::1::::<><>::
 Sea Storm.wav::AudioStreamWAV::6737476700710791667::1686828659::1734687980::1::::<><>::
 Sea.wav::AudioStreamWAV::3623304306231858969::1686828682::1734687980::1::::<><>::
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/::1689697906
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/::1688404772
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1688994741
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1734687980
 Bow Attack 1.wav::AudioStreamWAV::5835224280468140037::1688151308::1734687979::1::::<><>::
 Bow Attack 2.wav::AudioStreamWAV::8757941802748780391::1688151335::1734687979::1::::<><>::
 Bow Blocked 1.wav::AudioStreamWAV::5473255967676902915::1688151344::1734687979::1::::<><>::
@@ -349,7 +349,7 @@ Bow Impact Hit 2.wav::AudioStreamWAV::6591427887151028592::1688151375::173468797
 Bow Impact Hit 3.wav::AudioStreamWAV::3064099042824094992::1688151382::1734687978::1::::<><>::
 Bow Put Away 1.wav::AudioStreamWAV::5019662243759390831::1688151390::1734687978::1::::<><>::
 Bow Take Out 1.wav::AudioStreamWAV::6530676998781579913::1688151398::1734687978::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1688151609
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1734687978
 Sword Attack 1.wav::AudioStreamWAV::3043092412101033339::1688151406::1734687978::1::::<><>::
 Sword Attack 2.wav::AudioStreamWAV::6592772901819055259::1688151411::1734687978::1::::<><>::
 Sword Attack 3.wav::AudioStreamWAV::9213665331722066908::1688151416::1734687978::1::::<><>::
@@ -366,7 +366,7 @@ Sword Sheath 1.wav::AudioStreamWAV::6223664680822255666::1688151483::1734687978:
 Sword Sheath 2.wav::AudioStreamWAV::8484683955836298725::1688151488::1734687978::1::::<><>::
 Sword Unsheath 1.wav::AudioStreamWAV::7940077452771197271::1688151498::1734687978::1::::<><>::
 Sword Unsheath 2.wav::AudioStreamWAV::5190235285465065401::1688151502::1734687978::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Chopping and Mining/::1687707312
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Chopping and Mining/::1734687980
 chop 1.wav::AudioStreamWAV::9013720830138403692::1586966696::1734687978::1::::<><>::
 chop 2.wav::AudioStreamWAV::6497631889182717597::1586966704::1734687978::1::::<><>::
 chop 3.wav::AudioStreamWAV::2994529177814281417::1586966712::1734687978::1::::<><>::
@@ -376,7 +376,7 @@ mine 2.wav::AudioStreamWAV::9066973315422107036::1586966742::1734687980::1::::<>
 mine 3.wav::AudioStreamWAV::4051288177020645892::1586966750::1734687980::1::::<><>::
 mine 4.wav::AudioStreamWAV::6043541135126391593::1586966758::1734687980::1::::<><>::
 mine 5.wav::AudioStreamWAV::3550128823535898669::1586966766::1734687980::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Doors Gates and Chests/::1688995541
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Doors Gates and Chests/::1734687980
 Chest Close 1.wav::AudioStreamWAV::4998827343832156979::1687972653::1734687980::1::::<><>::
 Chest Close 2.wav::AudioStreamWAV::3444298419750703432::1687972663::1734687980::1::::<><>::
 Chest Open 1.wav::AudioStreamWAV::8399773358362243564::1687972625::1734687980::1::::<><>::
@@ -390,7 +390,7 @@ Gate Open.wav::AudioStreamWAV::9137601986819164008::1687972751::1734687980::1:::
 Lock Unlock.wav::AudioStreamWAV::8131131151263411399::1687972734::1734687980::1::::<><>::
 Portcullis Gate.wav::AudioStreamWAV::7642480515683739010::1687972935::1734687980::1::::<><>::
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/::1688494573
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Dirt/::1688494573
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Dirt/::1734687980
 Dirt Chain Jump.wav::AudioStreamWAV::4621530094376860164::1687103791::1734687980::1::::<><>::
 Dirt Chain Land.wav::AudioStreamWAV::8446195794085781048::1687103805::1734687980::1::::<><>::
 Dirt Chain Run 1.wav::AudioStreamWAV::8944840856335395392::1687103812::1734687980::1::::<><>::
@@ -415,7 +415,7 @@ Dirt Walk 2.wav::AudioStreamWAV::5241933408334288369::1687103967::1734687980::1:
 Dirt Walk 3.wav::AudioStreamWAV::6136017642841143187::1687103972::1734687980::1::::<><>::
 Dirt Walk 4.wav::AudioStreamWAV::8047486766886837976::1687103976::1734687980::1::::<><>::
 Dirt Walk 5.wav::AudioStreamWAV::6311014516246976610::1687103983::1734687980::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Stone/::1687104922
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Stone/::1734687980
 Stone Chain Jump.wav::AudioStreamWAV::2802330532381355553::1687103997::1734687980::1::::<><>::
 Stone Chain Land.wav::AudioStreamWAV::2682643432884081378::1687104005::1734687980::1::::<><>::
 Stone Chain Run 1.wav::AudioStreamWAV::100247554173018117::1687104011::1734687980::1::::<><>::
@@ -440,7 +440,7 @@ Stone Walk 2.wav::AudioStreamWAV::5605780988071373463::1687104127::1734687977::1
 Stone Walk 3.wav::AudioStreamWAV::4750412505610973752::1687104134::1734687977::1::::<><>::
 Stone Walk 4.wav::AudioStreamWAV::6189503962766756370::1687104140::1734687977::1::::<><>::
 Stone Walk 5.wav::AudioStreamWAV::4294297490469783779::1687104146::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Water/::1687104937
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Water/::1734687978
 Water Chain Jump.wav::AudioStreamWAV::3023693821879123572::1687104436::1734687977::1::::<><>::
 Water Chain Land.wav::AudioStreamWAV::6737121759605634759::1687104443::1734687977::1::::<><>::
 Water Chain Run 1.wav::AudioStreamWAV::7033687602008467937::1687104451::1734687977::1::::<><>::
@@ -465,7 +465,7 @@ Water Walk 2.wav::AudioStreamWAV::2229172046708400968::1687104664::1734687977::1
 Water Walk 3.wav::AudioStreamWAV::5551490977456807873::1687104668::1734687977::1::::<><>::
 Water Walk 4.wav::AudioStreamWAV::2547920128466483154::1687104674::1734687977::1::::<><>::
 Water Walk 5.wav::AudioStreamWAV::6252326928519137561::1687104679::1734687977::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Wood/::1687104951
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Wood/::1734687978
 Wood Chain Jump.wav::AudioStreamWAV::3791313550824945168::1687104688::1734687977::1::::<><>::
 Wood Chain Land.wav::AudioStreamWAV::8509688385782182828::1687104695::1734687977::1::::<><>::
 Wood Chain Run 1.wav::AudioStreamWAV::1466635882701938055::1687104158::1734687977::1::::<><>::
@@ -490,7 +490,7 @@ Wood Walk 2.wav::AudioStreamWAV::252078655106152126::1687104779::1734687978::1::
 Wood Walk 3.wav::AudioStreamWAV::4637440046152733553::1687104784::1734687978::1::::<><>::
 Wood Walk 4.wav::AudioStreamWAV::7181059134316737811::1687104789::1734687978::1::::<><>::
 Wood Walk 5.wav::AudioStreamWAV::8802978348120074396::1687104794::1734687978::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Spells/::1688404697
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Spells/::1734687978
 Fireball 1.wav::AudioStreamWAV::8319677334861190433::1688404498::1734687978::1::::<><>::
 Fireball 2.wav::AudioStreamWAV::8182944907480861971::1688404503::1734687978::1::::<><>::
 Fireball 3.wav::AudioStreamWAV::5160018357759051932::1688404509::1734687978::1::::<><>::
@@ -519,7 +519,7 @@ Waterspray 1.wav::AudioStreamWAV::3079798717094791676::1688404647::1734687978::1
 Waterspray 2.wav::AudioStreamWAV::3314158745357002312::1688404652::1734687978::1::::<><>::
 Wave Attack 1.wav::AudioStreamWAV::3298638882729263615::1688404663::1734687978::1::::<><>::
 Wave Attack 2.wav::AudioStreamWAV::2461642445533605811::1688404670::1734687978::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Torch/::1688999268
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Torch/::1734687978
 Light Torch 1.wav::AudioStreamWAV::3374968882814390371::1688406059::1734687978::1::::<><>::
 Light Torch 2.wav::AudioStreamWAV::7866900442365127921::1688406064::1734687978::1::::<><>::
 Light Torch with Starting Loop 1.wav::AudioStreamWAV::602170447062018235::1688406079::1734687978::1::::<><>::
@@ -529,29 +529,29 @@ Torch Attack Strike 2.wav::AudioStreamWAV::1694175282858020717::1688406198::1734
 Torch Impact 1.wav::AudioStreamWAV::8071532827423486452::1688404550::1734687978::1::::<><>::
 Torch Impact 2.wav::AudioStreamWAV::5259059547225918194::1688404555::1734687978::1::::<><>::
 Torch Loop.wav::AudioStreamWAV::6957637926954052163::1688406095::1734687978::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Waterfalls Rivers and Streams/::1688999430
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Waterfalls Rivers and Streams/::1734687978
 River Loop.wav::AudioStreamWAV::3590837834607100549::1686828644::1734687978::1::::<><>::
 River Stream Loop.wav::AudioStreamWAV::8124198624381541614::1686828632::1734687978::1::::<><>::
 Waterfall Loop.wav::AudioStreamWAV::4644634987691323370::1686828693::1734687978::1::::<><>::
-::res://Assets/sound/Skeleton/::1734687638
+::res://Assets/sound/Skeleton/::1734687976
 skeleton-dying.mp3::AudioStreamMP3::125637133635875246::1734687590::1734687976::1::::<><>::
 ::res://Coins/::1734680484
 coin.gd::GDScript::-1::1734527172::0::1::::<>Area2D<>::
 coin.tscn::PackedScene::2505349619880988197::1734527172::0::1::::<><>::uid://ckyhh023as28o::::res://Assets/coins/MonedaD.png<>res://Coins/coin.gd
-::res://Enemy/::1734684601
-moshroomhead.gd::GDScript::-1::1734684601::0::1::::<>CharacterBody2D<>::
-moshroomhead.tscn::PackedScene::5879026897986838296::1734684601::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-skeleton.gd::GDScript::-1::1734679698::0::1::::<>CharacterBody2D<>::
-skeleton.tscn::PackedScene::5571203597947411142::1734684386::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png
-::res://Player/::1734684386
+::res://Enemy/::1734694201
+moshroomhead.gd::GDScript::-1::1734688928::0::1::::<>CharacterBody2D<>::
+moshroomhead.tscn::PackedScene::5879026897986838296::1734694201::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+skeleton.gd::GDScript::-1::1734693193::0::1::::<>CharacterBody2D<>::
+skeleton.tscn::PackedScene::5571203597947411142::1734694201::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+::res://Player/::1734694201
 player.gd::GDScript::-1::1734677919::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::2588067675108664480::1734684386::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+player.tscn::PackedScene::2588067675108664480::1734694201::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
 ::res://Scene/::1734680484
 player_signal.gd::GDScript::-1::1734598247::0::1::::<>Node<>::
 ::res://Scene/Damage_box/::1734683021
 damage_box.tscn::PackedScene::5738743825281728075::1734527172::0::1::::<><>::
-::res://Scene/Level_1/::1734680484
-level.tscn::PackedScene::2253303079465017979::1734679174::0::1::::<><>::uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dgrf2qouamhkn::::res://Assets/Build/shop.tscn<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn
+::res://Scene/Level_1/::1734694201
+level.tscn::PackedScene::2253303079465017979::1734694201::0::1::::<><>::uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dgrf2qouamhkn::::res://Assets/Build/shop.tscn<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn
 ::res://Scene/Level_1/Background_level_1/::1734680484
 bg_menu.gd::GDScript::-1::1734527172::0::1::::<>ParallaxBackground<>::
 BG_Menu.tscn::PackedScene::6171405604104205247::1734527172::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png
