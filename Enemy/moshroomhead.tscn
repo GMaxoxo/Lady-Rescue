@@ -556,7 +556,7 @@ texture_scale = 1.2
 
 [node name="HurtBox" parent="Attack_area/Damage_box" index="0"]
 collision_layer = 32
-collision_mask = 0
+collision_mask = 64
 
 [node name="Hitbox" parent="Attack_area/Damage_box" index="1"]
 collision_layer = 0
@@ -567,6 +567,7 @@ autostart = true
 
 [connection signal="body_entered" from="Agro_zone_Moshroom" to="." method="_on_agro_zone_moshroom_body_entered"]
 [connection signal="body_exited" from="Agro_zone_Moshroom" to="." method="_on_agro_zone_moshroom_body_exited"]
+[connection signal="area_entered" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_area_entered"]
 [connection signal="body_entered" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_body_entered"]
 [connection signal="body_exited" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_body_exited"]
 [connection signal="area_entered" from="Attack_area/Damage_box/Hitbox" to="." method="_on_hitbox_area_entered"]

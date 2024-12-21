@@ -35,6 +35,8 @@ var move_speed = 75              # Скорость движения врага
 var alive = true                 # Статус врага
 var chase = false                # Флаг преследования
 
+var player_dmg
+
 # Радиус атаки
 const ATTACK_RANGE = 35.0
 
@@ -134,11 +136,16 @@ func death_state():
 
 # Получение урона от игрока
 func _on_damage_received(player_damage: int) -> void:
-	if alive:
-		health -= 10  # Уменьшаем здоровье
+	player_dmg = player_damage
 
+func _on_hurt_box_area_entered(area: Area2D) -> void:
+	await get_tree().create_timer(0.1).timeout
+	if state == DEATH:
+		return  # Если моб уже мёртв, игнорируем урон
+
+	health -= player_dmg
 	if health <= 0:
 		alive = false
-		set_state(DEATH)
+		call_deferred("set_state", DEATH)  # Отложенное переключение в состояние смерти
 	else:
-		set_state(DAMAGE)
+		call_deferred("set_state", DAMAGE)  # Отложенное переключение в состояние получения урона

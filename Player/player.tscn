@@ -1138,7 +1138,7 @@ collision_layer = 16
 collision_mask = 0
 
 [node name="Hitbox" parent="Attack_area/Damage_box" index="1"]
-collision_layer = 0
+collision_layer = 64
 collision_mask = 32
 
 [node name="Hitbox_collision" parent="Attack_area/Damage_box/Hitbox" index="0"]

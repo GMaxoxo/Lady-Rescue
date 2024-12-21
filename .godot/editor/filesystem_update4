@@ -1,6 +1,8 @@
-res://Scene/Level_1/level.tscn
 res://Enemy/skeleton.tscn
+res://Scene/player_signal.gd
+res://Player/player.gd
+res://Enemy/skeleton.gd
+res://Enemy/moshroomhead.gd
+res://Scene/Level_1/level.tscn
 res://Player/player.tscn
 res://Enemy/moshroomhead.tscn
-res://Enemy/moshroomhead.gd
-res://Scene/player_signal.gd
