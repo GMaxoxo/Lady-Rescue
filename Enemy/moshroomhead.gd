@@ -40,7 +40,7 @@ var alive = true                 # Статус врага
 var chase = false                # Флаг преследования
 
 # Радиус атаки
-const ATTACK_RANGE = 40.0
+const ATTACK_RANGE = 30.0
 
 func _ready() -> void:
 	# Подключение сигналов игрока
@@ -72,14 +72,11 @@ func _physics_process(delta: float) -> void:
 			return
 
 		# Преследование игрока
-		if state == CHASE:
-			var direction = (player - position).normalized()
-			velocity.x = direction.x * move_speed
-			anim.play("Run")
-			$Moshroomhead_anim.flip_h = direction.x < 0
-	else:
-		velocity.x = 0
-		anim.play("Idle")
+	if state == CHASE:
+		var direction = (player - position).normalized()
+		velocity.x = direction.x * move_speed
+		anim.play("Run")
+		$Moshroomhead_anim.flip_h = direction.x < 0  # Обновление направления взгляда
 
 	move_and_slide()
 
@@ -110,11 +107,16 @@ func attack_state():
 	anim.play("Attack")
 	await anim.animation_finished  # Ожидание завершения анимации атаки
 
-	# Проверка, что игрок всё ещё находится в зоне атаки перед нанесением урона
-	if position.distance_to(player) <= ATTACK_RANGE and state == ATTACK:
-		PlayerSignal.emit_signal("enemy_attack", damage)  # Наносим урон игроку
+	# Проверяем, находится ли игрок перед мобом и в зоне атаки
+	var is_player_in_front = ($Moshroomhead_anim.flip_h and player.x < position.x) or (not $Moshroomhead_anim.flip_h and player.x > position.x)
 
-	state = CHASE  # Возвращаемся к преследованию
+	if position.distance_to(player) <= ATTACK_RANGE and is_player_in_front:
+		# Попадание: наносим урон игроку
+		PlayerSignal.emit_signal("enemy_attack", damage)
+
+	# Возврат в состояние CHASE для продолжения преследования
+	if alive:
+		state = CHASE if chase else IDLE
 
 # Состояние получения урона
 func damage_state():

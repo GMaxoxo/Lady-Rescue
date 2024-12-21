@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=3 uid="uid://cp03yjp62rk53"]
+[gd_scene load_steps=53 format=3 uid="uid://cp03yjp62rk53"]
 
 [ext_resource type="Texture2D" uid="uid://c03gklu8p7f2m" path="res://Assets/character/Mushroom/Attack.png" id="1_1sk4l"]
 [ext_resource type="Script" path="res://Enemy/moshroomhead.gd" id="1_q2ax3"]
@@ -349,18 +349,6 @@ tracks/1/keys = {
 "update": 1,
 "values": ["Damage"]
 }
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Attack_area/Attack/Attack_collision:disabled")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
 
 [sub_resource type="Animation" id="Animation_mkab7"]
 length = 3.0
@@ -391,22 +379,10 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Attack_area/Attack/Attack_collision:disabled")
+tracks/2/path = NodePath(".:modulate")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath(".:modulate")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
 "times": PackedFloat32Array(2, 2.8),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
@@ -440,18 +416,6 @@ tracks/1/keys = {
 "update": 1,
 "values": ["Idle"]
 }
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Attack_area/Attack/Attack_collision:disabled")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="Animation" id="Animation_v5qiq"]
 length = 0.001
@@ -470,22 +434,10 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Attack_area/Attack/Attack_collision:disabled")
+tracks/1/path = NodePath(".:modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:modulate")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -518,18 +470,6 @@ tracks/1/keys = {
 "update": 1,
 "values": ["Recover"]
 }
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Attack_area/Attack/Attack_collision:disabled")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
 
 [sub_resource type="Animation" id="Animation_1164p"]
 length = 0.8
@@ -558,18 +498,6 @@ tracks/1/keys = {
 "update": 1,
 "values": ["Run"]
 }
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Attack_area/Attack/Attack_collision:disabled")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_v4as5"]
 _data = {
@@ -584,9 +512,6 @@ _data = {
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_22teq"]
 polygon = PackedVector2Array(-3, 16, -8, 18, 0, 18, 7, 18, 3, 16)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1kueq"]
-size = Vector2(19, 14)
 
 [node name="Moshroomhead" type="CharacterBody2D"]
 collision_layer = 2
@@ -627,15 +552,6 @@ texture_scale = 1.2
 
 [node name="Attack_area" type="Node2D" parent="."]
 
-[node name="Attack" type="Area2D" parent="Attack_area"]
-collision_layer = 4
-collision_mask = 3
-
-[node name="Attack_collision" type="CollisionShape2D" parent="Attack_area/Attack"]
-position = Vector2(20.5, 0)
-shape = SubResource("RectangleShape2D_1kueq")
-disabled = true
-
 [node name="Damage_box" parent="Attack_area" instance=ExtResource("8_rbr2x")]
 
 [node name="HurtBox" parent="Attack_area/Damage_box" index="0"]
@@ -651,7 +567,6 @@ autostart = true
 
 [connection signal="body_entered" from="Agro_zone_Moshroom" to="." method="_on_agro_zone_moshroom_body_entered"]
 [connection signal="body_exited" from="Agro_zone_Moshroom" to="." method="_on_agro_zone_moshroom_body_exited"]
-[connection signal="body_entered" from="Attack_area/Attack" to="." method="_on_attack_body_entered"]
 [connection signal="body_entered" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_body_entered"]
 [connection signal="body_exited" from="Attack_area/Damage_box/HurtBox" to="." method="_on_hurt_box_body_exited"]
 [connection signal="area_entered" from="Attack_area/Damage_box/Hitbox" to="." method="_on_hitbox_area_entered"]

@@ -1,3 +1,8 @@
+res://Player/player.tscn
+res://Enemy/skeleton.tscn
+res://Enemy/moshroomhead.gd
 res://Scene/Level_1/level.tscn
-res://Assets/decorations/tscn/SignLabel.tscn
+res://Enemy/moshroomhead.tscn
 res://Player/player.gd
+res://Enemy/skeleton.gd
+res://Scene/Damage_box/damage_box.tscn

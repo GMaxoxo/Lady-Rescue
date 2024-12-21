@@ -194,7 +194,6 @@ func death_state():
 	
 	queue_free()  # Удаление объекта
 
-
 # Получение урона от врага
 func _on_damage_received(enemy_damage):
 	if state == BLOCK:

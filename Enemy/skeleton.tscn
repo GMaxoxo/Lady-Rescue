@@ -281,7 +281,8 @@ animations = [{
 }]
 
 [sub_resource type="Animation" id="Animation_smhj1"]
-length = 0.533333
+length = 0.6
+step = 0.7383
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -472,6 +473,7 @@ scale = Vector2(0.628333, 0.628333)
 sprite_frames = SubResource("SpriteFrames_gw5ia")
 animation = &"Attack"
 autoplay = "Idle"
+frame = 7
 
 [node name="Skeleton_anim_player" type="AnimationPlayer" parent="."]
 libraries = {
@@ -480,6 +482,10 @@ libraries = {
 autoplay = "Idle"
 
 [node name="Damage_box" parent="." instance=ExtResource("7_hdifi")]
+
+[node name="HurtBox" parent="Damage_box" index="0"]
+collision_layer = 32
+collision_mask = 0
 
 [node name="Hitbox" parent="Damage_box" index="1"]
 collision_layer = 0
