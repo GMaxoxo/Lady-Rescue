@@ -1,23 +1,14 @@
-<<<<<<< HEAD
-AudioStreamPlayer2D
-=======
+Node
 Node2D
-AnimationPlayer
->>>>>>> Master
+TextureRect
 CollisionShape2D
 Area2D
+Label
+MarginContainer
+NinePatchRect
+CollisionPolygon2D
+AudioStreamPlayer2D
+AnimationPlayer
 Timer
 Button
 TabBar
-HBoxContainer
-ColorRect
-Label
-VBoxContainer
-MarginContainer
-TextureRect
-Control
-Container
-<<<<<<< HEAD
-Node2D
-=======
->>>>>>> Master

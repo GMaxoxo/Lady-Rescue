@@ -1,3 +1,6 @@
-res://Scene/Level_king/king_palace.tscn
-res://Enemy/skeleton.tscn
-res://Scene/Main_menu/Main.tscn
+res://Scene/Level_1/level.tscn
+res://Assets/decorations/tscn/Sign.tscn
+res://Assets/decorations/tscn/sign.gd
+res://Assets/decorations/tscn/SignLabel.tscn
+res://Assets/decorations/tscn/signLabel.gd
+res://Assets/decorations/tscn/sign.tscn
