@@ -686,7 +686,7 @@ texture_scale = 1.5
 position = Vector2(-600, 590)
 
 [node name="Skeleton" parent="Enemy" instance=ExtResource("9_qax7l")]
-position = Vector2(-469, 593)
+position = Vector2(445, 593)
 collision_layer = 2
 
 [node name="Player" type="Node2D" parent="."]
@@ -3370,12 +3370,12 @@ texture = ExtResource("15_tb2qc")
 
 [node name="SignWithLabel" type="Node2D" parent="."]
 
+[node name="SignLabel" parent="SignWithLabel" instance=ExtResource("17_o4ec5")]
+position = Vector2(219, 479)
+messageText = "Слева замок"
+
 [node name="Sign" parent="SignWithLabel" instance=ExtResource("17_snwwq")]
 position = Vector2(290, 568)
-
-[node name="SignLabel" parent="SignWithLabel" instance=ExtResource("17_o4ec5")]
-position = Vector2(216, 478)
-messageText = "Слева замок"
 
 [node name="Node" type="Node" parent="."]
 

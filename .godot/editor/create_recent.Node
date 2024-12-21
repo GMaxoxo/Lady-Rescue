@@ -1,8 +1,8 @@
+Node
+Node2D
+TextureRect
 CollisionShape2D
 Area2D
-Node2D
-Node
-TextureRect
 Label
 MarginContainer
 NinePatchRect
