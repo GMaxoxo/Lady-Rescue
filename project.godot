@@ -25,7 +25,10 @@ PlayerSignal="*res://Scene/player_signal.gd"
 [display]
 
 window/size/mode=2
+<<<<<<< HEAD
 window/stretch/mode="viewport"
+=======
+>>>>>>> Master
 
 [dotnet]
 

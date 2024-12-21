@@ -80,6 +80,7 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "Окно без рамки"
 
+<<<<<<< HEAD
 [node name="ResolitonChange" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
@@ -114,6 +115,8 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "2560x1440"
 
+=======
+>>>>>>> Master
 [node name="Sound" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
@@ -196,9 +199,12 @@ text = "назад
 [connection signal="pressed" from="MarginContainer/HBoxContainer/DisplayMode/DisplayMode1" to="." method="_on_display_mode_1_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/DisplayMode/DisplayMode2" to="." method="_on_display_mode_2_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/DisplayMode/DisplayMode3" to="." method="_on_display_mode_3_pressed"]
+<<<<<<< HEAD
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ResolitonChange/Resolution1" to="." method="_on_resolution_1_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ResolitonChange/Resolution2" to="." method="_on_resolution_2_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ResolitonChange/Resolution3" to="." method="_on_resolution_3_pressed"]
+=======
+>>>>>>> Master
 [connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundYes" to="." method="_on_sound_yes_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundNo" to="." method="_on_sound_no_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/SettingsExit" to="." method="_on_settings_exit_pressed"]
