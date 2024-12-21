@@ -16,7 +16,7 @@ func _on_display_mode_2_pressed() -> void:
 
 
 func _on_display_mode_3_pressed() -> void:
-	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN) # Меняем режим отображения на окно без рамки	
+	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN) # Меняем режим отображения на окно без рамки
 
 
 func _on_sound_yes_pressed() -> void:
