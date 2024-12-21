@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyu8d7g4stuye"]
+
+[ext_resource type="Script" path="res://Assets/decorations/tscn/signLabel.gd" id="1_g4t5n"]
+[ext_resource type="Texture2D" uid="uid://bdr6qk0ph4asy" path="res://Assets/decorations/5.png" id="1_ivnvn"]
+
+[node name="SignLabel" type="Node2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_g4t5n")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+offset_left = 117.0
+offset_top = 24.0
+offset_right = 265.0
+offset_bottom = 80.0
+texture = ExtResource("1_ivnvn")
+
+[node name="MarginContainer" type="MarginContainer" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Label" type="Label" parent="NinePatchRect/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(8.66354e-07, 0.45139, 0.551732, 1)
+theme_override_colors/font_shadow_color = Color(0.136098, 0.249443, 0.337503, 1)
+theme_override_font_sizes/font_size = 18
+text = "Test
+Test"
+
+[node name="TextureRect" type="TextureRect" parent="NinePatchRect/MarginContainer"]
+layout_mode = 2
+expand_mode = 1

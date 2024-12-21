@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr3cj2yhjgauk"]
+
+[ext_resource type="Texture2D" uid="uid://eudfvnvqfn8j" path="res://Assets/decorations/sign.png" id="1_5cy4d"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ce7k1"]
+radius = 24.0
+height = 50.0
+
+[node name="Sign" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_5cy4d")
+
+[node name="Area2D" type="Area2D" parent="TextureRect"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TextureRect/Area2D"]
+position = Vector2(19, 19)
+shape = SubResource("CapsuleShape2D_ce7k1")

@@ -103,10 +103,7 @@ func _on_agro_zone_moshroom_body_exited(body: Node2D) -> void:
 	if body.name == "Player":
 		chase = false
 		call_deferred("set_state", IDLE)
-<<<<<<< HEAD
-=======
 
->>>>>>> Master
 # Состояние атаки
 func attack_state():
 	velocity.x = 0
@@ -140,10 +137,7 @@ func death_state():
 func _on_damage_received(player_damage: int) -> void:
 	if state == DEATH:
 		return  # Если моб уже мёртв, игнорируем урон
-<<<<<<< HEAD
-=======
 
->>>>>>> Master
 	health -= player_damage
 	if health <= 0:
 		alive = false
