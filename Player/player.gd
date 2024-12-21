@@ -187,8 +187,13 @@ func death_state():
 	velocity.x = 0
 	animpack.play("Death")
 	await animpack.animation_finished
+	
+	# Проверка существования дерева
+	if get_tree():
+		get_tree().change_scene_to_file("res://Scene/Main_menu/Main.tscn")
+	
 	queue_free()  # Удаление объекта
-	get_tree().change_scene_to_file("res://Scene/Main_menu/Main.tscn")  # Переход на главный экран
+
 
 # Получение урона от врага
 func _on_damage_received(enemy_damage):
