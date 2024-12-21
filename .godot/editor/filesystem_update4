@@ -1,9 +1,3 @@
 res://Scene/Level_1/level.tscn
-<<<<<<< HEAD
-res://Scene/Main_menu/settings_menu.tscn
-res://Scene/Main_menu/settings_menu.gd
-res://Scene/Main_menu/main.gd
-=======
 res://Assets/decorations/tscn/SignLabel.tscn
-res://Assets/decorations/tscn/sign.tscn
->>>>>>> Master
+res://Assets/decorations/tscn/signLabel.gd

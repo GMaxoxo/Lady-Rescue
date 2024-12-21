@@ -20,13 +20,6 @@ func _on_display_mode_3_pressed() -> void:
 
 
 func _on_sound_yes_pressed() -> void:
-<<<<<<< HEAD
-=======
-	ready
-
-
-func _on_sound_no_pressed() -> void:
->>>>>>> Master
 	ready
 
 
