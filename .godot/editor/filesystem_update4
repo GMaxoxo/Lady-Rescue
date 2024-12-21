@@ -1,7 +1,3 @@
 res://Scene/Level_1/level.tscn
 res://Assets/decorations/tscn/SignLabel.tscn
 res://Assets/decorations/tscn/sign.tscn
-res://Player/player.gd
-res://Player/player.tscn
-res://Assets/decorations/tscn/signLabel.gd
-res://Scene/Damage_box/damage_box.tscn
