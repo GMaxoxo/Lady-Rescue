@@ -511,7 +511,7 @@ _data = {
 }
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_22teq"]
-polygon = PackedVector2Array(-3, 16, -8, 18, 0, 18, 7, 18, 3, 16)
+polygon = PackedVector2Array(-3, 18, -8, 21, 0, 21, 7, 21, 3, 18)
 
 [node name="Moshroomhead" type="CharacterBody2D"]
 collision_layer = 2

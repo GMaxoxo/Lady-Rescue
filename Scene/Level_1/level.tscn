@@ -661,10 +661,10 @@ texture_scale = 1.5
 [node name="Enemy" type="Node2D" parent="."]
 
 [node name="Moshroomhead" parent="Enemy" instance=ExtResource("8_wxrvj")]
-position = Vector2(277, 589)
+position = Vector2(343, 590)
 
 [node name="Skeleton" parent="Enemy" instance=ExtResource("9_qax7l")]
-position = Vector2(-426, 594)
+position = Vector2(-126, 593)
 collision_layer = 2
 
 [node name="Player" type="Node2D" parent="."]
