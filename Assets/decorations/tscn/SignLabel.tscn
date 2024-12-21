@@ -3,18 +3,12 @@
 [ext_resource type="Script" path="res://Assets/decorations/tscn/signLabel.gd" id="1_g4t5n"]
 [ext_resource type="Texture2D" uid="uid://bdr6qk0ph4asy" path="res://Assets/decorations/5.png" id="1_ivnvn"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ngg7i"]
-size = Vector2(148, 242)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qxgci"]
+size = Vector2(94, 224)
 
 [node name="SignLabel" type="Node2D"]
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_g4t5n")
-
-[node name="Player_detecter" type="Area2D" parent="."]
-
-[node name="Player_detecter_collision" type="CollisionShape2D" parent="Player_detecter"]
-position = Vector2(190, 145)
-shape = SubResource("RectangleShape2D_ngg7i")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 offset_left = 117.0
@@ -46,3 +40,9 @@ Test"
 [node name="TextureRect" type="TextureRect" parent="NinePatchRect/MarginContainer"]
 layout_mode = 2
 expand_mode = 1
+
+[node name="Player_detecter" type="Area2D" parent="."]
+
+[node name="Player_detecter_collision" type="CollisionShape2D" parent="Player_detecter"]
+position = Vector2(183, 136)
+shape = SubResource("RectangleShape2D_qxgci")
