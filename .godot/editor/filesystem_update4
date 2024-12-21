@@ -1,3 +1,9 @@
 res://Scene/Level_1/level.tscn
 res://Assets/decorations/tscn/SignLabel.tscn
-res://Assets/decorations/tscn/signLabel.gd
+res://Scene/Global/pause_menu.tscn
+res://Scene/Level_1/script_menu.gd
+res://Scene/Global/pause_menu.gd
+res://Scene/Level_1/script_pause_menu.gd
+res://Scene/Global/Settings_menu_level.tscn
+res://Scene/Level_1/settings_menu_level.gd
+res://Scene/Main_menu/settings_menu.gd
