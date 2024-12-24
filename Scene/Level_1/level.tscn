@@ -1,5 +1,6 @@
-[gd_scene load_steps=23 format=4 uid="uid://7drtp223lbux"]
+[gd_scene load_steps=24 format=4 uid="uid://7drtp223lbux"]
 
+[ext_resource type="Script" path="res://Scene/Level_1/level.gd" id="1_p1u5u"]
 [ext_resource type="Texture2D" uid="uid://bc23hjknnv04b" path="res://Assets/oak_woods_tileset.png" id="1_uipwf"]
 [ext_resource type="PackedScene" uid="uid://bc4xdjsl460ie" path="res://Player/player.tscn" id="2_k3q0u"]
 [ext_resource type="Texture2D" uid="uid://c8gqmjxnsiduu" path="res://Assets/background/background_layer_1.png" id="3_s1vjy"]
@@ -15,7 +16,9 @@
 [ext_resource type="Texture2D" uid="uid://bxn2igiesc653" path="res://Assets/decorations/rock_2.png" id="16_4jmg8"]
 [ext_resource type="Texture2D" uid="uid://dvtkxkjmy0fa7" path="res://Assets/decorations/lamp.png" id="17_65g0f"]
 [ext_resource type="PackedScene" uid="uid://dyu8d7g4stuye" path="res://Assets/decorations/tscn/SignLabel.tscn" id="17_o4ec5"]
+[ext_resource type="Texture2D" uid="uid://dnjatkf8xc8de" path="res://Assets/character/Player/Healthbar/Healthbar_empty.png" id="17_puksy"]
 [ext_resource type="PackedScene" uid="uid://cr3cj2yhjgauk" path="res://Assets/decorations/tscn/sign.tscn" id="17_snwwq"]
+[ext_resource type="Texture2D" uid="uid://cafaeq5sec3y3" path="res://Assets/character/Player/Healthbar/Healthbar_color.png" id="18_qwok2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a1scu"]
 texture = ExtResource("1_uipwf")
@@ -448,30 +451,6 @@ texture = ExtResource("1_uipwf")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_a1scu")
 
-[sub_resource type="GDScript" id="GDScript_i3wuo"]
-script/source = "extends Label
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
-	text = \"Здоровье: \" + str($\"../../Player/Player\".health)
-"
-
-[sub_resource type="GDScript" id="GDScript_ogym1"]
-script/source = "extends Label
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(_delta: float) -> void:
-	#text = \"Монеты: \" + str($\"../../Player/Player\".gold)
-"
-
 [sub_resource type="GDScript" id="GDScript_s6eah"]
 script/source = "extends Node2D
 
@@ -489,6 +468,7 @@ var gold = preload(\"res://Coins/coin.tscn\")
 polygon = PackedVector2Array(-877, 613, -877, 658, 5651, 658, 5651, 613, 320, 613)
 
 [node name="Level" type="Node2D"]
+script = ExtResource("1_p1u5u")
 
 [node name="BG_level_1" type="ParallaxBackground" parent="."]
 layer = -1
@@ -523,21 +503,13 @@ tile_set = SubResource("TileSet_afths")
 
 [node name="HUD" type="CanvasLayer" parent="."]
 
-[node name="HP_Bar" type="Label" parent="HUD"]
-offset_left = 37.0
-offset_right = 140.0
-offset_bottom = 92.0
-theme_override_font_sizes/font_size = 30
-vertical_alignment = 1
-script = SubResource("GDScript_i3wuo")
-
-[node name="Coins_Bar" type="Label" parent="HUD"]
-offset_left = 37.0
-offset_top = 74.0
-offset_right = 140.0
-offset_bottom = 166.0
-theme_override_font_sizes/font_size = 30
-script = SubResource("GDScript_ogym1")
+[node name="Healthbar" type="TextureProgressBar" parent="HUD"]
+offset_top = 593.0
+offset_right = 145.0
+offset_bottom = 631.0
+nine_patch_stretch = true
+texture_under = ExtResource("17_puksy")
+texture_progress = ExtResource("18_qwok2")
 
 [node name="Coins" type="Node2D" parent="."]
 script = SubResource("GDScript_s6eah")
@@ -3423,3 +3395,4 @@ position = Vector2(2500, 579)
 texture = ExtResource("17_65g0f")
 
 [connection signal="timeout" from="Coins/Coin_Timer" to="Coins" method="_on_coin_timer_timeout"]
+[connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]

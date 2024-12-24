@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734801004
+::res://::1734803502
 ::res://addons/::1734794761
 ::res://addons/AS2P/::1734794761
 InspectorConvertor.gd::GDScript::-1::1734789796::0::1::::<>EditorInspectorPlugin<>::
 NodeSelectorProperty.gd::GDScript::-1::1734789796::0::1::::<>EditorProperty<>::
 plugin.cfg::TextFile::-1::1734789796::0::1::::<><>::
 plugin.gd::GDScript::-1::1734789796::0::1::::<>EditorPlugin<>::
-::res://Assets/::1734794762
+::res://Assets/::1734803418
 oak_woods_tileset.png::CompressedTexture2D::2584249635450658647::1734789793::1734794233::1::::<><>::
 readme.TXT::TextFile::-1::1734789793::0::1::::<><>::
 ::res://Assets/background/::1734794761
@@ -34,13 +34,16 @@ Death.png::CompressedTexture2D::4071286360200150139::1734789793::1734794233::1::
 Idle.png::CompressedTexture2D::6422965911317591922::1734789793::1734794233::1::::<><>::
 Run.png::CompressedTexture2D::5437017146580759137::1734789793::1734794233::1::::<><>::
 Take Hit.png::CompressedTexture2D::8985871056580021381::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/::1734794761
+::res://Assets/character/Player/::1734803451
 ::res://Assets/character/Player/blue/::1734794761
 char_blue_1.png::CompressedTexture2D::5321193681672335194::1734789793::1734794233::1::::<><>::
 char_blue_2.png::CompressedTexture2D::3960378840092295364::1734789793::1734794233::1::::<><>::
 ::res://Assets/character/Player/green/::1734794761
 char_green_1.png::CompressedTexture2D::4028640927692699331::1734789793::1734794233::1::::<><>::
 char_green_2.png::CompressedTexture2D::8875469202968994278::1734789793::1734794233::1::::<><>::
+::res://Assets/character/Player/Healthbar/::1734806498
+Healthbar_color.png::CompressedTexture2D::4783171286873150156::1734806483::1734806501::1::::<><>::
+Healthbar_empty.png::CompressedTexture2D::8090330882732200270::1734806410::1734806501::1::::<><>::
 ::res://Assets/character/Player/purple/::1734794761
 char_purple_1.png::CompressedTexture2D::7515476774569048349::1734789793::1734794233::1::::<><>::
 char_purple_2.png::CompressedTexture2D::672632780153398515::1734789793::1734794233::1::::<><>::
@@ -565,20 +568,21 @@ skeleton-dying.mp3::AudioStreamMP3::125637133635875246::1734789796::1734794231::
 ::res://Coins/::1734794763
 coin.gd::GDScript::-1::1734789796::0::1::::<>Area2D<>::
 coin.tscn::PackedScene::2505349619880988197::1734789796::0::1::::<><>::uid://ckyhh023as28o::::res://Assets/coins/MonedaD.png<>res://Coins/coin.gd
-::res://Enemy/::1734800907
-moshroomhead.gd::GDScript::-1::1734800907::0::1::::<>CharacterBody2D<>::
-moshroomhead.tscn::PackedScene::5879026897986838296::1734800872::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-skeleton.gd::GDScript::-1::1734798749::0::1::::<>CharacterBody2D<>::
-skeleton.tscn::PackedScene::5571203597947411142::1734800872::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png
-::res://Player/::1734800872
-player.gd::GDScript::-1::1734796801::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::2588067675108664480::1734800872::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-::res://Scene/::1734800907
-player_signal.gd::GDScript::-1::1734800907::0::1::::<>Node<>::
+::res://Enemy/::1734802957
+moshroomhead.gd::GDScript::-1::1734802675::0::1::::<>CharacterBody2D<>::
+moshroomhead.tscn::PackedScene::5879026897986838296::1734802957::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+skeleton.gd::GDScript::-1::1734802805::0::1::::<>CharacterBody2D<>::
+skeleton.tscn::PackedScene::5571203597947411142::1734802930::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png
+::res://Player/::1734806287
+player.gd::GDScript::-1::1734806013::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2588067675108664480::1734806287::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+::res://Scene/::1734801390
+player_signal.gd::GDScript::-1::1734801390::0::1::::<>Node<>::
 ::res://Scene/Damage_box/::1734797069
 damage_box.tscn::PackedScene::5738743825281728075::1734797069::0::1::::<><>::
-::res://Scene/Level_1/::1734800872
-level.tscn::PackedScene::2253303079465017979::1734800872::0::1::::<><>::uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn
+::res://Scene/Level_1/::1734806287
+level.tscn::PackedScene::2253303079465017979::1734806287::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
+level.gd::GDScript::-1::1734806177::0::1::::<>Node2D<>::
 ::res://Scene/Level_1/Background_level_1/::1734794759
 bg_menu.gd::GDScript::-1::1734789796::0::1::::<>ParallaxBackground<>::
 BG_Menu.tscn::PackedScene::6171405604104205247::1734789796::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png

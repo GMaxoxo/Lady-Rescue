@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+signal health_changed (new_health) 
+
 # Определение состояний игрока
 enum {
 	IDLE,             # Ожидание
@@ -22,7 +24,8 @@ const JUMP_VELOCITY = -300.0
 @onready var animpack = $AnimationPlayer
 
 # Переменные для управления состояниями и параметрами игрока
-var health = 20                 # Здоровье игрока
+var max_health = 100            # Максимальное здоровье игрока
+var health                      # Здоровье игрока
 var state = MOVE                # Текущее состояние игрока
 var run_speed = 0.8             # Скорость бега
 var combo = false               # Флаг выполнения комбо
@@ -35,6 +38,7 @@ var damage_current              # Текущий урон
 func _ready() -> void:
 	# Подключение сигнала для обработки урона от врагов
 	PlayerSignal.connect("enemy_attack", Callable(self, "_on_damage_received"))
+	health = max_health
 
 # Основной цикл обработки физики
 func _physics_process(delta: float) -> void:
@@ -206,6 +210,8 @@ func _on_damage_received(enemy_damage):
 	if health <= 0:
 		health = 0
 		state = DEATH  # Переход в состояние смерти
+		
+	emit_signal("health_changed", health)
 
 # Обработка столкновения с хитбоксом
 func _on_hitbox_area_entered(area: Area2D) -> void:
