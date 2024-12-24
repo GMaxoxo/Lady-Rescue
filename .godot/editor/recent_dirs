@@ -1,6 +1,3 @@
-res://addons
-res://
-res://Scene/Global
 res://Assets/decorations/tscn
 res://Scene/Main_menu
 res://Scene/Level_king
@@ -13,6 +10,7 @@ res://Scene
 res://Enemy
 =======
 res://Scene
+res://
 res://Scene/Damage_box
 res://Assets/character/Mushroom
 >>>>>>> Flanity

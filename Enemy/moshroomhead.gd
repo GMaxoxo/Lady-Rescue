@@ -39,8 +39,10 @@ var move_speed = 100             # Скорость движения врага
 var alive = true                 # Статус врага
 var chase = false                # Флаг преследования
 
+var player_dmg 
+
 # Радиус атаки
-const ATTACK_RANGE = 40.0
+const ATTACK_RANGE = 30.0
 
 func _ready() -> void:
 	# Подключение сигналов игрока
@@ -72,14 +74,11 @@ func _physics_process(delta: float) -> void:
 			return
 
 		# Преследование игрока
-		if state == CHASE:
-			var direction = (player - position).normalized()
-			velocity.x = direction.x * move_speed
-			anim.play("Run")
-			$Moshroomhead_anim.flip_h = direction.x < 0
-	else:
-		velocity.x = 0
-		anim.play("Idle")
+	if state == CHASE:
+		var direction = (player - position).normalized()
+		velocity.x = direction.x * move_speed
+		anim.play("Run")
+		$Moshroomhead_anim.flip_h = direction.x < 0  # Обновление направления взгляда
 
 	move_and_slide()
 
@@ -110,11 +109,16 @@ func attack_state():
 	anim.play("Attack")
 	await anim.animation_finished  # Ожидание завершения анимации атаки
 
-	# Проверка, что игрок всё ещё находится в зоне атаки перед нанесением урона
-	if position.distance_to(player) <= ATTACK_RANGE and state == ATTACK:
-		PlayerSignal.emit_signal("enemy_attack", damage)  # Наносим урон игроку
+	# Проверяем, находится ли игрок перед мобом и в зоне атаки
+	var is_player_in_front = ($Moshroomhead_anim.flip_h and player.x < position.x) or (not $Moshroomhead_anim.flip_h and player.x > position.x)
 
-	state = CHASE  # Возвращаемся к преследованию
+	if position.distance_to(player) <= ATTACK_RANGE and is_player_in_front:
+		# Попадание: наносим урон игроку
+		PlayerSignal.emit_signal("enemy_attack", damage)
+
+	# Возврат в состояние CHASE для продолжения преследования
+	if alive:
+		state = CHASE if chase else IDLE
 
 # Состояние получения урона
 func damage_state():
@@ -135,10 +139,15 @@ func death_state():
 
 # Получение урона от игрока
 func _on_damage_received(player_damage: int) -> void:
+	player_dmg = player_damage
+
+
+func _on_hurt_box_area_entered(area: Area2D) -> void:
+	await get_tree().create_timer(0.1).timeout
 	if state == DEATH:
 		return  # Если моб уже мёртв, игнорируем урон
 
-	health -= player_damage
+	health -= player_dmg
 	if health <= 0:
 		alive = false
 		call_deferred("set_state", DEATH)  # Отложенное переключение в состояние смерти

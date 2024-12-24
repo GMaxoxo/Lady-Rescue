@@ -14,6 +14,7 @@ radius = 8.0
 shape = SubResource("CircleShape2D_ch1kt")
 
 [node name="Hitbox" type="Area2D" parent="."]
+visible = false
 
 [node name="Hitbox_collision" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(22, 0)
