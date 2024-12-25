@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cewt7l4igm2u0"
-path="res://.godot/imported/luna-krasivo-foto.jpg-86be64e6e64eb9b3606b8f260a7aa419.ctex"
+uid="uid://d2c4rrw23itxu"
+path="res://.godot/imported/BackMainMenu.png-84a21fed1d398ce470e10cab711b1b27.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/background/luna-krasivo-foto.jpg"
-dest_files=["res://.godot/imported/luna-krasivo-foto.jpg-86be64e6e64eb9b3606b8f260a7aa419.ctex"]
+source_file="res://Assets/background/BackMainMenu.png"
+dest_files=["res://.godot/imported/BackMainMenu.png-84a21fed1d398ce470e10cab711b1b27.ctex"]
 
 [params]
 
