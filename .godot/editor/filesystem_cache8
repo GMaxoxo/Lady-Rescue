@@ -1,608 +1,608 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1735129872
-::res://addons/::1735021851
-::res://addons/AS2P/::1734794761
-InspectorConvertor.gd::GDScript::-1::1734789796::0::1::::<>EditorInspectorPlugin<>::
-NodeSelectorProperty.gd::GDScript::-1::1734789796::0::1::::<>EditorProperty<>::
-plugin.cfg::TextFile::-1::1734789796::0::1::::<><>::
-plugin.gd::GDScript::-1::1734789796::0::1::::<>EditorPlugin<>::
-::res://Assets/::1735113750
-oak_woods_tileset.png::CompressedTexture2D::2584249635450658647::1734789793::1734794233::1::::<><>::
-readme.TXT::TextFile::-1::1734789793::0::1::::<><>::
-::res://Assets/background/::1734794761
-background_layer_1.png::CompressedTexture2D::7102452884232437640::1734789793::1734794233::1::::<><>::
-background_layer_2.png::CompressedTexture2D::4058148846761164455::1734789793::1734794233::1::::<><>::
-background_layer_3.png::CompressedTexture2D::7556728372061621502::1734789793::1734794233::1::::<><>::
-luna-krasivo-foto.jpg::CompressedTexture2D::5100224443723350829::1734789793::1734794233::1::::<><>::
-::res://Assets/Build/::1734794761
-shop.tscn::PackedScene::7615842199035830877::1734789793::0::1::::<><>::uid://bt241ltn7xxr1::::res://Assets/decorations/shop_anim.png
-::res://Assets/character/::1735130047
-::res://Assets/character/Dummy/::1735130050
-Training Dummy Sprite Sheet.png::CompressedTexture2D::5118221552685808840::1735129960::1735130052::1::::<><>::
-::res://Assets/character/Flying eye/::1734794761
-Attack.png::CompressedTexture2D::759281528996999460::1734789793::1734794233::1::::<><>::
-Death.png::CompressedTexture2D::121250255946338613::1734789793::1734794233::1::::<><>::
-Flight.png::CompressedTexture2D::6903549127839163658::1734789793::1734794233::1::::<><>::
-Take Hit.png::CompressedTexture2D::5492830464079340953::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Goblin/::1734794761
-Attack.png::CompressedTexture2D::5069905739069284967::1734789793::1734794233::1::::<><>::
-Death.png::CompressedTexture2D::7725056976177581333::1734789793::1734794233::1::::<><>::
-Idle.png::CompressedTexture2D::5437923233980342162::1734789793::1734794233::1::::<><>::
-Run.png::CompressedTexture2D::2040600434395037305::1734789793::1734794233::1::::<><>::
-Take Hit.png::CompressedTexture2D::3131113383839073740::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Mushroom/::1734794761
-Attack.png::CompressedTexture2D::6585747805519951558::1734789793::1734794233::1::::<><>::
-Death.png::CompressedTexture2D::4071286360200150139::1734789793::1734794233::1::::<><>::
-Idle.png::CompressedTexture2D::6422965911317591922::1734789793::1734794233::1::::<><>::
-Run.png::CompressedTexture2D::5437017146580759137::1734789793::1734794233::1::::<><>::
-Take Hit.png::CompressedTexture2D::8985871056580021381::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/::1735021631
-::res://Assets/character/Player/blue/::1734794761
-char_blue_1.png::CompressedTexture2D::5321193681672335194::1734789793::1734794233::1::::<><>::
-char_blue_2.png::CompressedTexture2D::3960378840092295364::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/green/::1734794761
-char_green_1.png::CompressedTexture2D::4028640927692699331::1734789793::1734794233::1::::<><>::
-char_green_2.png::CompressedTexture2D::8875469202968994278::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/Healthbar/::1735021631
-Healthbar_color.png::CompressedTexture2D::4783171286873150156::1734806483::1734806501::1::::<><>::
-Healthbar_empty.png::CompressedTexture2D::8090330882732200270::1734806410::1734806501::1::::<><>::
-::res://Assets/character/Player/purple/::1734794761
-char_purple_1.png::CompressedTexture2D::7515476774569048349::1734789793::1734794233::1::::<><>::
-char_purple_2.png::CompressedTexture2D::672632780153398515::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/red/::1734794761
-char_red_1.png::CompressedTexture2D::5055994488002153208::1734789793::1734794233::1::::<><>::
-char_red_2.png::CompressedTexture2D::277321509270922135::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Skeleton/::1734794761
-Attack.png::CompressedTexture2D::2828348734330595589::1734789793::1734794233::1::::<><>::
-Death.png::CompressedTexture2D::5895863491492459177::1734789793::1734794233::1::::<><>::
-Idle.png::CompressedTexture2D::6609022277167005611::1734789793::1734794233::1::::<><>::
-Shield.png::CompressedTexture2D::3802525433451631736::1734789793::1734794233::1::::<><>::
-Take Hit.png::CompressedTexture2D::7752552871691021242::1734789793::1734794233::1::::<><>::
-Walk.png::CompressedTexture2D::650735237133836241::1734789793::1734794233::1::::<><>::
-::res://Assets/coins/::1734794762
-MonedaD.png::CompressedTexture2D::5524713745437064620::1734789793::1734794233::1::::<><>::
-MonedaP.png::CompressedTexture2D::8810907064686003005::1734789793::1734794233::1::::<><>::
-MonedaR.png::CompressedTexture2D::2669476872765124084::1734789793::1734794233::1::::<><>::
-spr_coin_ama.png::CompressedTexture2D::8605384580437998796::1734789793::1734794233::1::::<><>::
-spr_coin_azu.png::CompressedTexture2D::2128719000886345808::1734789793::1734794233::1::::<><>::
-spr_coin_gri.png::CompressedTexture2D::6989527839085518368::1734789793::1734794233::1::::<><>::
-spr_coin_roj.png::CompressedTexture2D::1606354594430303595::1734789793::1734794233::1::::<><>::
-spr_coin_strip4.png::CompressedTexture2D::6445206599773882582::1734789793::1734794233::1::::<><>::
-::res://Assets/decorations/::1734794762
-5.png::CompressedTexture2D::2633993000450091124::1734793089::1734794233::1::::<><>::
-circle.png::CompressedTexture2D::6879079739844247816::1734789793::1734794233::1::::<><>::
-fence_1.png::CompressedTexture2D::3753125747248021504::1734789793::1734794233::1::::<><>::
-fence_2.png::CompressedTexture2D::3391872756374007002::1734789793::1734794233::1::::<><>::
-grass_1.png::CompressedTexture2D::6965966946196867668::1734789793::1734794233::1::::<><>::
-grass_2.png::CompressedTexture2D::6605406222491979841::1734789793::1734794233::1::::<><>::
-grass_3.png::CompressedTexture2D::5679390611753731781::1734789793::1734794233::1::::<><>::
-lamp.png::CompressedTexture2D::8673099727707622972::1734789793::1734794233::1::::<><>::
-rock_1.png::CompressedTexture2D::6790827760998146214::1734789793::1734794233::1::::<><>::
-rock_2.png::CompressedTexture2D::4029254971031004100::1734789793::1734794233::1::::<><>::
-rock_3.png::CompressedTexture2D::5850254081365897824::1734789793::1734794233::1::::<><>::
-shop.png::CompressedTexture2D::6400780363308551132::1734789793::1734794233::1::::<><>::
-shop_anim.png::CompressedTexture2D::3777554743349574992::1734789793::1734794233::1::::<><>::
-sign.png::CompressedTexture2D::322235133629697319::1734789793::1734794233::1::::<><>::
-::res://Assets/decorations/tscn/::1734795216
-sign.tscn::PackedScene::6023993248013174738::1734793437::0::1::::<><>::uid://eudfvnvqfn8j::::res://Assets/decorations/sign.png
-signLabel.gd::GDScript::-1::1734794478::0::1::::<>Node2D<>::
-SignLabel.tscn::PackedScene::8887092562974767068::1734795216::0::1::::<><>::res://Assets/decorations/tscn/signLabel.gd<>uid://bdr6qk0ph4asy::::res://Assets/decorations/5.png
-::res://Assets/King_castle/::1726911010
-::res://Assets/King_castle/background 1/::1735113753
-background 1.png::CompressedTexture2D::6777503711461051847::1726751278::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::1814381075518603835::1726751306::1735113752::1::::<><>::
-Plan 2.png::CompressedTexture2D::1203946650890180678::1726751317::1735113752::1::::<><>::
-Plan 3.png::CompressedTexture2D::6470062046584508885::1726751342::1735113752::1::::<><>::
-Preview 1.png::CompressedTexture2D::6437023878625138108::1726751364::1735113753::1::::<><>::
-::res://Assets/King_castle/background 2/::1735113753
-background 2.png::CompressedTexture2D::5058152623748575880::1726751413::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::7142802819035593245::1726751431::1735113752::1::::<><>::
-Plan 2.png::CompressedTexture2D::76467835272137859::1726751442::1735113752::1::::<><>::
-Plan 3.png::CompressedTexture2D::1519524122743203122::1726751452::1735113752::1::::<><>::
-Plan 4.png::CompressedTexture2D::5021507128342329856::1726751468::1735113752::1::::<><>::
-Preview 2.png::CompressedTexture2D::6255156918254015060::1726751485::1735113753::1::::<><>::
-::res://Assets/King_castle/background 3/::1735113753
-background 3.png::CompressedTexture2D::5775638861695769919::1726751517::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::5165520388432858970::1726751529::1735113752::1::::<><>::
-Plan 2.png::CompressedTexture2D::4056245593335263160::1726751539::1735113752::1::::<><>::
-Plan 3.png::CompressedTexture2D::5232080605625853330::1726751552::1735113752::1::::<><>::
-Plan 4.png::CompressedTexture2D::778837089394646156::1726751567::1735113752::1::::<><>::
-Preview 3.png::CompressedTexture2D::4672486585293874219::1726751583::1735113753::1::::<><>::
-::res://Assets/King_castle/background 4/::1735113753
-background 4.png::CompressedTexture2D::8061750680272995089::1726751612::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::4046296727530509213::1726751622::1735113752::1::::<><>::
-Plan 2.png::CompressedTexture2D::4277427722871179954::1726751647::1735113752::1::::<><>::
-Plan 3.png::CompressedTexture2D::3802917752473939889::1726751658::1735113752::1::::<><>::
-Preview 4.png::CompressedTexture2D::5911211208966601411::1726751677::1735113753::1::::<><>::
-::res://Assets/sound/::1734794763
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Beach/::1734794762
-Beach Rain.ogg::AudioStreamOggVorbis::4083064315695973736::1734789793::1734794232::1::::<><>::
-Beach Storm.ogg::AudioStreamOggVorbis::1094819492260571397::1734789793::1734794232::1::::<><>::
-Beach.ogg::AudioStreamOggVorbis::221949019281801061::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Cave/::1734794762
-Cave Rain.ogg::AudioStreamOggVorbis::4899948682458510592::1734789793::1734794232::1::::<><>::
-Cave Storm.ogg::AudioStreamOggVorbis::7966865195343810410::1734789793::1734794232::1::::<><>::
-Cave.ogg::AudioStreamOggVorbis::1558703891270343717::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Day/::1734794762
-Forest Day Rain.ogg::AudioStreamOggVorbis::7821852524417224953::1734789793::1734794232::1::::<><>::
-Forest Day Storm.ogg::AudioStreamOggVorbis::8999013459482873595::1734789793::1734794232::1::::<><>::
-Forest Day.ogg::AudioStreamOggVorbis::2783005022186044564::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Night/::1734794762
-Forest Night Rain.ogg::AudioStreamOggVorbis::6887933379891290211::1734789793::1734794232::1::::<><>::
-Forest Night Storm.ogg::AudioStreamOggVorbis::2774865103509120828::1734789793::1734794232::1::::<><>::
-Forest Night.ogg::AudioStreamOggVorbis::4960101413281771174::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Day/::1734794762
-Inside Day Rain.ogg::AudioStreamOggVorbis::6594121219501084354::1734789793::1734794232::1::::<><>::
-Inside Day Storm.ogg::AudioStreamOggVorbis::7103177262676701981::1734789793::1734794232::1::::<><>::
-Inside Day.ogg::AudioStreamOggVorbis::8770399522618490436::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Night/::1734794762
-Inside Night Rain.ogg::AudioStreamOggVorbis::6750881920880925252::1734789793::1734794232::1::::<><>::
-Inside Night Storm.ogg::AudioStreamOggVorbis::9180593900501301147::1734789793::1734794232::1::::<><>::
-Inside Night.ogg::AudioStreamOggVorbis::2614862093401093266::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Sea/::1734794762
-Sea Rain.ogg::AudioStreamOggVorbis::1826152210661728478::1734789793::1734794232::1::::<><>::
-Sea Storm.ogg::AudioStreamOggVorbis::7718527775686550020::1734789793::1734794232::1::::<><>::
-Sea.ogg::AudioStreamOggVorbis::1079820668958117675::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1734794762
-Bow Attack 1.ogg::AudioStreamOggVorbis::684523551531951773::1734789793::1734794232::1::::<><>::
-Bow Attack 2.ogg::AudioStreamOggVorbis::2202458285796981971::1734789793::1734794232::1::::<><>::
-Bow Blocked 1.ogg::AudioStreamOggVorbis::9161612096907425532::1734789793::1734794232::1::::<><>::
-Bow Blocked 2.ogg::AudioStreamOggVorbis::4099691901941316165::1734789793::1734794232::1::::<><>::
-Bow Blocked 3.ogg::AudioStreamOggVorbis::1288019047798869945::1734789793::1734794232::1::::<><>::
-Bow Impact Hit 1.ogg::AudioStreamOggVorbis::241870364601901635::1734789793::1734794232::1::::<><>::
-Bow Impact Hit 2.ogg::AudioStreamOggVorbis::6751051067667011197::1734789793::1734794232::1::::<><>::
-Bow Impact Hit 3.ogg::AudioStreamOggVorbis::6405897080316480753::1734789793::1734794232::1::::<><>::
-Bow Put Away 1.ogg::AudioStreamOggVorbis::6512561628612036450::1734789793::1734794232::1::::<><>::
-Bow Take Out 1.ogg::AudioStreamOggVorbis::6613931777582410826::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1734794762
-Sword Attack 1.ogg::AudioStreamOggVorbis::8647978457464204598::1734789793::1734794232::1::::<><>::
-Sword Attack 2.ogg::AudioStreamOggVorbis::7363985360646782770::1734789793::1734794232::1::::<><>::
-Sword Attack 3.ogg::AudioStreamOggVorbis::5691591665777958431::1734789793::1734794232::1::::<><>::
-Sword Blocked 1.ogg::AudioStreamOggVorbis::1336044586583220994::1734789793::1734794232::1::::<><>::
-Sword Blocked 2.ogg::AudioStreamOggVorbis::2085078413319466609::1734789793::1734794232::1::::<><>::
-Sword Blocked 3.ogg::AudioStreamOggVorbis::3921543605521265391::1734789793::1734794232::1::::<><>::
-Sword Impact Hit 1.ogg::AudioStreamOggVorbis::6185244497559472947::1734789793::1734794232::1::::<><>::
-Sword Impact Hit 2.ogg::AudioStreamOggVorbis::5230231286073102167::1734789793::1734794232::1::::<><>::
-Sword Impact Hit 3.ogg::AudioStreamOggVorbis::1272717684862223956::1734789793::1734794232::1::::<><>::
-Sword Parry 1.ogg::AudioStreamOggVorbis::6179421050515554284::1734789793::1734794232::1::::<><>::
-Sword Parry 2.ogg::AudioStreamOggVorbis::339858624858142510::1734789793::1734794232::1::::<><>::
-Sword Parry 3.ogg::AudioStreamOggVorbis::6517564555924907089::1734789793::1734794232::1::::<><>::
-Sword Sheath 1.ogg::AudioStreamOggVorbis::4829288526119024235::1734789793::1734794232::1::::<><>::
-Sword Sheath 2.ogg::AudioStreamOggVorbis::8594746663773353208::1734789793::1734794232::1::::<><>::
-Sword Unsheath 1.ogg::AudioStreamOggVorbis::6680634469887917368::1734789793::1734794232::1::::<><>::
-Sword Unsheath 2.ogg::AudioStreamOggVorbis::1138044676075996425::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Chopping and Mining/::1734794762
-chop 1.ogg::AudioStreamOggVorbis::4428887894424941482::1734789793::1734794232::1::::<><>::
-chop 2.ogg::AudioStreamOggVorbis::3663280807197317980::1734789793::1734794232::1::::<><>::
-chop 3.ogg::AudioStreamOggVorbis::4794438163301909921::1734789793::1734794232::1::::<><>::
-chop 4.ogg::AudioStreamOggVorbis::8319172265840501791::1734789793::1734794232::1::::<><>::
-mine 1.ogg::AudioStreamOggVorbis::3692632209972476358::1734789793::1734794232::1::::<><>::
-mine 2.ogg::AudioStreamOggVorbis::3328097021638654990::1734789793::1734794232::1::::<><>::
-mine 3.ogg::AudioStreamOggVorbis::3416461679084171935::1734789793::1734794232::1::::<><>::
-mine 4.ogg::AudioStreamOggVorbis::1936939697748755118::1734789793::1734794232::1::::<><>::
-mine 5.ogg::AudioStreamOggVorbis::2461509034161137973::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Doors Gates and Chests/::1734794762
-Chest Close 1.ogg::AudioStreamOggVorbis::8848760462746694285::1734789793::1734794232::1::::<><>::
-Chest Close 2.ogg::AudioStreamOggVorbis::2452759712279210987::1734789793::1734794232::1::::<><>::
-Chest Open 1.ogg::AudioStreamOggVorbis::1080845559204154079::1734789793::1734794232::1::::<><>::
-Chest Open 2.ogg::AudioStreamOggVorbis::2179493098263708727::1734789793::1734794232::1::::<><>::
-Door Close 1.ogg::AudioStreamOggVorbis::6649407572822919169::1734789793::1734794232::1::::<><>::
-Door Close 2.ogg::AudioStreamOggVorbis::3282527492285857510::1734789793::1734794232::1::::<><>::
-Door Open 1.ogg::AudioStreamOggVorbis::8168032513319338491::1734789793::1734794232::1::::<><>::
-Door Open 2.ogg::AudioStreamOggVorbis::1211601971716191255::1734789793::1734794232::1::::<><>::
-Gate Close.ogg::AudioStreamOggVorbis::268997664745033871::1734789793::1734794232::1::::<><>::
-Gate Open.ogg::AudioStreamOggVorbis::8660933234440866432::1734789793::1734794232::1::::<><>::
-Lock Unlock.ogg::AudioStreamOggVorbis::5643725933590463083::1734789793::1734794232::1::::<><>::
-Portcullis Gate.ogg::AudioStreamOggVorbis::68987818774378253::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Dirt/::1734794762
-Dirt Chain Jump.ogg::AudioStreamOggVorbis::4351915650029308365::1734789793::1734794232::1::::<><>::
-Dirt Chain Land.ogg::AudioStreamOggVorbis::3544481444880181648::1734789793::1734794232::1::::<><>::
-Dirt Chain Run 1.ogg::AudioStreamOggVorbis::6858869892659903595::1734789793::1734794232::1::::<><>::
-Dirt Chain Run 2.ogg::AudioStreamOggVorbis::5224021279327761052::1734789793::1734794232::1::::<><>::
-Dirt Chain Run 3.ogg::AudioStreamOggVorbis::1732264471245063663::1734789793::1734794232::1::::<><>::
-Dirt Chain Run 4.ogg::AudioStreamOggVorbis::3188636245435712930::1734789793::1734794232::1::::<><>::
-Dirt Chain Run 5.ogg::AudioStreamOggVorbis::7271404041869039690::1734789793::1734794232::1::::<><>::
-Dirt Chain Walk 1.ogg::AudioStreamOggVorbis::4266720288106365132::1734789793::1734794232::1::::<><>::
-Dirt Chain Walk 2.ogg::AudioStreamOggVorbis::4002704359278937487::1734789793::1734794232::1::::<><>::
-Dirt Chain Walk 3.ogg::AudioStreamOggVorbis::7503661071136859701::1734789793::1734794232::1::::<><>::
-Dirt Chain Walk 4.ogg::AudioStreamOggVorbis::3142645719788117471::1734789793::1734794232::1::::<><>::
-Dirt Chain Walk 5.ogg::AudioStreamOggVorbis::3211863803438229258::1734789793::1734794232::1::::<><>::
-Dirt Jump.ogg::AudioStreamOggVorbis::7379506449637165399::1734789793::1734794232::1::::<><>::
-Dirt Land.ogg::AudioStreamOggVorbis::9000251783470966364::1734789793::1734794232::1::::<><>::
-Dirt Run 1.ogg::AudioStreamOggVorbis::7297602757772195791::1734789793::1734794232::1::::<><>::
-Dirt Run 2.ogg::AudioStreamOggVorbis::3869658593120957625::1734789793::1734794232::1::::<><>::
-Dirt Run 3.ogg::AudioStreamOggVorbis::3894635104610189320::1734789793::1734794232::1::::<><>::
-Dirt Run 4.ogg::AudioStreamOggVorbis::7758652272961482605::1734789793::1734794232::1::::<><>::
-Dirt Run 5.ogg::AudioStreamOggVorbis::5773245058402556960::1734789793::1734794232::1::::<><>::
-Dirt Walk 1.ogg::AudioStreamOggVorbis::4766537120296886179::1734789793::1734794232::1::::<><>::
-Dirt Walk 2.ogg::AudioStreamOggVorbis::8287068251167476150::1734789793::1734794232::1::::<><>::
-Dirt Walk 3.ogg::AudioStreamOggVorbis::7521263019791832986::1734789793::1734794232::1::::<><>::
-Dirt Walk 4.ogg::AudioStreamOggVorbis::1877945942929858616::1734789793::1734794232::1::::<><>::
-Dirt Walk 5.ogg::AudioStreamOggVorbis::2700786762738285583::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Stone/::1734794762
-Stone Chain Jump.ogg::AudioStreamOggVorbis::2719737514939354468::1734789793::1734794232::1::::<><>::
-Stone Chain Land.ogg::AudioStreamOggVorbis::3939351371691435488::1734789793::1734794232::1::::<><>::
-Stone Chain Run 1.ogg::AudioStreamOggVorbis::5532882474944025098::1734789793::1734794232::1::::<><>::
-Stone Chain Run 2.ogg::AudioStreamOggVorbis::2833335982605107861::1734789793::1734794232::1::::<><>::
-Stone Chain Run 3.ogg::AudioStreamOggVorbis::3091622110806019412::1734789793::1734794232::1::::<><>::
-Stone Chain Run 4.ogg::AudioStreamOggVorbis::7268061865519116232::1734789793::1734794232::1::::<><>::
-Stone Chain Run 5.ogg::AudioStreamOggVorbis::4001508913241659160::1734789793::1734794232::1::::<><>::
-Stone Chain Walk 1.ogg::AudioStreamOggVorbis::6766413718129705557::1734789793::1734794232::1::::<><>::
-Stone Chain Walk 2.ogg::AudioStreamOggVorbis::6361668571476747306::1734789793::1734794232::1::::<><>::
-Stone Chain Walk 3.ogg::AudioStreamOggVorbis::2341307583771664191::1734789793::1734794232::1::::<><>::
-Stone Chain Walk 4.ogg::AudioStreamOggVorbis::3581654757705984195::1734789793::1734794231::1::::<><>::
-Stone Chain Walk 5.ogg::AudioStreamOggVorbis::6540084447588392809::1734789793::1734794231::1::::<><>::
-Stone Jump.ogg::AudioStreamOggVorbis::6622297446766461105::1734789793::1734794231::1::::<><>::
-Stone Land.ogg::AudioStreamOggVorbis::6220073613723135465::1734789793::1734794231::1::::<><>::
-Stone Run 1.ogg::AudioStreamOggVorbis::5296839396160874195::1734789793::1734794231::1::::<><>::
-Stone Run 2.ogg::AudioStreamOggVorbis::1867280786854246031::1734789793::1734794231::1::::<><>::
-Stone Run 3.ogg::AudioStreamOggVorbis::2296699145917045235::1734789793::1734794231::1::::<><>::
-Stone Run 4.ogg::AudioStreamOggVorbis::7470126105552506557::1734789793::1734794231::1::::<><>::
-Stone Run 5.ogg::AudioStreamOggVorbis::131636980584609832::1734789793::1734794231::1::::<><>::
-Stone Walk 1.ogg::AudioStreamOggVorbis::8091997206855336434::1734789793::1734794231::1::::<><>::
-Stone Walk 2.ogg::AudioStreamOggVorbis::4026000480048929510::1734789793::1734794231::1::::<><>::
-Stone Walk 3.ogg::AudioStreamOggVorbis::770992252386465031::1734789793::1734794231::1::::<><>::
-Stone Walk 4.ogg::AudioStreamOggVorbis::7306944248836030977::1734789793::1734794231::1::::<><>::
-Stone Walk 5.ogg::AudioStreamOggVorbis::3583723202663080525::1734789793::1734794231::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Water/::1734794762
-Water Chain Jump.ogg::AudioStreamOggVorbis::2905909058017065985::1734789793::1734794231::1::::<><>::
-Water Chain Land.ogg::AudioStreamOggVorbis::2214355463741392576::1734789793::1734794231::1::::<><>::
-Water Chain Run 1.ogg::AudioStreamOggVorbis::1722421538677619314::1734789793::1734794231::1::::<><>::
-Water Chain Run 2.ogg::AudioStreamOggVorbis::8696949177605012905::1734789793::1734794232::1::::<><>::
-Water Chain Run 3.ogg::AudioStreamOggVorbis::2116725392692124912::1734789793::1734794232::1::::<><>::
-Water Chain Run 4.ogg::AudioStreamOggVorbis::7392633681215022524::1734789793::1734794232::1::::<><>::
-Water Chain Run 5.ogg::AudioStreamOggVorbis::3698407311320545629::1734789793::1734794232::1::::<><>::
-Water Chain Walk 1.ogg::AudioStreamOggVorbis::3340689893845644470::1734789793::1734794232::1::::<><>::
-Water Chain Walk 2.ogg::AudioStreamOggVorbis::8623814987354579162::1734789793::1734794232::1::::<><>::
-Water Chain Walk 3.ogg::AudioStreamOggVorbis::5774502807212029600::1734789793::1734794232::1::::<><>::
-Water Chain Walk 4.ogg::AudioStreamOggVorbis::8413978143661233642::1734789793::1734794231::1::::<><>::
-Water Chain Walk 5.ogg::AudioStreamOggVorbis::7073531426392195729::1734789793::1734794231::1::::<><>::
-Water Jump.ogg::AudioStreamOggVorbis::3569965011125564330::1734789793::1734794231::1::::<><>::
-Water Land.ogg::AudioStreamOggVorbis::8879451120287801711::1734789793::1734794231::1::::<><>::
-Water Run 1.ogg::AudioStreamOggVorbis::7714494376124650212::1734789793::1734794231::1::::<><>::
-Water Run 2.ogg::AudioStreamOggVorbis::3208573404409336895::1734789793::1734794231::1::::<><>::
-Water Run 3.ogg::AudioStreamOggVorbis::506929243082681331::1734789793::1734794231::1::::<><>::
-Water Run 4.ogg::AudioStreamOggVorbis::7012865653761102362::1734789793::1734794231::1::::<><>::
-Water Run 5.ogg::AudioStreamOggVorbis::2348317992447509433::1734789793::1734794231::1::::<><>::
-Water Walk 1.ogg::AudioStreamOggVorbis::1964348978459468739::1734789793::1734794231::1::::<><>::
-Water Walk 2.ogg::AudioStreamOggVorbis::1269397652730426055::1734789793::1734794232::1::::<><>::
-Water Walk 3.ogg::AudioStreamOggVorbis::6984446867690839261::1734789793::1734794232::1::::<><>::
-Water Walk 4.ogg::AudioStreamOggVorbis::7185404481837676275::1734789793::1734794232::1::::<><>::
-Water Walk 5.ogg::AudioStreamOggVorbis::6616338720159917669::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/::1734794762
-Wood Chain Jump.ogg::AudioStreamOggVorbis::8012670662759770703::1734789793::1734794232::1::::<><>::
-Wood Chain Land.ogg::AudioStreamOggVorbis::6684705367944989069::1734789793::1734794232::1::::<><>::
-Wood Chain Run 1.ogg::AudioStreamOggVorbis::4372783682884718799::1734789793::1734794232::1::::<><>::
-Wood Chain Run 2.ogg::AudioStreamOggVorbis::4705079602672320885::1734789793::1734794232::1::::<><>::
-Wood Chain Run 3.ogg::AudioStreamOggVorbis::7625337675909152034::1734789793::1734794232::1::::<><>::
-Wood Chain Run 4.ogg::AudioStreamOggVorbis::9021380634798059544::1734789793::1734794232::1::::<><>::
-Wood Chain Run 5.ogg::AudioStreamOggVorbis::24883343790119421::1734789793::1734794232::1::::<><>::
-Wood Chain Walk 1.ogg::AudioStreamOggVorbis::8725485517640601744::1734789793::1734794232::1::::<><>::
-Wood Chain Walk 2.ogg::AudioStreamOggVorbis::8268128655601705693::1734789793::1734794232::1::::<><>::
-Wood Chain Walk 3.ogg::AudioStreamOggVorbis::5666243688317079213::1734789793::1734794232::1::::<><>::
-Wood Chain Walk 4.ogg::AudioStreamOggVorbis::5941798897272020961::1734789793::1734794232::1::::<><>::
-Wood Chain Walk 5.ogg::AudioStreamOggVorbis::1925307642216308895::1734789793::1734794232::1::::<><>::
-Wood Jump.ogg::AudioStreamOggVorbis::6833420980728141292::1734789793::1734794232::1::::<><>::
-Wood Land.ogg::AudioStreamOggVorbis::8898494208296408991::1734789793::1734794232::1::::<><>::
-Wood Run 1.ogg::AudioStreamOggVorbis::5715242943090459313::1734789793::1734794232::1::::<><>::
-Wood Run 2.ogg::AudioStreamOggVorbis::6594602729713543904::1734789793::1734794232::1::::<><>::
-Wood Run 3.ogg::AudioStreamOggVorbis::3494823796435552374::1734789793::1734794232::1::::<><>::
-Wood Run 4.ogg::AudioStreamOggVorbis::8641435158784805317::1734789793::1734794232::1::::<><>::
-Wood Run 5.ogg::AudioStreamOggVorbis::3018141120924545476::1734789793::1734794232::1::::<><>::
-Wood Walk 1.ogg::AudioStreamOggVorbis::5743134900114331920::1734789793::1734794232::1::::<><>::
-Wood Walk 2.ogg::AudioStreamOggVorbis::6390313449082948607::1734789793::1734794232::1::::<><>::
-Wood Walk 3.ogg::AudioStreamOggVorbis::2342479788610884340::1734789793::1734794232::1::::<><>::
-Wood Walk 4.ogg::AudioStreamOggVorbis::2108382451719037752::1734789793::1734794232::1::::<><>::
-Wood Walk 5.ogg::AudioStreamOggVorbis::7737410503224617022::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/::1734794762
-Fireball 1.ogg::AudioStreamOggVorbis::5727984884363393175::1734789793::1734794232::1::::<><>::
-Fireball 2.ogg::AudioStreamOggVorbis::1118926361140476474::1734789793::1734794232::1::::<><>::
-Fireball 3.ogg::AudioStreamOggVorbis::1577704721475423396::1734789793::1734794232::1::::<><>::
-Firebuff 1.ogg::AudioStreamOggVorbis::7412988266122409016::1734789793::1734794232::1::::<><>::
-Firebuff 2.ogg::AudioStreamOggVorbis::6310418346076941908::1734789793::1734794232::1::::<><>::
-Firespray 1.ogg::AudioStreamOggVorbis::5708781691320107111::1734789793::1734794232::1::::<><>::
-Firespray 2.ogg::AudioStreamOggVorbis::4561061881282842442::1734789793::1734794232::1::::<><>::
-Ice Barrage 1.ogg::AudioStreamOggVorbis::2977168559709971731::1734789793::1734794232::1::::<><>::
-Ice Barrage 2.ogg::AudioStreamOggVorbis::3853386591087420364::1734789793::1734794232::1::::<><>::
-Ice Freeze 1.ogg::AudioStreamOggVorbis::4658101791327366071::1734789793::1734794232::1::::<><>::
-Ice Freeze 2.ogg::AudioStreamOggVorbis::3079380210983477867::1734789793::1734794232::1::::<><>::
-Ice Throw 1.ogg::AudioStreamOggVorbis::1900916295271038587::1734789793::1734794232::1::::<><>::
-Ice Throw 2.ogg::AudioStreamOggVorbis::7422473229609445775::1734789793::1734794232::1::::<><>::
-Ice Wall 1.ogg::AudioStreamOggVorbis::7249969308221227081::1734789793::1734794232::1::::<><>::
-Ice Wall 2.ogg::AudioStreamOggVorbis::6631152828178306351::1734789793::1734794232::1::::<><>::
-Rock Meteor Swarm 1.ogg::AudioStreamOggVorbis::2395549914060944349::1734789793::1734794232::1::::<><>::
-Rock Meteor Swarm 2.ogg::AudioStreamOggVorbis::8954651343159820700::1734789793::1734794232::1::::<><>::
-Rock Meteor Throw 1.ogg::AudioStreamOggVorbis::7126977820810619741::1734789793::1734794232::1::::<><>::
-Rock Meteor Throw 2.ogg::AudioStreamOggVorbis::544060569420740426::1734789793::1734794232::1::::<><>::
-Rock Wall 1.ogg::AudioStreamOggVorbis::270244914426364241::1734789793::1734794232::1::::<><>::
-Rock Wall 2.ogg::AudioStreamOggVorbis::7691329655896750589::1734789793::1734794232::1::::<><>::
-Spell Impact 1.ogg::AudioStreamOggVorbis::3018752942013069061::1734789793::1734794232::1::::<><>::
-Spell Impact 2.ogg::AudioStreamOggVorbis::3142353271600953345::1734789793::1734794232::1::::<><>::
-Spell Impact 3.ogg::AudioStreamOggVorbis::3791853949323411311::1734789793::1734794232::1::::<><>::
-Waterspray 1.ogg::AudioStreamOggVorbis::637286974792878273::1734789793::1734794232::1::::<><>::
-Waterspray 2.ogg::AudioStreamOggVorbis::4858976234575487965::1734789793::1734794232::1::::<><>::
-Wave Attack 1.ogg::AudioStreamOggVorbis::1172714298848772805::1734789793::1734794232::1::::<><>::
-Wave Attack 2.ogg::AudioStreamOggVorbis::875180018296020253::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Torch/::1734794762
-Light Torch 1.ogg::AudioStreamOggVorbis::4037308388230475305::1734789793::1734794232::1::::<><>::
-Light Torch 2.ogg::AudioStreamOggVorbis::5076092577499238539::1734789793::1734794232::1::::<><>::
-Light Torch with Starting Loop 1.ogg::AudioStreamOggVorbis::4038935832980339622::1734789793::1734794232::1::::<><>::
-Light Torch with Starting Loop 2.ogg::AudioStreamOggVorbis::1828645093696369642::1734789793::1734794232::1::::<><>::
-Torch Attack Strike 1.ogg::AudioStreamOggVorbis::6838698048893863717::1734789793::1734794232::1::::<><>::
-Torch Attack Strike 2.ogg::AudioStreamOggVorbis::1443600045050569788::1734789793::1734794232::1::::<><>::
-Torch Impact 1.ogg::AudioStreamOggVorbis::7716146625799694617::1734789793::1734794232::1::::<><>::
-Torch Impact 2.ogg::AudioStreamOggVorbis::8720337252120947695::1734789793::1734794232::1::::<><>::
-Torch Loop.ogg::AudioStreamOggVorbis::2933929645209514042::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Waterfalls Rivers and Streams/::1734794762
-River Loop.ogg::AudioStreamOggVorbis::8525004276084697928::1734789793::1734794232::1::::<><>::
-River Stream Loop.ogg::AudioStreamOggVorbis::2296519273175108173::1734789793::1734794232::1::::<><>::
-Waterfall Loop.ogg::AudioStreamOggVorbis::658407230263066823::1734789793::1734794232::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/::1734794762
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Beach/::1734794762
-Beach Rain.wav::AudioStreamWAV::413229363176201215::1734789794::1734794235::1::::<><>::
-Beach Storm.wav::AudioStreamWAV::5165218425257622491::1734789794::1734794235::1::::<><>::
-Beach.wav::AudioStreamWAV::7761135584974803413::1734789794::1734794235::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Cave/::1734794762
-Cave Rain.wav::AudioStreamWAV::8613607059271887381::1734789794::1734794235::1::::<><>::
-Cave Storm.wav::AudioStreamWAV::708857147624857963::1734789794::1734794235::1::::<><>::
-Cave.wav::AudioStreamWAV::2117542665528161228::1734789794::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Day/::1734794762
-Forest Day Rain.wav::AudioStreamWAV::3773963067633613943::1734789794::1734794235::1::::<><>::
-Forest Day Storm.wav::AudioStreamWAV::7545574972659452869::1734789794::1734794235::1::::<><>::
-Forest Day.wav::AudioStreamWAV::4477845476558339110::1734789794::1734794235::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Night/::1734794762
-Forest Night Rain.wav::AudioStreamWAV::3593926961735578195::1734789794::1734794236::1::::<><>::
-Forest Night Storm.wav::AudioStreamWAV::6546003054321310687::1734789794::1734794236::1::::<><>::
-Forest Night.wav::AudioStreamWAV::3350612087590594506::1734789795::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Day/::1734794762
-Inside Day Rain.wav::AudioStreamWAV::3125502169050399280::1734789795::1734794236::1::::<><>::
-Inside Day Storm.wav::AudioStreamWAV::7353771310824585096::1734789795::1734794236::1::::<><>::
-Inside Day.wav::AudioStreamWAV::542788595149295828::1734789795::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Night/::1734794762
-Inside Night Rain.wav::AudioStreamWAV::2612152016484067633::1734789795::1734794236::1::::<><>::
-Inside Night Storm.wav::AudioStreamWAV::3547329413569356179::1734789795::1734794236::1::::<><>::
-Inside Night.wav::AudioStreamWAV::451035697802124037::1734789795::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Sea/::1734794762
-Sea Rain.wav::AudioStreamWAV::2397221146014137909::1734789795::1734794236::1::::<><>::
-Sea Storm.wav::AudioStreamWAV::6737476700710791667::1734789795::1734794236::1::::<><>::
-Sea.wav::AudioStreamWAV::3623304306231858969::1734789795::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/::1734794763
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/::1734794763
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1734794763
-Bow Attack 1.wav::AudioStreamWAV::5835224280468140037::1734789795::1734794236::1::::<><>::
-Bow Attack 2.wav::AudioStreamWAV::8757941802748780391::1734789795::1734794236::1::::<><>::
-Bow Blocked 1.wav::AudioStreamWAV::5473255967676902915::1734789795::1734794236::1::::<><>::
-Bow Blocked 2.wav::AudioStreamWAV::5548767685107056377::1734789795::1734794236::1::::<><>::
-Bow Blocked 3.wav::AudioStreamWAV::3362239948196900433::1734789795::1734794236::1::::<><>::
-Bow Impact Hit 1.wav::AudioStreamWAV::5639240389821216657::1734789795::1734794236::1::::<><>::
-Bow Impact Hit 2.wav::AudioStreamWAV::6591427887151028592::1734789795::1734794234::1::::<><>::
-Bow Impact Hit 3.wav::AudioStreamWAV::3064099042824094992::1734789795::1734794234::1::::<><>::
-Bow Put Away 1.wav::AudioStreamWAV::5019662243759390831::1734789795::1734794234::1::::<><>::
-Bow Take Out 1.wav::AudioStreamWAV::6530676998781579913::1734789795::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1734794763
-Sword Attack 1.wav::AudioStreamWAV::3043092412101033339::1734789795::1734794234::1::::<><>::
-Sword Attack 2.wav::AudioStreamWAV::6592772901819055259::1734789795::1734794234::1::::<><>::
-Sword Attack 3.wav::AudioStreamWAV::9213665331722066908::1734789795::1734794234::1::::<><>::
-Sword Blocked 1.wav::AudioStreamWAV::4489409098167220553::1734789795::1734794234::1::::<><>::
-Sword Blocked 2.wav::AudioStreamWAV::2051992087033160595::1734789795::1734794234::1::::<><>::
-Sword Blocked 3.wav::AudioStreamWAV::3365482249892974374::1734789795::1734794234::1::::<><>::
-Sword Impact Hit 1.wav::AudioStreamWAV::3270147343302739832::1734789795::1734794234::1::::<><>::
-Sword Impact Hit 2.wav::AudioStreamWAV::7727922878166697466::1734789795::1734794234::1::::<><>::
-Sword Impact Hit 3.wav::AudioStreamWAV::1254668765548119439::1734789795::1734794234::1::::<><>::
-Sword Parry 1.wav::AudioStreamWAV::6562490612748615653::1734789795::1734794234::1::::<><>::
-Sword Parry 2.wav::AudioStreamWAV::1921973752588906929::1734789795::1734794234::1::::<><>::
-Sword Parry 3.wav::AudioStreamWAV::6107472841860386022::1734789795::1734794234::1::::<><>::
-Sword Sheath 1.wav::AudioStreamWAV::6223664680822255666::1734789795::1734794234::1::::<><>::
-Sword Sheath 2.wav::AudioStreamWAV::8484683955836298725::1734789795::1734794234::1::::<><>::
-Sword Unsheath 1.wav::AudioStreamWAV::7940077452771197271::1734789795::1734794234::1::::<><>::
-Sword Unsheath 2.wav::AudioStreamWAV::5190235285465065401::1734789795::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Chopping and Mining/::1734794763
-chop 1.wav::AudioStreamWAV::9013720830138403692::1734789795::1734794234::1::::<><>::
-chop 2.wav::AudioStreamWAV::6497631889182717597::1734789795::1734794234::1::::<><>::
-chop 3.wav::AudioStreamWAV::2994529177814281417::1734789795::1734794235::1::::<><>::
-chop 4.wav::AudioStreamWAV::4979147114386263680::1734789795::1734794235::1::::<><>::
-mine 1.wav::AudioStreamWAV::1851348596959433942::1734789795::1734794235::1::::<><>::
-mine 2.wav::AudioStreamWAV::9066973315422107036::1734789795::1734794236::1::::<><>::
-mine 3.wav::AudioStreamWAV::4051288177020645892::1734789795::1734794236::1::::<><>::
-mine 4.wav::AudioStreamWAV::6043541135126391593::1734789795::1734794236::1::::<><>::
-mine 5.wav::AudioStreamWAV::3550128823535898669::1734789795::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Doors Gates and Chests/::1734794763
-Chest Close 1.wav::AudioStreamWAV::4998827343832156979::1734789795::1734794236::1::::<><>::
-Chest Close 2.wav::AudioStreamWAV::3444298419750703432::1734789795::1734794236::1::::<><>::
-Chest Open 1.wav::AudioStreamWAV::8399773358362243564::1734789795::1734794236::1::::<><>::
-Chest Open 2.wav::AudioStreamWAV::5657714671598873006::1734789795::1734794236::1::::<><>::
-Door Close 1.wav::AudioStreamWAV::3099181061933609468::1734789795::1734794236::1::::<><>::
-Door Close 2.wav::AudioStreamWAV::4591776420821992154::1734789795::1734794236::1::::<><>::
-Door Open 1.wav::AudioStreamWAV::201597428263533472::1734789795::1734794236::1::::<><>::
-Door Open 2.wav::AudioStreamWAV::8636780049987202391::1734789795::1734794236::1::::<><>::
-Gate Close.wav::AudioStreamWAV::8830193273125839809::1734789795::1734794236::1::::<><>::
-Gate Open.wav::AudioStreamWAV::9137601986819164008::1734789795::1734794236::1::::<><>::
-Lock Unlock.wav::AudioStreamWAV::8131131151263411399::1734789795::1734794236::1::::<><>::
-Portcullis Gate.wav::AudioStreamWAV::7642480515683739010::1734789795::1734794237::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/::1734794763
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Dirt/::1734794763
-Dirt Chain Jump.wav::AudioStreamWAV::4621530094376860164::1734789795::1734794236::1::::<><>::
-Dirt Chain Land.wav::AudioStreamWAV::8446195794085781048::1734789795::1734794236::1::::<><>::
-Dirt Chain Run 1.wav::AudioStreamWAV::8944840856335395392::1734789795::1734794236::1::::<><>::
-Dirt Chain Run 2.wav::AudioStreamWAV::7810412820777955971::1734789795::1734794236::1::::<><>::
-Dirt Chain Run 3.wav::AudioStreamWAV::8814416117233629215::1734789795::1734794237::1::::<><>::
-Dirt Chain Run 4.wav::AudioStreamWAV::2734367161578304884::1734789795::1734794237::1::::<><>::
-Dirt Chain Run 5.wav::AudioStreamWAV::1400883490833884079::1734789795::1734794237::1::::<><>::
-Dirt Chain Walk 1.wav::AudioStreamWAV::6939835920014986196::1734789795::1734794237::1::::<><>::
-Dirt Chain Walk 2.wav::AudioStreamWAV::4928086675721944588::1734789795::1734794237::1::::<><>::
-Dirt Chain Walk 3.wav::AudioStreamWAV::4772071250074878761::1734789795::1734794237::1::::<><>::
-Dirt Chain Walk 4.wav::AudioStreamWAV::888305722659683770::1734789795::1734794236::1::::<><>::
-Dirt Chain Walk 5.wav::AudioStreamWAV::2076444524160759599::1734789795::1734794236::1::::<><>::
-Dirt Jump.wav::AudioStreamWAV::1567898965305315088::1734789795::1734794236::1::::<><>::
-Dirt Land.wav::AudioStreamWAV::738520101971117948::1734789795::1734794236::1::::<><>::
-Dirt Run 1.wav::AudioStreamWAV::5908718285259678828::1734789795::1734794236::1::::<><>::
-Dirt Run 2.wav::AudioStreamWAV::1826216686450359850::1734789795::1734794236::1::::<><>::
-Dirt Run 3.wav::AudioStreamWAV::3684613049958254617::1734789795::1734794236::1::::<><>::
-Dirt Run 4.wav::AudioStreamWAV::1790453156903190176::1734789795::1734794236::1::::<><>::
-Dirt Run 5.wav::AudioStreamWAV::4339722527235928146::1734789795::1734794236::1::::<><>::
-Dirt Walk 1.wav::AudioStreamWAV::1130606454706227592::1734789795::1734794236::1::::<><>::
-Dirt Walk 2.wav::AudioStreamWAV::5241933408334288369::1734789795::1734794236::1::::<><>::
-Dirt Walk 3.wav::AudioStreamWAV::6136017642841143187::1734789795::1734794236::1::::<><>::
-Dirt Walk 4.wav::AudioStreamWAV::8047486766886837976::1734789795::1734794236::1::::<><>::
-Dirt Walk 5.wav::AudioStreamWAV::6311014516246976610::1734789795::1734794236::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Stone/::1734794763
-Stone Chain Jump.wav::AudioStreamWAV::2802330532381355553::1734789795::1734794236::1::::<><>::
-Stone Chain Land.wav::AudioStreamWAV::2682643432884081378::1734789795::1734794236::1::::<><>::
-Stone Chain Run 1.wav::AudioStreamWAV::100247554173018117::1734789795::1734794236::1::::<><>::
-Stone Chain Run 2.wav::AudioStreamWAV::1188318998647366958::1734789795::1734794236::1::::<><>::
-Stone Chain Run 3.wav::AudioStreamWAV::9028070803720653624::1734789795::1734794236::1::::<><>::
-Stone Chain Run 4.wav::AudioStreamWAV::894860270956276504::1734789795::1734794236::1::::<><>::
-Stone Chain Run 5.wav::AudioStreamWAV::4183339728286338807::1734789795::1734794236::1::::<><>::
-Stone Chain Walk 1.wav::AudioStreamWAV::7356641279502994415::1734789795::1734794236::1::::<><>::
-Stone Chain Walk 2.wav::AudioStreamWAV::9179860009798590215::1734789795::1734794236::1::::<><>::
-Stone Chain Walk 3.wav::AudioStreamWAV::2504785593730388917::1734789795::1734794236::1::::<><>::
-Stone Chain Walk 4.wav::AudioStreamWAV::2340080760678643274::1734789795::1734794236::1::::<><>::
-Stone Chain Walk 5.wav::AudioStreamWAV::2889702741914425850::1734789795::1734794236::1::::<><>::
-Stone Jump.wav::AudioStreamWAV::5471254982757250481::1734789795::1734794234::1::::<><>::
-Stone Land.wav::AudioStreamWAV::1509247695561638700::1734789795::1734794234::1::::<><>::
-Stone Run 1.wav::AudioStreamWAV::6996060397532162267::1734789795::1734794234::1::::<><>::
-Stone Run 2.wav::AudioStreamWAV::5438250701241083320::1734789795::1734794234::1::::<><>::
-Stone Run 3.wav::AudioStreamWAV::2293905114748613128::1734789795::1734794234::1::::<><>::
-Stone Run 4.wav::AudioStreamWAV::3608989191787736034::1734789795::1734794234::1::::<><>::
-Stone Run 5.wav::AudioStreamWAV::164165289297373036::1734789795::1734794234::1::::<><>::
-Stone Walk 1.wav::AudioStreamWAV::1471755558676694198::1734789795::1734794234::1::::<><>::
-Stone Walk 2.wav::AudioStreamWAV::5605780988071373463::1734789795::1734794234::1::::<><>::
-Stone Walk 3.wav::AudioStreamWAV::4750412505610973752::1734789795::1734794234::1::::<><>::
-Stone Walk 4.wav::AudioStreamWAV::6189503962766756370::1734789795::1734794234::1::::<><>::
-Stone Walk 5.wav::AudioStreamWAV::4294297490469783779::1734789795::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Water/::1734794763
-Water Chain Jump.wav::AudioStreamWAV::3023693821879123572::1734789795::1734794234::1::::<><>::
-Water Chain Land.wav::AudioStreamWAV::6737121759605634759::1734789795::1734794234::1::::<><>::
-Water Chain Run 1.wav::AudioStreamWAV::7033687602008467937::1734789795::1734794234::1::::<><>::
-Water Chain Run 2.wav::AudioStreamWAV::3853324827693092716::1734789795::1734794234::1::::<><>::
-Water Chain Run 3.wav::AudioStreamWAV::8161300405021823392::1734789795::1734794234::1::::<><>::
-Water Chain Run 4.wav::AudioStreamWAV::3138700440463099892::1734789795::1734794234::1::::<><>::
-Water Chain Run 5.wav::AudioStreamWAV::285995876920492866::1734789795::1734794234::1::::<><>::
-Water Chain Walk 1.wav::AudioStreamWAV::4583230823346020503::1734789795::1734794234::1::::<><>::
-Water Chain Walk 2.wav::AudioStreamWAV::3710934726552334142::1734789795::1734794234::1::::<><>::
-Water Chain Walk 3.wav::AudioStreamWAV::8123326305099034875::1734789795::1734794234::1::::<><>::
-Water Chain Walk 4.wav::AudioStreamWAV::6507562759672488255::1734789795::1734794234::1::::<><>::
-Water Chain Walk 5.wav::AudioStreamWAV::2324268652177356449::1734789795::1734794234::1::::<><>::
-Water Jump.wav::AudioStreamWAV::5033779677912740567::1734789795::1734794234::1::::<><>::
-Water Land.wav::AudioStreamWAV::2548925620260858909::1734789795::1734794234::1::::<><>::
-Water Run 1.wav::AudioStreamWAV::8871391716447342621::1734789795::1734794234::1::::<><>::
-Water Run 2.wav::AudioStreamWAV::5618884151778929056::1734789795::1734794234::1::::<><>::
-Water Run 3.wav::AudioStreamWAV::5576398272658869618::1734789795::1734794234::1::::<><>::
-Water Run 4.wav::AudioStreamWAV::6025366714111772568::1734789795::1734794234::1::::<><>::
-Water Run 5.wav::AudioStreamWAV::6044248065439110645::1734789795::1734794234::1::::<><>::
-Water Walk 1.wav::AudioStreamWAV::8245743407501890944::1734789795::1734794234::1::::<><>::
-Water Walk 2.wav::AudioStreamWAV::2229172046708400968::1734789795::1734794234::1::::<><>::
-Water Walk 3.wav::AudioStreamWAV::5551490977456807873::1734789795::1734794234::1::::<><>::
-Water Walk 4.wav::AudioStreamWAV::2547920128466483154::1734789795::1734794234::1::::<><>::
-Water Walk 5.wav::AudioStreamWAV::6252326928519137561::1734789795::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Wood/::1734794763
-Wood Chain Jump.wav::AudioStreamWAV::3791313550824945168::1734789795::1734794234::1::::<><>::
-Wood Chain Land.wav::AudioStreamWAV::8509688385782182828::1734789795::1734794234::1::::<><>::
-Wood Chain Run 1.wav::AudioStreamWAV::1466635882701938055::1734789795::1734794234::1::::<><>::
-Wood Chain Run 2.wav::AudioStreamWAV::7193852747510221621::1734789795::1734794234::1::::<><>::
-Wood Chain Run 3.wav::AudioStreamWAV::5290776301126864858::1734789795::1734794234::1::::<><>::
-Wood Chain Run 4.wav::AudioStreamWAV::1438787302735251978::1734789795::1734794234::1::::<><>::
-Wood Chain Run 5.wav::AudioStreamWAV::3775540347569604012::1734789795::1734794234::1::::<><>::
-Wood Chain Walk 1.wav::AudioStreamWAV::6719033281792193650::1734789795::1734794234::1::::<><>::
-Wood Chain Walk 2.wav::AudioStreamWAV::5702820445749823508::1734789795::1734794234::1::::<><>::
-Wood Chain Walk 3.wav::AudioStreamWAV::3680683762441261002::1734789795::1734794234::1::::<><>::
-Wood Chain Walk 4.wav::AudioStreamWAV::9096729306380752004::1734789795::1734794234::1::::<><>::
-Wood Chain Walk 5.wav::AudioStreamWAV::4781459753565131538::1734789795::1734794234::1::::<><>::
-Wood Jump.wav::AudioStreamWAV::2932782937229959658::1734789795::1734794234::1::::<><>::
-Wood Land.wav::AudioStreamWAV::7591166281212859002::1734789795::1734794234::1::::<><>::
-Wood Run 1.wav::AudioStreamWAV::971591246687676236::1734789795::1734794234::1::::<><>::
-Wood Run 2.wav::AudioStreamWAV::3078366424421358627::1734789795::1734794234::1::::<><>::
-Wood Run 3.wav::AudioStreamWAV::4224805740307032543::1734789795::1734794234::1::::<><>::
-Wood Run 4.wav::AudioStreamWAV::78131914803206231::1734789795::1734794234::1::::<><>::
-Wood Run 5.wav::AudioStreamWAV::5155388507530464266::1734789795::1734794234::1::::<><>::
-Wood Walk 1.wav::AudioStreamWAV::9010999502431419296::1734789795::1734794234::1::::<><>::
-Wood Walk 2.wav::AudioStreamWAV::252078655106152126::1734789795::1734794234::1::::<><>::
-Wood Walk 3.wav::AudioStreamWAV::4637440046152733553::1734789795::1734794234::1::::<><>::
-Wood Walk 4.wav::AudioStreamWAV::7181059134316737811::1734789795::1734794234::1::::<><>::
-Wood Walk 5.wav::AudioStreamWAV::8802978348120074396::1734789795::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Spells/::1734794763
-Fireball 1.wav::AudioStreamWAV::8319677334861190433::1734789795::1734794234::1::::<><>::
-Fireball 2.wav::AudioStreamWAV::8182944907480861971::1734789795::1734794234::1::::<><>::
-Fireball 3.wav::AudioStreamWAV::5160018357759051932::1734789795::1734794234::1::::<><>::
-Firebuff 1.wav::AudioStreamWAV::2027793562875289832::1734789795::1734794234::1::::<><>::
-Firebuff 2.wav::AudioStreamWAV::7016125972086574132::1734789795::1734794234::1::::<><>::
-Firespray 1.wav::AudioStreamWAV::542954312424023242::1734789795::1734794234::1::::<><>::
-Firespray 2.wav::AudioStreamWAV::1140160907612878333::1734789795::1734794234::1::::<><>::
-Ice Barrage 1.wav::AudioStreamWAV::2001047539966350291::1734789795::1734794234::1::::<><>::
-Ice Barrage 2.wav::AudioStreamWAV::3147308609568352768::1734789796::1734794234::1::::<><>::
-Ice Freeze 1.wav::AudioStreamWAV::6825816863028142620::1734789796::1734794234::1::::<><>::
-Ice Freeze 2.wav::AudioStreamWAV::8247185064291911850::1734789796::1734794234::1::::<><>::
-Ice Throw 1.wav::AudioStreamWAV::7169399810337770259::1734789796::1734794234::1::::<><>::
-Ice Throw 2.wav::AudioStreamWAV::7268507200036262953::1734789796::1734794234::1::::<><>::
-Ice Wall 1.wav::AudioStreamWAV::8267837225938222326::1734789796::1734794234::1::::<><>::
-Ice Wall 2.wav::AudioStreamWAV::1396769386429823106::1734789796::1734794234::1::::<><>::
-Rock Meteor Swarm 1.wav::AudioStreamWAV::5718032949546521280::1734789796::1734794234::1::::<><>::
-Rock Meteor Swarm 2.wav::AudioStreamWAV::5897173325811543877::1734789796::1734794234::1::::<><>::
-Rock Meteor Throw 1.wav::AudioStreamWAV::6964998707328430398::1734789796::1734794234::1::::<><>::
-Rock Meteor Throw 2.wav::AudioStreamWAV::5641518056995000946::1734789796::1734794234::1::::<><>::
-Rock Wall 1.wav::AudioStreamWAV::2179304596127996728::1734789796::1734794234::1::::<><>::
-Rock Wall 2.wav::AudioStreamWAV::9005775464969051145::1734789796::1734794234::1::::<><>::
-Spell Impact 1.wav::AudioStreamWAV::3560102890496079002::1734789796::1734794234::1::::<><>::
-Spell Impact 2.wav::AudioStreamWAV::7367493702405202659::1734789796::1734794234::1::::<><>::
-Spell Impact 3.wav::AudioStreamWAV::7788990953502786107::1734789796::1734794234::1::::<><>::
-Waterspray 1.wav::AudioStreamWAV::3079798717094791676::1734789796::1734794234::1::::<><>::
-Waterspray 2.wav::AudioStreamWAV::3314158745357002312::1734789796::1734794234::1::::<><>::
-Wave Attack 1.wav::AudioStreamWAV::3298638882729263615::1734789796::1734794234::1::::<><>::
-Wave Attack 2.wav::AudioStreamWAV::2461642445533605811::1734789796::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Torch/::1734794763
-Light Torch 1.wav::AudioStreamWAV::3374968882814390371::1734789796::1734794234::1::::<><>::
-Light Torch 2.wav::AudioStreamWAV::7866900442365127921::1734789796::1734794234::1::::<><>::
-Light Torch with Starting Loop 1.wav::AudioStreamWAV::602170447062018235::1734789796::1734794234::1::::<><>::
-Light Torch with Starting Loop 2.wav::AudioStreamWAV::7187689843652074554::1734789796::1734794234::1::::<><>::
-Torch Attack Strike 1.wav::AudioStreamWAV::1183808247313551273::1734789796::1734794234::1::::<><>::
-Torch Attack Strike 2.wav::AudioStreamWAV::1694175282858020717::1734789796::1734794234::1::::<><>::
-Torch Impact 1.wav::AudioStreamWAV::8071532827423486452::1734789796::1734794234::1::::<><>::
-Torch Impact 2.wav::AudioStreamWAV::5259059547225918194::1734789796::1734794234::1::::<><>::
-Torch Loop.wav::AudioStreamWAV::6957637926954052163::1734789796::1734794234::1::::<><>::
-::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Waterfalls Rivers and Streams/::1734794763
-River Loop.wav::AudioStreamWAV::3590837834607100549::1734789796::1734794235::1::::<><>::
-River Stream Loop.wav::AudioStreamWAV::8124198624381541614::1734789796::1734794235::1::::<><>::
-Waterfall Loop.wav::AudioStreamWAV::4644634987691323370::1734789796::1734794235::1::::<><>::
-::res://Assets/sound/Skeleton/::1734794763
-skeleton-dying.mp3::AudioStreamMP3::125637133635875246::1734789796::1734794231::1::::<><>::
-::res://Coins/::1734794763
-coin.gd::GDScript::-1::1734789796::0::1::::<>Area2D<>::
-coin.tscn::PackedScene::2505349619880988197::1734789796::0::1::::<><>::uid://ckyhh023as28o::::res://Assets/coins/MonedaD.png<>res://Coins/coin.gd
-::res://Enemy/::1735021596
-moshroomhead.gd::GDScript::-1::1734802675::0::1::::<>CharacterBody2D<>::
-moshroomhead.tscn::PackedScene::5879026897986838296::1734802957::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-skeleton.gd::GDScript::-1::1734802805::0::1::::<>CharacterBody2D<>::
-skeleton.tscn::PackedScene::5571203597947411142::1734802930::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png
-::res://Player/::1735122434
-player.gd::GDScript::-1::1734806013::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::2588067675108664480::1735122434::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-::res://Scene/::1735021851
-player_signal.gd::GDScript::-1::1734801390::0::1::::<>Node<>::
-::res://Scene/Damage_box/::1735021596
-damage_box.tscn::PackedScene::5738743825281728075::1734797069::0::1::::<><>::
-::res://Scene/Level_1/::1735129559
-level.gd::GDScript::-1::1734806177::0::1::::<>Node2D<>::
-level.tscn::PackedScene::2253303079465017979::1735129559::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
-::res://Scene/Level_1/Background_level_1/::1734794759
-bg_menu.gd::GDScript::-1::1734789796::0::1::::<>ParallaxBackground<>::
-BG_Menu.tscn::PackedScene::6171405604104205247::1734789796::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png
-::res://Scene/Level_king/::1735129884
-Chill.tscn::PackedScene::7564318978998329495::1735129884::0::1::::<><>::uid://cyge8g8bulccr::::res://Assets/King_castle/background 1/Plan 3.png<>uid://rfg3che86ek1::::res://Assets/King_castle/background 1/Plan 2.png<>uid://035udpxeobol::::res://Assets/King_castle/background 1/Plan 1.png<>uid://cfuhmphn8lal3::::res://Assets/King_castle/background 3/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_king/tp_to_hall_area.gd
-Hallway.tscn::PackedScene::7256743744635029289::1735129884::0::1::::<><>::uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/tp_to_chill_area.gd
-tp_to_hall_area.gd::GDScript::-1::1735128883::0::1::::<>Area2D<>::
-tp_to_chill_area.gd::GDScript::-1::1735128488::0::1::::<>Area2D<>::
-::res://Scene/Main_menu/::1735121253
-elden_ring_01. Elden Ring.mp3::AudioStreamMP3::8802255091432924984::1734793089::1734794231::1::::<><>::
-main.gd::GDScript::-1::1735121253::0::1::::<>Control<>::
-Main.tscn::PackedScene::7477940621948692399::1734789796::0::1::::<><>::res://Scene/Main_menu/main.gd<>uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg
-settings_menu.gd::GDScript::-1::1734793503::0::1::::<>Control<>::
-settings_menu.tscn::PackedScene::6528100981958531771::1734793503::0::1::::<><>::uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg<>res://Scene/Main_menu/settings_menu.gd
-sure.gd::GDScript::-1::1734789796::0::1::::<>Control<>::
-Sure.tscn::PackedScene::7499251855688139502::1734789796::0::1::::<><>::res://Scene/Main_menu/sure.gd<>uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg
+::res://::1735134071
+::res://addons/::1735133434
+::res://addons/AS2P/::1734795029
+InspectorConvertor.gd::GDScript::-1::1734795029::0::1::::<>EditorInspectorPlugin<>::
+NodeSelectorProperty.gd::GDScript::-1::1734795029::0::1::::<>EditorProperty<>::
+plugin.cfg::TextFile::-1::1734795029::0::1::::<><>::
+plugin.gd::GDScript::-1::1734795029::0::1::::<>EditorPlugin<>::
+::res://Assets/::1735133441
+oak_woods_tileset.png::CompressedTexture2D::2584249635450658647::1734795024::1735134090::1::::<><>::
+readme.TXT::TextFile::-1::1734795024::0::1::::<><>::
+::res://Assets/background/::1734795419
+background_layer_1.png::CompressedTexture2D::7102452884232437640::1734795024::1735134090::1::::<><>::
+background_layer_2.png::CompressedTexture2D::4058148846761164455::1734795024::1735134090::1::::<><>::
+background_layer_3.png::CompressedTexture2D::7556728372061621502::1734795024::1735134090::1::::<><>::
+luna-krasivo-foto.jpg::CompressedTexture2D::5100224443723350829::1734795024::1735134091::1::::<><>::
+::res://Assets/Build/::1734795024
+shop.tscn::PackedScene::7615842199035830877::1734795024::0::1::::<><>::uid://bt241ltn7xxr1::::res://Assets/decorations/shop_anim.png
+::res://Assets/character/::1735133442
+::res://Assets/character/Dummy/::1735133442
+Training Dummy Sprite Sheet.png::CompressedTexture2D::5118221552685808840::1735133442::1735134090::1::::<><>::
+::res://Assets/character/Flying eye/::1734795418
+Attack.png::CompressedTexture2D::759281528996999460::1734795024::1735134090::1::::<><>::
+Death.png::CompressedTexture2D::121250255946338613::1734795024::1735134090::1::::<><>::
+Flight.png::CompressedTexture2D::6903549127839163658::1734795024::1735134090::1::::<><>::
+Take Hit.png::CompressedTexture2D::5492830464079340953::1734795024::1735134090::1::::<><>::
+::res://Assets/character/Goblin/::1734795418
+Attack.png::CompressedTexture2D::5069905739069284967::1734795024::1735134090::1::::<><>::
+Death.png::CompressedTexture2D::7725056976177581333::1734795024::1735134090::1::::<><>::
+Idle.png::CompressedTexture2D::5437923233980342162::1734795024::1735134090::1::::<><>::
+Run.png::CompressedTexture2D::2040600434395037305::1734795024::1735134090::1::::<><>::
+Take Hit.png::CompressedTexture2D::3131113383839073740::1734795024::1735134090::1::::<><>::
+::res://Assets/character/Mushroom/::1734795418
+Attack.png::CompressedTexture2D::6585747805519951558::1734795024::1735134090::1::::<><>::
+Death.png::CompressedTexture2D::4071286360200150139::1734795024::1735134090::1::::<><>::
+Idle.png::CompressedTexture2D::6422965911317591922::1734795024::1735134090::1::::<><>::
+Run.png::CompressedTexture2D::5437017146580759137::1734795024::1735134090::1::::<><>::
+Take Hit.png::CompressedTexture2D::8985871056580021381::1734795024::1735134090::1::::<><>::
+::res://Assets/character/Player/::1735133442
+::res://Assets/character/Player/blue/::1734795418
+char_blue_1.png::CompressedTexture2D::5321193681672335194::1734795024::1735134090::1::::<><>::
+char_blue_2.png::CompressedTexture2D::3960378840092295364::1734795024::1735134089::1::::<><>::
+::res://Assets/character/Player/green/::1734795418
+char_green_1.png::CompressedTexture2D::4028640927692699331::1734795024::1735134090::1::::<><>::
+char_green_2.png::CompressedTexture2D::8875469202968994278::1734795024::1735134089::1::::<><>::
+::res://Assets/character/Player/Healthbar/::1735133442
+Healthbar_color.png::CompressedTexture2D::4783171286873150156::1735133442::1735134089::1::::<><>::
+Healthbar_empty.png::CompressedTexture2D::8090330882732200270::1735133442::1735134089::1::::<><>::
+::res://Assets/character/Player/purple/::1734795418
+char_purple_1.png::CompressedTexture2D::7515476774569048349::1734795024::1735134090::1::::<><>::
+char_purple_2.png::CompressedTexture2D::672632780153398515::1734795024::1735134089::1::::<><>::
+::res://Assets/character/Player/red/::1734795418
+char_red_1.png::CompressedTexture2D::5055994488002153208::1734795024::1735134089::1::::<><>::
+char_red_2.png::CompressedTexture2D::277321509270922135::1734795024::1735134089::1::::<><>::
+::res://Assets/character/Skeleton/::1734795418
+Attack.png::CompressedTexture2D::2828348734330595589::1734795024::1735134089::1::::<><>::
+Death.png::CompressedTexture2D::5895863491492459177::1734795024::1735134090::1::::<><>::
+Idle.png::CompressedTexture2D::6609022277167005611::1734795024::1735134090::1::::<><>::
+Shield.png::CompressedTexture2D::3802525433451631736::1734795024::1735134090::1::::<><>::
+Take Hit.png::CompressedTexture2D::7752552871691021242::1734795024::1735134090::1::::<><>::
+Walk.png::CompressedTexture2D::650735237133836241::1734795024::1735134090::1::::<><>::
+::res://Assets/coins/::1734795419
+MonedaD.png::CompressedTexture2D::5524713745437064620::1734795024::1735134090::1::::<><>::
+MonedaP.png::CompressedTexture2D::8810907064686003005::1734795024::1735134090::1::::<><>::
+MonedaR.png::CompressedTexture2D::2669476872765124084::1734795024::1735134090::1::::<><>::
+spr_coin_ama.png::CompressedTexture2D::8605384580437998796::1734795024::1735134090::1::::<><>::
+spr_coin_azu.png::CompressedTexture2D::2128719000886345808::1734795024::1735134091::1::::<><>::
+spr_coin_gri.png::CompressedTexture2D::6989527839085518368::1734795024::1735134091::1::::<><>::
+spr_coin_roj.png::CompressedTexture2D::1606354594430303595::1734795024::1735134091::1::::<><>::
+spr_coin_strip4.png::CompressedTexture2D::6445206599773882582::1734795024::1735134091::1::::<><>::
+::res://Assets/decorations/::1734795419
+5.png::CompressedTexture2D::2633993000450091124::1734795024::1735134091::1::::<><>::
+circle.png::CompressedTexture2D::6879079739844247816::1734795024::1735134091::1::::<><>::
+fence_1.png::CompressedTexture2D::3753125747248021504::1734795024::1735134091::1::::<><>::
+fence_2.png::CompressedTexture2D::3391872756374007002::1734795024::1735134091::1::::<><>::
+grass_1.png::CompressedTexture2D::6965966946196867668::1734795024::1735134091::1::::<><>::
+grass_2.png::CompressedTexture2D::6605406222491979841::1734795024::1735134091::1::::<><>::
+grass_3.png::CompressedTexture2D::5679390611753731781::1734795024::1735134091::1::::<><>::
+lamp.png::CompressedTexture2D::8673099727707622972::1734795024::1735134091::1::::<><>::
+rock_1.png::CompressedTexture2D::6790827760998146214::1734795024::1735134091::1::::<><>::
+rock_2.png::CompressedTexture2D::4029254971031004100::1734795024::1735134091::1::::<><>::
+rock_3.png::CompressedTexture2D::5850254081365897824::1734795024::1735134091::1::::<><>::
+shop.png::CompressedTexture2D::6400780363308551132::1734795024::1735134091::1::::<><>::
+shop_anim.png::CompressedTexture2D::3777554743349574992::1734795024::1735134091::1::::<><>::
+sign.png::CompressedTexture2D::322235133629697319::1734795024::1735134091::1::::<><>::
+::res://Assets/decorations/tscn/::1734795510
+sign.tscn::PackedScene::6023993248013174738::1734795024::0::1::::<><>::uid://eudfvnvqfn8j::::res://Assets/decorations/sign.png
+signLabel.gd::GDScript::-1::1734795024::0::1::::<>Node2D<>::
+SignLabel.tscn::PackedScene::8887092562974767068::1734795510::0::1::::<><>::res://Assets/decorations/tscn/signLabel.gd<>uid://bdr6qk0ph4asy::::res://Assets/decorations/5.png
+::res://Assets/King_castle/::1735133442
+::res://Assets/King_castle/background 1/::1735133441
+background 1.png::CompressedTexture2D::6777503711461051847::1735133441::1735134091::1::::<><>::
+Plan 1.png::CompressedTexture2D::1814381075518603835::1735133441::1735134091::1::::<><>::
+Plan 2.png::CompressedTexture2D::1203946650890180678::1735133441::1735134090::1::::<><>::
+Plan 3.png::CompressedTexture2D::6470062046584508885::1735133441::1735134090::1::::<><>::
+Preview 1.png::CompressedTexture2D::6437023878625138108::1735133441::1735134091::1::::<><>::
+::res://Assets/King_castle/background 2/::1735133442
+background 2.png::CompressedTexture2D::5058152623748575880::1735133442::1735134090::1::::<><>::
+Plan 1.png::CompressedTexture2D::7142802819035593245::1735133442::1735134091::1::::<><>::
+Plan 2.png::CompressedTexture2D::76467835272137859::1735133442::1735134091::1::::<><>::
+Plan 3.png::CompressedTexture2D::1519524122743203122::1735133442::1735134091::1::::<><>::
+Plan 4.png::CompressedTexture2D::5021507128342329856::1735133442::1735134091::1::::<><>::
+Preview 2.png::CompressedTexture2D::6255156918254015060::1735133442::1735134091::1::::<><>::
+::res://Assets/King_castle/background 3/::1735133442
+background 3.png::CompressedTexture2D::5775638861695769919::1735133442::1735134091::1::::<><>::
+Plan 1.png::CompressedTexture2D::5165520388432858970::1735133442::1735134091::1::::<><>::
+Plan 2.png::CompressedTexture2D::4056245593335263160::1735133442::1735134091::1::::<><>::
+Plan 3.png::CompressedTexture2D::5232080605625853330::1735133442::1735134091::1::::<><>::
+Plan 4.png::CompressedTexture2D::778837089394646156::1735133442::1735134091::1::::<><>::
+Preview 3.png::CompressedTexture2D::4672486585293874219::1735133442::1735134091::1::::<><>::
+::res://Assets/King_castle/background 4/::1735133442
+background 4.png::CompressedTexture2D::8061750680272995089::1735133442::1735134091::1::::<><>::
+Plan 1.png::CompressedTexture2D::4046296727530509213::1735133442::1735134091::1::::<><>::
+Plan 2.png::CompressedTexture2D::4277427722871179954::1735133442::1735134091::1::::<><>::
+Plan 3.png::CompressedTexture2D::3802917752473939889::1735133442::1735134091::1::::<><>::
+Preview 4.png::CompressedTexture2D::5911211208966601411::1735133442::1735134091::1::::<><>::
+::res://Assets/sound/::1734795029
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/::1734795025
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/::1734795024
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/::1734795024
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Beach/::1734795417
+Beach Rain.ogg::AudioStreamOggVorbis::4083064315695973736::1734795024::1735134089::1::::<><>::
+Beach Storm.ogg::AudioStreamOggVorbis::1094819492260571397::1734795024::1735134089::1::::<><>::
+Beach.ogg::AudioStreamOggVorbis::221949019281801061::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Cave/::1734795417
+Cave Rain.ogg::AudioStreamOggVorbis::4899948682458510592::1734795024::1735134089::1::::<><>::
+Cave Storm.ogg::AudioStreamOggVorbis::7966865195343810410::1734795024::1735134089::1::::<><>::
+Cave.ogg::AudioStreamOggVorbis::1558703891270343717::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Day/::1734795417
+Forest Day Rain.ogg::AudioStreamOggVorbis::7821852524417224953::1734795024::1735134089::1::::<><>::
+Forest Day Storm.ogg::AudioStreamOggVorbis::8999013459482873595::1734795024::1735134089::1::::<><>::
+Forest Day.ogg::AudioStreamOggVorbis::2783005022186044564::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Forest Night/::1734795417
+Forest Night Rain.ogg::AudioStreamOggVorbis::6887933379891290211::1734795024::1735134089::1::::<><>::
+Forest Night Storm.ogg::AudioStreamOggVorbis::2774865103509120828::1734795024::1735134089::1::::<><>::
+Forest Night.ogg::AudioStreamOggVorbis::4960101413281771174::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Day/::1734795417
+Inside Day Rain.ogg::AudioStreamOggVorbis::6594121219501084354::1734795024::1735134089::1::::<><>::
+Inside Day Storm.ogg::AudioStreamOggVorbis::7103177262676701981::1734795024::1735134089::1::::<><>::
+Inside Day.ogg::AudioStreamOggVorbis::8770399522618490436::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Interior Night/::1734795418
+Inside Night Rain.ogg::AudioStreamOggVorbis::6750881920880925252::1734795024::1735134089::1::::<><>::
+Inside Night Storm.ogg::AudioStreamOggVorbis::9180593900501301147::1734795024::1735134089::1::::<><>::
+Inside Night.ogg::AudioStreamOggVorbis::2614862093401093266::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/BGS Loops/Sea/::1734795417
+Sea Rain.ogg::AudioStreamOggVorbis::1826152210661728478::1734795024::1735134089::1::::<><>::
+Sea Storm.ogg::AudioStreamOggVorbis::7718527775686550020::1734795024::1735134089::1::::<><>::
+Sea.ogg::AudioStreamOggVorbis::1079820668958117675::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/::1734795025
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/::1734795025
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1734795417
+Bow Attack 1.ogg::AudioStreamOggVorbis::684523551531951773::1734795024::1735134089::1::::<><>::
+Bow Attack 2.ogg::AudioStreamOggVorbis::2202458285796981971::1734795024::1735134089::1::::<><>::
+Bow Blocked 1.ogg::AudioStreamOggVorbis::9161612096907425532::1734795024::1735134089::1::::<><>::
+Bow Blocked 2.ogg::AudioStreamOggVorbis::4099691901941316165::1734795024::1735134089::1::::<><>::
+Bow Blocked 3.ogg::AudioStreamOggVorbis::1288019047798869945::1734795024::1735134089::1::::<><>::
+Bow Impact Hit 1.ogg::AudioStreamOggVorbis::241870364601901635::1734795024::1735134089::1::::<><>::
+Bow Impact Hit 2.ogg::AudioStreamOggVorbis::6751051067667011197::1734795024::1735134089::1::::<><>::
+Bow Impact Hit 3.ogg::AudioStreamOggVorbis::6405897080316480753::1734795024::1735134089::1::::<><>::
+Bow Put Away 1.ogg::AudioStreamOggVorbis::6512561628612036450::1734795024::1735134089::1::::<><>::
+Bow Take Out 1.ogg::AudioStreamOggVorbis::6613931777582410826::1734795024::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1734795418
+Sword Attack 1.ogg::AudioStreamOggVorbis::8647978457464204598::1734795025::1735134089::1::::<><>::
+Sword Attack 2.ogg::AudioStreamOggVorbis::7363985360646782770::1734795025::1735134089::1::::<><>::
+Sword Attack 3.ogg::AudioStreamOggVorbis::5691591665777958431::1734795025::1735134089::1::::<><>::
+Sword Blocked 1.ogg::AudioStreamOggVorbis::1336044586583220994::1734795025::1735134089::1::::<><>::
+Sword Blocked 2.ogg::AudioStreamOggVorbis::2085078413319466609::1734795025::1735134089::1::::<><>::
+Sword Blocked 3.ogg::AudioStreamOggVorbis::3921543605521265391::1734795025::1735134089::1::::<><>::
+Sword Impact Hit 1.ogg::AudioStreamOggVorbis::6185244497559472947::1734795025::1735134089::1::::<><>::
+Sword Impact Hit 2.ogg::AudioStreamOggVorbis::5230231286073102167::1734795025::1735134089::1::::<><>::
+Sword Impact Hit 3.ogg::AudioStreamOggVorbis::1272717684862223956::1734795025::1735134089::1::::<><>::
+Sword Parry 1.ogg::AudioStreamOggVorbis::6179421050515554284::1734795025::1735134089::1::::<><>::
+Sword Parry 2.ogg::AudioStreamOggVorbis::339858624858142510::1734795025::1735134089::1::::<><>::
+Sword Parry 3.ogg::AudioStreamOggVorbis::6517564555924907089::1734795025::1735134089::1::::<><>::
+Sword Sheath 1.ogg::AudioStreamOggVorbis::4829288526119024235::1734795025::1735134089::1::::<><>::
+Sword Sheath 2.ogg::AudioStreamOggVorbis::8594746663773353208::1734795025::1735134089::1::::<><>::
+Sword Unsheath 1.ogg::AudioStreamOggVorbis::6680634469887917368::1734795025::1735134089::1::::<><>::
+Sword Unsheath 2.ogg::AudioStreamOggVorbis::1138044676075996425::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Chopping and Mining/::1734795418
+chop 1.ogg::AudioStreamOggVorbis::4428887894424941482::1734795025::1735134089::1::::<><>::
+chop 2.ogg::AudioStreamOggVorbis::3663280807197317980::1734795025::1735134089::1::::<><>::
+chop 3.ogg::AudioStreamOggVorbis::4794438163301909921::1734795025::1735134089::1::::<><>::
+chop 4.ogg::AudioStreamOggVorbis::8319172265840501791::1734795025::1735134089::1::::<><>::
+mine 1.ogg::AudioStreamOggVorbis::3692632209972476358::1734795025::1735134089::1::::<><>::
+mine 2.ogg::AudioStreamOggVorbis::3328097021638654990::1734795025::1735134089::1::::<><>::
+mine 3.ogg::AudioStreamOggVorbis::3416461679084171935::1734795025::1735134089::1::::<><>::
+mine 4.ogg::AudioStreamOggVorbis::1936939697748755118::1734795025::1735134089::1::::<><>::
+mine 5.ogg::AudioStreamOggVorbis::2461509034161137973::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Doors Gates and Chests/::1734795418
+Chest Close 1.ogg::AudioStreamOggVorbis::8848760462746694285::1734795025::1735134089::1::::<><>::
+Chest Close 2.ogg::AudioStreamOggVorbis::2452759712279210987::1734795025::1735134089::1::::<><>::
+Chest Open 1.ogg::AudioStreamOggVorbis::1080845559204154079::1734795025::1735134089::1::::<><>::
+Chest Open 2.ogg::AudioStreamOggVorbis::2179493098263708727::1734795025::1735134089::1::::<><>::
+Door Close 1.ogg::AudioStreamOggVorbis::6649407572822919169::1734795025::1735134089::1::::<><>::
+Door Close 2.ogg::AudioStreamOggVorbis::3282527492285857510::1734795025::1735134089::1::::<><>::
+Door Open 1.ogg::AudioStreamOggVorbis::8168032513319338491::1734795025::1735134089::1::::<><>::
+Door Open 2.ogg::AudioStreamOggVorbis::1211601971716191255::1734795025::1735134089::1::::<><>::
+Gate Close.ogg::AudioStreamOggVorbis::268997664745033871::1734795025::1735134089::1::::<><>::
+Gate Open.ogg::AudioStreamOggVorbis::8660933234440866432::1734795025::1735134089::1::::<><>::
+Lock Unlock.ogg::AudioStreamOggVorbis::5643725933590463083::1734795025::1735134089::1::::<><>::
+Portcullis Gate.ogg::AudioStreamOggVorbis::68987818774378253::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/::1734795025
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Dirt/::1734795417
+Dirt Chain Jump.ogg::AudioStreamOggVorbis::4351915650029308365::1734795025::1735134089::1::::<><>::
+Dirt Chain Land.ogg::AudioStreamOggVorbis::3544481444880181648::1734795025::1735134089::1::::<><>::
+Dirt Chain Run 1.ogg::AudioStreamOggVorbis::6858869892659903595::1734795025::1735134089::1::::<><>::
+Dirt Chain Run 2.ogg::AudioStreamOggVorbis::5224021279327761052::1734795025::1735134089::1::::<><>::
+Dirt Chain Run 3.ogg::AudioStreamOggVorbis::1732264471245063663::1734795025::1735134089::1::::<><>::
+Dirt Chain Run 4.ogg::AudioStreamOggVorbis::3188636245435712930::1734795025::1735134089::1::::<><>::
+Dirt Chain Run 5.ogg::AudioStreamOggVorbis::7271404041869039690::1734795025::1735134089::1::::<><>::
+Dirt Chain Walk 1.ogg::AudioStreamOggVorbis::4266720288106365132::1734795025::1735134089::1::::<><>::
+Dirt Chain Walk 2.ogg::AudioStreamOggVorbis::4002704359278937487::1734795025::1735134089::1::::<><>::
+Dirt Chain Walk 3.ogg::AudioStreamOggVorbis::7503661071136859701::1734795025::1735134089::1::::<><>::
+Dirt Chain Walk 4.ogg::AudioStreamOggVorbis::3142645719788117471::1734795025::1735134089::1::::<><>::
+Dirt Chain Walk 5.ogg::AudioStreamOggVorbis::3211863803438229258::1734795025::1735134089::1::::<><>::
+Dirt Jump.ogg::AudioStreamOggVorbis::7379506449637165399::1734795025::1735134089::1::::<><>::
+Dirt Land.ogg::AudioStreamOggVorbis::9000251783470966364::1734795025::1735134089::1::::<><>::
+Dirt Run 1.ogg::AudioStreamOggVorbis::7297602757772195791::1734795025::1735134089::1::::<><>::
+Dirt Run 2.ogg::AudioStreamOggVorbis::3869658593120957625::1734795025::1735134089::1::::<><>::
+Dirt Run 3.ogg::AudioStreamOggVorbis::3894635104610189320::1734795025::1735134089::1::::<><>::
+Dirt Run 4.ogg::AudioStreamOggVorbis::7758652272961482605::1734795025::1735134089::1::::<><>::
+Dirt Run 5.ogg::AudioStreamOggVorbis::5773245058402556960::1734795025::1735134089::1::::<><>::
+Dirt Walk 1.ogg::AudioStreamOggVorbis::4766537120296886179::1734795025::1735134089::1::::<><>::
+Dirt Walk 2.ogg::AudioStreamOggVorbis::8287068251167476150::1734795025::1735134089::1::::<><>::
+Dirt Walk 3.ogg::AudioStreamOggVorbis::7521263019791832986::1734795025::1735134089::1::::<><>::
+Dirt Walk 4.ogg::AudioStreamOggVorbis::1877945942929858616::1734795025::1735134089::1::::<><>::
+Dirt Walk 5.ogg::AudioStreamOggVorbis::2700786762738285583::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Stone/::1734795417
+Stone Chain Jump.ogg::AudioStreamOggVorbis::2719737514939354468::1734795025::1735134089::1::::<><>::
+Stone Chain Land.ogg::AudioStreamOggVorbis::3939351371691435488::1734795025::1735134089::1::::<><>::
+Stone Chain Run 1.ogg::AudioStreamOggVorbis::5532882474944025098::1734795025::1735134089::1::::<><>::
+Stone Chain Run 2.ogg::AudioStreamOggVorbis::2833335982605107861::1734795025::1735134089::1::::<><>::
+Stone Chain Run 3.ogg::AudioStreamOggVorbis::3091622110806019412::1734795025::1735134089::1::::<><>::
+Stone Chain Run 4.ogg::AudioStreamOggVorbis::7268061865519116232::1734795025::1735134089::1::::<><>::
+Stone Chain Run 5.ogg::AudioStreamOggVorbis::4001508913241659160::1734795025::1735134089::1::::<><>::
+Stone Chain Walk 1.ogg::AudioStreamOggVorbis::6766413718129705557::1734795025::1735134089::1::::<><>::
+Stone Chain Walk 2.ogg::AudioStreamOggVorbis::6361668571476747306::1734795025::1735134089::1::::<><>::
+Stone Chain Walk 3.ogg::AudioStreamOggVorbis::2341307583771664191::1734795025::1735134089::1::::<><>::
+Stone Chain Walk 4.ogg::AudioStreamOggVorbis::3581654757705984195::1734795025::1735134089::1::::<><>::
+Stone Chain Walk 5.ogg::AudioStreamOggVorbis::6540084447588392809::1734795025::1735134089::1::::<><>::
+Stone Jump.ogg::AudioStreamOggVorbis::6622297446766461105::1734795025::1735134089::1::::<><>::
+Stone Land.ogg::AudioStreamOggVorbis::6220073613723135465::1734795025::1735134089::1::::<><>::
+Stone Run 1.ogg::AudioStreamOggVorbis::5296839396160874195::1734795025::1735134089::1::::<><>::
+Stone Run 2.ogg::AudioStreamOggVorbis::1867280786854246031::1734795025::1735134089::1::::<><>::
+Stone Run 3.ogg::AudioStreamOggVorbis::2296699145917045235::1734795025::1735134089::1::::<><>::
+Stone Run 4.ogg::AudioStreamOggVorbis::7470126105552506557::1734795025::1735134089::1::::<><>::
+Stone Run 5.ogg::AudioStreamOggVorbis::131636980584609832::1734795025::1735134089::1::::<><>::
+Stone Walk 1.ogg::AudioStreamOggVorbis::8091997206855336434::1734795025::1735134089::1::::<><>::
+Stone Walk 2.ogg::AudioStreamOggVorbis::4026000480048929510::1734795025::1735134089::1::::<><>::
+Stone Walk 3.ogg::AudioStreamOggVorbis::770992252386465031::1734795025::1735134089::1::::<><>::
+Stone Walk 4.ogg::AudioStreamOggVorbis::7306944248836030977::1734795025::1735134089::1::::<><>::
+Stone Walk 5.ogg::AudioStreamOggVorbis::3583723202663080525::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Water/::1734795417
+Water Chain Jump.ogg::AudioStreamOggVorbis::2905909058017065985::1734795025::1735134089::1::::<><>::
+Water Chain Land.ogg::AudioStreamOggVorbis::2214355463741392576::1734795025::1735134089::1::::<><>::
+Water Chain Run 1.ogg::AudioStreamOggVorbis::1722421538677619314::1734795025::1735134089::1::::<><>::
+Water Chain Run 2.ogg::AudioStreamOggVorbis::8696949177605012905::1734795025::1735134089::1::::<><>::
+Water Chain Run 3.ogg::AudioStreamOggVorbis::2116725392692124912::1734795025::1735134089::1::::<><>::
+Water Chain Run 4.ogg::AudioStreamOggVorbis::7392633681215022524::1734795025::1735134089::1::::<><>::
+Water Chain Run 5.ogg::AudioStreamOggVorbis::3698407311320545629::1734795025::1735134089::1::::<><>::
+Water Chain Walk 1.ogg::AudioStreamOggVorbis::3340689893845644470::1734795025::1735134089::1::::<><>::
+Water Chain Walk 2.ogg::AudioStreamOggVorbis::8623814987354579162::1734795025::1735134089::1::::<><>::
+Water Chain Walk 3.ogg::AudioStreamOggVorbis::5774502807212029600::1734795025::1735134089::1::::<><>::
+Water Chain Walk 4.ogg::AudioStreamOggVorbis::8413978143661233642::1734795025::1735134089::1::::<><>::
+Water Chain Walk 5.ogg::AudioStreamOggVorbis::7073531426392195729::1734795025::1735134089::1::::<><>::
+Water Jump.ogg::AudioStreamOggVorbis::3569965011125564330::1734795025::1735134089::1::::<><>::
+Water Land.ogg::AudioStreamOggVorbis::8879451120287801711::1734795025::1735134089::1::::<><>::
+Water Run 1.ogg::AudioStreamOggVorbis::7714494376124650212::1734795025::1735134089::1::::<><>::
+Water Run 2.ogg::AudioStreamOggVorbis::3208573404409336895::1734795025::1735134089::1::::<><>::
+Water Run 3.ogg::AudioStreamOggVorbis::506929243082681331::1734795025::1735134089::1::::<><>::
+Water Run 4.ogg::AudioStreamOggVorbis::7012865653761102362::1734795025::1735134089::1::::<><>::
+Water Run 5.ogg::AudioStreamOggVorbis::2348317992447509433::1734795025::1735134089::1::::<><>::
+Water Walk 1.ogg::AudioStreamOggVorbis::1964348978459468739::1734795025::1735134089::1::::<><>::
+Water Walk 2.ogg::AudioStreamOggVorbis::1269397652730426055::1734795025::1735134089::1::::<><>::
+Water Walk 3.ogg::AudioStreamOggVorbis::6984446867690839261::1734795025::1735134089::1::::<><>::
+Water Walk 4.ogg::AudioStreamOggVorbis::7185404481837676275::1734795025::1735134089::1::::<><>::
+Water Walk 5.ogg::AudioStreamOggVorbis::6616338720159917669::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/::1734795417
+Wood Chain Jump.ogg::AudioStreamOggVorbis::8012670662759770703::1734795025::1735134089::1::::<><>::
+Wood Chain Land.ogg::AudioStreamOggVorbis::6684705367944989069::1734795025::1735134089::1::::<><>::
+Wood Chain Run 1.ogg::AudioStreamOggVorbis::4372783682884718799::1734795025::1735134089::1::::<><>::
+Wood Chain Run 2.ogg::AudioStreamOggVorbis::4705079602672320885::1734795025::1735134089::1::::<><>::
+Wood Chain Run 3.ogg::AudioStreamOggVorbis::7625337675909152034::1734795025::1735134089::1::::<><>::
+Wood Chain Run 4.ogg::AudioStreamOggVorbis::9021380634798059544::1734795025::1735134089::1::::<><>::
+Wood Chain Run 5.ogg::AudioStreamOggVorbis::24883343790119421::1734795025::1735134089::1::::<><>::
+Wood Chain Walk 1.ogg::AudioStreamOggVorbis::8725485517640601744::1734795025::1735134089::1::::<><>::
+Wood Chain Walk 2.ogg::AudioStreamOggVorbis::8268128655601705693::1734795025::1735134089::1::::<><>::
+Wood Chain Walk 3.ogg::AudioStreamOggVorbis::5666243688317079213::1734795025::1735134089::1::::<><>::
+Wood Chain Walk 4.ogg::AudioStreamOggVorbis::5941798897272020961::1734795025::1735134089::1::::<><>::
+Wood Chain Walk 5.ogg::AudioStreamOggVorbis::1925307642216308895::1734795025::1735134089::1::::<><>::
+Wood Jump.ogg::AudioStreamOggVorbis::6833420980728141292::1734795025::1735134089::1::::<><>::
+Wood Land.ogg::AudioStreamOggVorbis::8898494208296408991::1734795025::1735134089::1::::<><>::
+Wood Run 1.ogg::AudioStreamOggVorbis::5715242943090459313::1734795025::1735134089::1::::<><>::
+Wood Run 2.ogg::AudioStreamOggVorbis::6594602729713543904::1734795025::1735134089::1::::<><>::
+Wood Run 3.ogg::AudioStreamOggVorbis::3494823796435552374::1734795025::1735134089::1::::<><>::
+Wood Run 4.ogg::AudioStreamOggVorbis::8641435158784805317::1734795025::1735134089::1::::<><>::
+Wood Run 5.ogg::AudioStreamOggVorbis::3018141120924545476::1734795025::1735134089::1::::<><>::
+Wood Walk 1.ogg::AudioStreamOggVorbis::5743134900114331920::1734795025::1735134089::1::::<><>::
+Wood Walk 2.ogg::AudioStreamOggVorbis::6390313449082948607::1734795025::1735134089::1::::<><>::
+Wood Walk 3.ogg::AudioStreamOggVorbis::2342479788610884340::1734795025::1735134089::1::::<><>::
+Wood Walk 4.ogg::AudioStreamOggVorbis::2108382451719037752::1734795025::1735134089::1::::<><>::
+Wood Walk 5.ogg::AudioStreamOggVorbis::7737410503224617022::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Spells/::1734795417
+Fireball 1.ogg::AudioStreamOggVorbis::5727984884363393175::1734795025::1735134089::1::::<><>::
+Fireball 2.ogg::AudioStreamOggVorbis::1118926361140476474::1734795025::1735134089::1::::<><>::
+Fireball 3.ogg::AudioStreamOggVorbis::1577704721475423396::1734795025::1735134089::1::::<><>::
+Firebuff 1.ogg::AudioStreamOggVorbis::7412988266122409016::1734795025::1735134089::1::::<><>::
+Firebuff 2.ogg::AudioStreamOggVorbis::6310418346076941908::1734795025::1735134089::1::::<><>::
+Firespray 1.ogg::AudioStreamOggVorbis::5708781691320107111::1734795025::1735134089::1::::<><>::
+Firespray 2.ogg::AudioStreamOggVorbis::4561061881282842442::1734795025::1735134089::1::::<><>::
+Ice Barrage 1.ogg::AudioStreamOggVorbis::2977168559709971731::1734795025::1735134089::1::::<><>::
+Ice Barrage 2.ogg::AudioStreamOggVorbis::3853386591087420364::1734795025::1735134089::1::::<><>::
+Ice Freeze 1.ogg::AudioStreamOggVorbis::4658101791327366071::1734795025::1735134089::1::::<><>::
+Ice Freeze 2.ogg::AudioStreamOggVorbis::3079380210983477867::1734795025::1735134089::1::::<><>::
+Ice Throw 1.ogg::AudioStreamOggVorbis::1900916295271038587::1734795025::1735134089::1::::<><>::
+Ice Throw 2.ogg::AudioStreamOggVorbis::7422473229609445775::1734795025::1735134089::1::::<><>::
+Ice Wall 1.ogg::AudioStreamOggVorbis::7249969308221227081::1734795025::1735134089::1::::<><>::
+Ice Wall 2.ogg::AudioStreamOggVorbis::6631152828178306351::1734795025::1735134089::1::::<><>::
+Rock Meteor Swarm 1.ogg::AudioStreamOggVorbis::2395549914060944349::1734795025::1735134089::1::::<><>::
+Rock Meteor Swarm 2.ogg::AudioStreamOggVorbis::8954651343159820700::1734795025::1735134089::1::::<><>::
+Rock Meteor Throw 1.ogg::AudioStreamOggVorbis::7126977820810619741::1734795025::1735134089::1::::<><>::
+Rock Meteor Throw 2.ogg::AudioStreamOggVorbis::544060569420740426::1734795025::1735134089::1::::<><>::
+Rock Wall 1.ogg::AudioStreamOggVorbis::270244914426364241::1734795025::1735134089::1::::<><>::
+Rock Wall 2.ogg::AudioStreamOggVorbis::7691329655896750589::1734795025::1735134089::1::::<><>::
+Spell Impact 1.ogg::AudioStreamOggVorbis::3018752942013069061::1734795025::1735134089::1::::<><>::
+Spell Impact 2.ogg::AudioStreamOggVorbis::3142353271600953345::1734795025::1735134089::1::::<><>::
+Spell Impact 3.ogg::AudioStreamOggVorbis::3791853949323411311::1734795025::1735134089::1::::<><>::
+Waterspray 1.ogg::AudioStreamOggVorbis::637286974792878273::1734795025::1735134089::1::::<><>::
+Waterspray 2.ogg::AudioStreamOggVorbis::4858976234575487965::1734795025::1735134089::1::::<><>::
+Wave Attack 1.ogg::AudioStreamOggVorbis::1172714298848772805::1734795025::1735134089::1::::<><>::
+Wave Attack 2.ogg::AudioStreamOggVorbis::875180018296020253::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Torch/::1734795417
+Light Torch 1.ogg::AudioStreamOggVorbis::4037308388230475305::1734795025::1735134089::1::::<><>::
+Light Torch 2.ogg::AudioStreamOggVorbis::5076092577499238539::1734795025::1735134089::1::::<><>::
+Light Torch with Starting Loop 1.ogg::AudioStreamOggVorbis::4038935832980339622::1734795025::1735134089::1::::<><>::
+Light Torch with Starting Loop 2.ogg::AudioStreamOggVorbis::1828645093696369642::1734795025::1735134089::1::::<><>::
+Torch Attack Strike 1.ogg::AudioStreamOggVorbis::6838698048893863717::1734795025::1735134089::1::::<><>::
+Torch Attack Strike 2.ogg::AudioStreamOggVorbis::1443600045050569788::1734795025::1735134089::1::::<><>::
+Torch Impact 1.ogg::AudioStreamOggVorbis::7716146625799694617::1734795025::1735134089::1::::<><>::
+Torch Impact 2.ogg::AudioStreamOggVorbis::8720337252120947695::1734795025::1735134089::1::::<><>::
+Torch Loop.ogg::AudioStreamOggVorbis::2933929645209514042::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Waterfalls Rivers and Streams/::1734795417
+River Loop.ogg::AudioStreamOggVorbis::8525004276084697928::1734795025::1735134089::1::::<><>::
+River Stream Loop.ogg::AudioStreamOggVorbis::2296519273175108173::1734795025::1735134089::1::::<><>::
+Waterfall Loop.ogg::AudioStreamOggVorbis::658407230263066823::1734795025::1735134089::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/::1734795027
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/::1734795027
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Beach/::1734795420
+Beach Rain.wav::AudioStreamWAV::413229363176201215::1734795025::1735134092::1::::<><>::
+Beach Storm.wav::AudioStreamWAV::5165218425257622491::1734795025::1735134093::1::::<><>::
+Beach.wav::AudioStreamWAV::7761135584974803413::1734795025::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Cave/::1734795420
+Cave Rain.wav::AudioStreamWAV::8613607059271887381::1734795025::1735134093::1::::<><>::
+Cave Storm.wav::AudioStreamWAV::708857147624857963::1734795026::1735134093::1::::<><>::
+Cave.wav::AudioStreamWAV::2117542665528161228::1734795026::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Day/::1734795420
+Forest Day Rain.wav::AudioStreamWAV::3773963067633613943::1734795026::1735134093::1::::<><>::
+Forest Day Storm.wav::AudioStreamWAV::7545574972659452869::1734795026::1735134093::1::::<><>::
+Forest Day.wav::AudioStreamWAV::4477845476558339110::1734795026::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Forest Night/::1734795420
+Forest Night Rain.wav::AudioStreamWAV::3593926961735578195::1734795026::1735134093::1::::<><>::
+Forest Night Storm.wav::AudioStreamWAV::6546003054321310687::1734795026::1735134093::1::::<><>::
+Forest Night.wav::AudioStreamWAV::3350612087590594506::1734795026::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Day/::1734795421
+Inside Day Rain.wav::AudioStreamWAV::3125502169050399280::1734795026::1735134093::1::::<><>::
+Inside Day Storm.wav::AudioStreamWAV::7353771310824585096::1734795027::1735134093::1::::<><>::
+Inside Day.wav::AudioStreamWAV::542788595149295828::1734795027::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Interior Night/::1734795421
+Inside Night Rain.wav::AudioStreamWAV::2612152016484067633::1734795027::1735134093::1::::<><>::
+Inside Night Storm.wav::AudioStreamWAV::3547329413569356179::1734795027::1735134093::1::::<><>::
+Inside Night.wav::AudioStreamWAV::451035697802124037::1734795027::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/BGS Loops/Sea/::1734795421
+Sea Rain.wav::AudioStreamWAV::2397221146014137909::1734795027::1735134093::1::::<><>::
+Sea Storm.wav::AudioStreamWAV::6737476700710791667::1734795027::1735134093::1::::<><>::
+Sea.wav::AudioStreamWAV::3623304306231858969::1734795027::1735134094::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/::1734795029
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/::1734795027
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Bow Attacks Hits and Blocks/::1734795421
+Bow Attack 1.wav::AudioStreamWAV::5835224280468140037::1734795027::1735134093::1::::<><>::
+Bow Attack 2.wav::AudioStreamWAV::8757941802748780391::1734795027::1735134093::1::::<><>::
+Bow Blocked 1.wav::AudioStreamWAV::5473255967676902915::1734795027::1735134093::1::::<><>::
+Bow Blocked 2.wav::AudioStreamWAV::5548767685107056377::1734795027::1735134093::1::::<><>::
+Bow Blocked 3.wav::AudioStreamWAV::3362239948196900433::1734795027::1735134093::1::::<><>::
+Bow Impact Hit 1.wav::AudioStreamWAV::5639240389821216657::1734795027::1735134093::1::::<><>::
+Bow Impact Hit 2.wav::AudioStreamWAV::6591427887151028592::1734795027::1735134092::1::::<><>::
+Bow Impact Hit 3.wav::AudioStreamWAV::3064099042824094992::1734795027::1735134092::1::::<><>::
+Bow Put Away 1.wav::AudioStreamWAV::5019662243759390831::1734795027::1735134092::1::::<><>::
+Bow Take Out 1.wav::AudioStreamWAV::6530676998781579913::1734795027::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Attacks/Sword Attacks Hits and Blocks/::1734795420
+Sword Attack 1.wav::AudioStreamWAV::3043092412101033339::1734795027::1735134092::1::::<><>::
+Sword Attack 2.wav::AudioStreamWAV::6592772901819055259::1734795027::1735134092::1::::<><>::
+Sword Attack 3.wav::AudioStreamWAV::9213665331722066908::1734795027::1735134092::1::::<><>::
+Sword Blocked 1.wav::AudioStreamWAV::4489409098167220553::1734795027::1735134092::1::::<><>::
+Sword Blocked 2.wav::AudioStreamWAV::2051992087033160595::1734795027::1735134092::1::::<><>::
+Sword Blocked 3.wav::AudioStreamWAV::3365482249892974374::1734795027::1735134092::1::::<><>::
+Sword Impact Hit 1.wav::AudioStreamWAV::3270147343302739832::1734795027::1735134092::1::::<><>::
+Sword Impact Hit 2.wav::AudioStreamWAV::7727922878166697466::1734795027::1735134092::1::::<><>::
+Sword Impact Hit 3.wav::AudioStreamWAV::1254668765548119439::1734795027::1735134092::1::::<><>::
+Sword Parry 1.wav::AudioStreamWAV::6562490612748615653::1734795027::1735134092::1::::<><>::
+Sword Parry 2.wav::AudioStreamWAV::1921973752588906929::1734795027::1735134092::1::::<><>::
+Sword Parry 3.wav::AudioStreamWAV::6107472841860386022::1734795027::1735134092::1::::<><>::
+Sword Sheath 1.wav::AudioStreamWAV::6223664680822255666::1734795027::1735134092::1::::<><>::
+Sword Sheath 2.wav::AudioStreamWAV::8484683955836298725::1734795027::1735134092::1::::<><>::
+Sword Unsheath 1.wav::AudioStreamWAV::7940077452771197271::1734795027::1735134092::1::::<><>::
+Sword Unsheath 2.wav::AudioStreamWAV::5190235285465065401::1734795027::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Chopping and Mining/::1734795421
+chop 1.wav::AudioStreamWAV::9013720830138403692::1734795027::1735134092::1::::<><>::
+chop 2.wav::AudioStreamWAV::6497631889182717597::1734795027::1735134092::1::::<><>::
+chop 3.wav::AudioStreamWAV::2994529177814281417::1734795027::1735134092::1::::<><>::
+chop 4.wav::AudioStreamWAV::4979147114386263680::1734795027::1735134092::1::::<><>::
+mine 1.wav::AudioStreamWAV::1851348596959433942::1734795027::1735134092::1::::<><>::
+mine 2.wav::AudioStreamWAV::9066973315422107036::1734795027::1735134094::1::::<><>::
+mine 3.wav::AudioStreamWAV::4051288177020645892::1734795027::1735134094::1::::<><>::
+mine 4.wav::AudioStreamWAV::6043541135126391593::1734795027::1735134094::1::::<><>::
+mine 5.wav::AudioStreamWAV::3550128823535898669::1734795027::1735134094::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Doors Gates and Chests/::1734795421
+Chest Close 1.wav::AudioStreamWAV::4998827343832156979::1734795027::1735134094::1::::<><>::
+Chest Close 2.wav::AudioStreamWAV::3444298419750703432::1734795027::1735134094::1::::<><>::
+Chest Open 1.wav::AudioStreamWAV::8399773358362243564::1734795027::1735134094::1::::<><>::
+Chest Open 2.wav::AudioStreamWAV::5657714671598873006::1734795027::1735134094::1::::<><>::
+Door Close 1.wav::AudioStreamWAV::3099181061933609468::1734795027::1735134094::1::::<><>::
+Door Close 2.wav::AudioStreamWAV::4591776420821992154::1734795027::1735134094::1::::<><>::
+Door Open 1.wav::AudioStreamWAV::201597428263533472::1734795027::1735134094::1::::<><>::
+Door Open 2.wav::AudioStreamWAV::8636780049987202391::1734795027::1735134094::1::::<><>::
+Gate Close.wav::AudioStreamWAV::8830193273125839809::1734795027::1735134094::1::::<><>::
+Gate Open.wav::AudioStreamWAV::9137601986819164008::1734795027::1735134094::1::::<><>::
+Lock Unlock.wav::AudioStreamWAV::8131131151263411399::1734795027::1735134094::1::::<><>::
+Portcullis Gate.wav::AudioStreamWAV::7642480515683739010::1734795027::1735134094::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/::1734795028
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Dirt/::1734795421
+Dirt Chain Jump.wav::AudioStreamWAV::4621530094376860164::1734795027::1735134094::1::::<><>::
+Dirt Chain Land.wav::AudioStreamWAV::8446195794085781048::1734795027::1735134094::1::::<><>::
+Dirt Chain Run 1.wav::AudioStreamWAV::8944840856335395392::1734795027::1735134094::1::::<><>::
+Dirt Chain Run 2.wav::AudioStreamWAV::7810412820777955971::1734795027::1735134094::1::::<><>::
+Dirt Chain Run 3.wav::AudioStreamWAV::8814416117233629215::1734795027::1735134094::1::::<><>::
+Dirt Chain Run 4.wav::AudioStreamWAV::2734367161578304884::1734795027::1735134094::1::::<><>::
+Dirt Chain Run 5.wav::AudioStreamWAV::1400883490833884079::1734795027::1735134094::1::::<><>::
+Dirt Chain Walk 1.wav::AudioStreamWAV::6939835920014986196::1734795027::1735134094::1::::<><>::
+Dirt Chain Walk 2.wav::AudioStreamWAV::4928086675721944588::1734795027::1735134094::1::::<><>::
+Dirt Chain Walk 3.wav::AudioStreamWAV::4772071250074878761::1734795027::1735134094::1::::<><>::
+Dirt Chain Walk 4.wav::AudioStreamWAV::888305722659683770::1734795027::1735134093::1::::<><>::
+Dirt Chain Walk 5.wav::AudioStreamWAV::2076444524160759599::1734795027::1735134093::1::::<><>::
+Dirt Jump.wav::AudioStreamWAV::1567898965305315088::1734795027::1735134093::1::::<><>::
+Dirt Land.wav::AudioStreamWAV::738520101971117948::1734795027::1735134093::1::::<><>::
+Dirt Run 1.wav::AudioStreamWAV::5908718285259678828::1734795027::1735134093::1::::<><>::
+Dirt Run 2.wav::AudioStreamWAV::1826216686450359850::1734795027::1735134093::1::::<><>::
+Dirt Run 3.wav::AudioStreamWAV::3684613049958254617::1734795027::1735134093::1::::<><>::
+Dirt Run 4.wav::AudioStreamWAV::1790453156903190176::1734795027::1735134093::1::::<><>::
+Dirt Run 5.wav::AudioStreamWAV::4339722527235928146::1734795027::1735134093::1::::<><>::
+Dirt Walk 1.wav::AudioStreamWAV::1130606454706227592::1734795027::1735134093::1::::<><>::
+Dirt Walk 2.wav::AudioStreamWAV::5241933408334288369::1734795027::1735134093::1::::<><>::
+Dirt Walk 3.wav::AudioStreamWAV::6136017642841143187::1734795027::1735134093::1::::<><>::
+Dirt Walk 4.wav::AudioStreamWAV::8047486766886837976::1734795027::1735134093::1::::<><>::
+Dirt Walk 5.wav::AudioStreamWAV::6311014516246976610::1734795027::1735134093::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Stone/::1734795421
+Stone Chain Jump.wav::AudioStreamWAV::2802330532381355553::1734795027::1735134093::1::::<><>::
+Stone Chain Land.wav::AudioStreamWAV::2682643432884081378::1734795027::1735134093::1::::<><>::
+Stone Chain Run 1.wav::AudioStreamWAV::100247554173018117::1734795027::1735134093::1::::<><>::
+Stone Chain Run 2.wav::AudioStreamWAV::1188318998647366958::1734795027::1735134093::1::::<><>::
+Stone Chain Run 3.wav::AudioStreamWAV::9028070803720653624::1734795027::1735134093::1::::<><>::
+Stone Chain Run 4.wav::AudioStreamWAV::894860270956276504::1734795027::1735134094::1::::<><>::
+Stone Chain Run 5.wav::AudioStreamWAV::4183339728286338807::1734795027::1735134094::1::::<><>::
+Stone Chain Walk 1.wav::AudioStreamWAV::7356641279502994415::1734795027::1735134094::1::::<><>::
+Stone Chain Walk 2.wav::AudioStreamWAV::9179860009798590215::1734795027::1735134094::1::::<><>::
+Stone Chain Walk 3.wav::AudioStreamWAV::2504785593730388917::1734795027::1735134094::1::::<><>::
+Stone Chain Walk 4.wav::AudioStreamWAV::2340080760678643274::1734795027::1735134094::1::::<><>::
+Stone Chain Walk 5.wav::AudioStreamWAV::2889702741914425850::1734795027::1735134094::1::::<><>::
+Stone Jump.wav::AudioStreamWAV::5471254982757250481::1734795027::1735134092::1::::<><>::
+Stone Land.wav::AudioStreamWAV::1509247695561638700::1734795027::1735134092::1::::<><>::
+Stone Run 1.wav::AudioStreamWAV::6996060397532162267::1734795027::1735134092::1::::<><>::
+Stone Run 2.wav::AudioStreamWAV::5438250701241083320::1734795027::1735134092::1::::<><>::
+Stone Run 3.wav::AudioStreamWAV::2293905114748613128::1734795027::1735134092::1::::<><>::
+Stone Run 4.wav::AudioStreamWAV::3608989191787736034::1734795027::1735134092::1::::<><>::
+Stone Run 5.wav::AudioStreamWAV::164165289297373036::1734795027::1735134092::1::::<><>::
+Stone Walk 1.wav::AudioStreamWAV::1471755558676694198::1734795027::1735134092::1::::<><>::
+Stone Walk 2.wav::AudioStreamWAV::5605780988071373463::1734795027::1735134092::1::::<><>::
+Stone Walk 3.wav::AudioStreamWAV::4750412505610973752::1734795027::1735134092::1::::<><>::
+Stone Walk 4.wav::AudioStreamWAV::6189503962766756370::1734795027::1735134092::1::::<><>::
+Stone Walk 5.wav::AudioStreamWAV::4294297490469783779::1734795027::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Water/::1734795419
+Water Chain Jump.wav::AudioStreamWAV::3023693821879123572::1734795027::1735134092::1::::<><>::
+Water Chain Land.wav::AudioStreamWAV::6737121759605634759::1734795027::1735134092::1::::<><>::
+Water Chain Run 1.wav::AudioStreamWAV::7033687602008467937::1734795027::1735134092::1::::<><>::
+Water Chain Run 2.wav::AudioStreamWAV::3853324827693092716::1734795028::1735134092::1::::<><>::
+Water Chain Run 3.wav::AudioStreamWAV::8161300405021823392::1734795028::1735134092::1::::<><>::
+Water Chain Run 4.wav::AudioStreamWAV::3138700440463099892::1734795028::1735134092::1::::<><>::
+Water Chain Run 5.wav::AudioStreamWAV::285995876920492866::1734795028::1735134092::1::::<><>::
+Water Chain Walk 1.wav::AudioStreamWAV::4583230823346020503::1734795028::1735134092::1::::<><>::
+Water Chain Walk 2.wav::AudioStreamWAV::3710934726552334142::1734795028::1735134092::1::::<><>::
+Water Chain Walk 3.wav::AudioStreamWAV::8123326305099034875::1734795028::1735134092::1::::<><>::
+Water Chain Walk 4.wav::AudioStreamWAV::6507562759672488255::1734795028::1735134092::1::::<><>::
+Water Chain Walk 5.wav::AudioStreamWAV::2324268652177356449::1734795028::1735134092::1::::<><>::
+Water Jump.wav::AudioStreamWAV::5033779677912740567::1734795028::1735134092::1::::<><>::
+Water Land.wav::AudioStreamWAV::2548925620260858909::1734795028::1735134092::1::::<><>::
+Water Run 1.wav::AudioStreamWAV::8871391716447342621::1734795028::1735134092::1::::<><>::
+Water Run 2.wav::AudioStreamWAV::5618884151778929056::1734795028::1735134092::1::::<><>::
+Water Run 3.wav::AudioStreamWAV::5576398272658869618::1734795028::1735134092::1::::<><>::
+Water Run 4.wav::AudioStreamWAV::6025366714111772568::1734795028::1735134092::1::::<><>::
+Water Run 5.wav::AudioStreamWAV::6044248065439110645::1734795028::1735134092::1::::<><>::
+Water Walk 1.wav::AudioStreamWAV::8245743407501890944::1734795028::1735134092::1::::<><>::
+Water Walk 2.wav::AudioStreamWAV::2229172046708400968::1734795028::1735134092::1::::<><>::
+Water Walk 3.wav::AudioStreamWAV::5551490977456807873::1734795028::1735134092::1::::<><>::
+Water Walk 4.wav::AudioStreamWAV::2547920128466483154::1734795028::1735134092::1::::<><>::
+Water Walk 5.wav::AudioStreamWAV::6252326928519137561::1734795028::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Footsteps/Wood/::1734795419
+Wood Chain Jump.wav::AudioStreamWAV::3791313550824945168::1734795028::1735134092::1::::<><>::
+Wood Chain Land.wav::AudioStreamWAV::8509688385782182828::1734795028::1735134092::1::::<><>::
+Wood Chain Run 1.wav::AudioStreamWAV::1466635882701938055::1734795028::1735134092::1::::<><>::
+Wood Chain Run 2.wav::AudioStreamWAV::7193852747510221621::1734795028::1735134092::1::::<><>::
+Wood Chain Run 3.wav::AudioStreamWAV::5290776301126864858::1734795028::1735134092::1::::<><>::
+Wood Chain Run 4.wav::AudioStreamWAV::1438787302735251978::1734795028::1735134092::1::::<><>::
+Wood Chain Run 5.wav::AudioStreamWAV::3775540347569604012::1734795028::1735134092::1::::<><>::
+Wood Chain Walk 1.wav::AudioStreamWAV::6719033281792193650::1734795028::1735134092::1::::<><>::
+Wood Chain Walk 2.wav::AudioStreamWAV::5702820445749823508::1734795028::1735134092::1::::<><>::
+Wood Chain Walk 3.wav::AudioStreamWAV::3680683762441261002::1734795028::1735134092::1::::<><>::
+Wood Chain Walk 4.wav::AudioStreamWAV::9096729306380752004::1734795028::1735134092::1::::<><>::
+Wood Chain Walk 5.wav::AudioStreamWAV::4781459753565131538::1734795028::1735134092::1::::<><>::
+Wood Jump.wav::AudioStreamWAV::2932782937229959658::1734795028::1735134092::1::::<><>::
+Wood Land.wav::AudioStreamWAV::7591166281212859002::1734795028::1735134092::1::::<><>::
+Wood Run 1.wav::AudioStreamWAV::971591246687676236::1734795028::1735134092::1::::<><>::
+Wood Run 2.wav::AudioStreamWAV::3078366424421358627::1734795028::1735134092::1::::<><>::
+Wood Run 3.wav::AudioStreamWAV::4224805740307032543::1734795028::1735134092::1::::<><>::
+Wood Run 4.wav::AudioStreamWAV::78131914803206231::1734795028::1735134092::1::::<><>::
+Wood Run 5.wav::AudioStreamWAV::5155388507530464266::1734795028::1735134092::1::::<><>::
+Wood Walk 1.wav::AudioStreamWAV::9010999502431419296::1734795028::1735134092::1::::<><>::
+Wood Walk 2.wav::AudioStreamWAV::252078655106152126::1734795028::1735134092::1::::<><>::
+Wood Walk 3.wav::AudioStreamWAV::4637440046152733553::1734795028::1735134092::1::::<><>::
+Wood Walk 4.wav::AudioStreamWAV::7181059134316737811::1734795028::1735134092::1::::<><>::
+Wood Walk 5.wav::AudioStreamWAV::8802978348120074396::1734795028::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Spells/::1734795420
+Fireball 1.wav::AudioStreamWAV::8319677334861190433::1734795028::1735134092::1::::<><>::
+Fireball 2.wav::AudioStreamWAV::8182944907480861971::1734795028::1735134092::1::::<><>::
+Fireball 3.wav::AudioStreamWAV::5160018357759051932::1734795028::1735134092::1::::<><>::
+Firebuff 1.wav::AudioStreamWAV::2027793562875289832::1734795029::1735134092::1::::<><>::
+Firebuff 2.wav::AudioStreamWAV::7016125972086574132::1734795029::1735134092::1::::<><>::
+Firespray 1.wav::AudioStreamWAV::542954312424023242::1734795029::1735134092::1::::<><>::
+Firespray 2.wav::AudioStreamWAV::1140160907612878333::1734795029::1735134092::1::::<><>::
+Ice Barrage 1.wav::AudioStreamWAV::2001047539966350291::1734795029::1735134092::1::::<><>::
+Ice Barrage 2.wav::AudioStreamWAV::3147308609568352768::1734795029::1735134092::1::::<><>::
+Ice Freeze 1.wav::AudioStreamWAV::6825816863028142620::1734795029::1735134092::1::::<><>::
+Ice Freeze 2.wav::AudioStreamWAV::8247185064291911850::1734795029::1735134092::1::::<><>::
+Ice Throw 1.wav::AudioStreamWAV::7169399810337770259::1734795029::1735134092::1::::<><>::
+Ice Throw 2.wav::AudioStreamWAV::7268507200036262953::1734795029::1735134092::1::::<><>::
+Ice Wall 1.wav::AudioStreamWAV::8267837225938222326::1734795029::1735134092::1::::<><>::
+Ice Wall 2.wav::AudioStreamWAV::1396769386429823106::1734795029::1735134092::1::::<><>::
+Rock Meteor Swarm 1.wav::AudioStreamWAV::5718032949546521280::1734795029::1735134092::1::::<><>::
+Rock Meteor Swarm 2.wav::AudioStreamWAV::5897173325811543877::1734795029::1735134092::1::::<><>::
+Rock Meteor Throw 1.wav::AudioStreamWAV::6964998707328430398::1734795029::1735134092::1::::<><>::
+Rock Meteor Throw 2.wav::AudioStreamWAV::5641518056995000946::1734795029::1735134092::1::::<><>::
+Rock Wall 1.wav::AudioStreamWAV::2179304596127996728::1734795029::1735134092::1::::<><>::
+Rock Wall 2.wav::AudioStreamWAV::9005775464969051145::1734795029::1735134092::1::::<><>::
+Spell Impact 1.wav::AudioStreamWAV::3560102890496079002::1734795029::1735134092::1::::<><>::
+Spell Impact 2.wav::AudioStreamWAV::7367493702405202659::1734795029::1735134092::1::::<><>::
+Spell Impact 3.wav::AudioStreamWAV::7788990953502786107::1734795029::1735134092::1::::<><>::
+Waterspray 1.wav::AudioStreamWAV::3079798717094791676::1734795029::1735134092::1::::<><>::
+Waterspray 2.wav::AudioStreamWAV::3314158745357002312::1734795029::1735134092::1::::<><>::
+Wave Attack 1.wav::AudioStreamWAV::3298638882729263615::1734795029::1735134092::1::::<><>::
+Wave Attack 2.wav::AudioStreamWAV::2461642445533605811::1734795029::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Torch/::1734795419
+Light Torch 1.wav::AudioStreamWAV::3374968882814390371::1734795029::1735134092::1::::<><>::
+Light Torch 2.wav::AudioStreamWAV::7866900442365127921::1734795029::1735134092::1::::<><>::
+Light Torch with Starting Loop 1.wav::AudioStreamWAV::602170447062018235::1734795029::1735134092::1::::<><>::
+Light Torch with Starting Loop 2.wav::AudioStreamWAV::7187689843652074554::1734795029::1735134092::1::::<><>::
+Torch Attack Strike 1.wav::AudioStreamWAV::1183808247313551273::1734795029::1735134092::1::::<><>::
+Torch Attack Strike 2.wav::AudioStreamWAV::1694175282858020717::1734795029::1735134092::1::::<><>::
+Torch Impact 1.wav::AudioStreamWAV::8071532827423486452::1734795029::1735134092::1::::<><>::
+Torch Impact 2.wav::AudioStreamWAV::5259059547225918194::1734795029::1735134092::1::::<><>::
+Torch Loop.wav::AudioStreamWAV::6957637926954052163::1734795029::1735134092::1::::<><>::
+::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/WAV Files/SFX/Waterfalls Rivers and Streams/::1734795420
+River Loop.wav::AudioStreamWAV::3590837834607100549::1734795029::1735134092::1::::<><>::
+River Stream Loop.wav::AudioStreamWAV::8124198624381541614::1734795029::1735134092::1::::<><>::
+Waterfall Loop.wav::AudioStreamWAV::4644634987691323370::1734795029::1735134092::1::::<><>::
+::res://Assets/sound/Skeleton/::1734795417
+skeleton-dying.mp3::AudioStreamMP3::125637133635875246::1734795029::1735134088::1::::<><>::
+::res://Coins/::1734795029
+coin.gd::GDScript::-1::1734795029::0::1::::<>Area2D<>::
+coin.tscn::PackedScene::2505349619880988197::1734795029::0::1::::<><>::uid://ckyhh023as28o::::res://Assets/coins/MonedaD.png<>res://Coins/coin.gd
+::res://Enemy/::1735133442
+moshroomhead.gd::GDScript::-1::1735133442::0::1::::<>CharacterBody2D<>::
+moshroomhead.tscn::PackedScene::5879026897986838296::1735133442::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+skeleton.gd::GDScript::-1::1735133442::0::1::::<>CharacterBody2D<>::
+skeleton.tscn::PackedScene::5571203597947411142::1735133442::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png
+::res://Player/::1735133442
+player.gd::GDScript::-1::1735133442::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2588067675108664480::1735133442::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+::res://Scene/::1735133442
+player_signal.gd::GDScript::-1::1734795029::0::1::::<>Node<>::
+::res://Scene/Damage_box/::1735133442
+damage_box.tscn::PackedScene::5738743825281728075::1735133442::0::1::::<><>::
+::res://Scene/Level_1/::1735133442
+level.gd::GDScript::-1::1735133442::0::1::::<>Node2D<>::
+level.tscn::PackedScene::2253303079465017979::1735133442::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
+::res://Scene/Level_1/Background_level_1/::1734795029
+bg_menu.gd::GDScript::-1::1734795029::0::1::::<>ParallaxBackground<>::
+BG_Menu.tscn::PackedScene::6171405604104205247::1734795029::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png
+::res://Scene/Level_king/::1735133442
+Chill.tscn::PackedScene::7564318978998329495::1735133442::0::1::::<><>::uid://cyge8g8bulccr::::res://Assets/King_castle/background 1/Plan 3.png<>uid://rfg3che86ek1::::res://Assets/King_castle/background 1/Plan 2.png<>uid://035udpxeobol::::res://Assets/King_castle/background 1/Plan 1.png<>uid://cfuhmphn8lal3::::res://Assets/King_castle/background 3/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_king/tp_to_hall_area.gd
+Hallway.tscn::PackedScene::7256743744635029289::1735133442::0::1::::<><>::uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/tp_to_chill_area.gd
+tp_to_chill_area.gd::GDScript::-1::1735133442::0::1::::<>Area2D<>::
+tp_to_hall_area.gd::GDScript::-1::1735133442::0::1::::<>Area2D<>::
+::res://Scene/Main_menu/::1735133442
+elden_ring_01. Elden Ring.mp3::AudioStreamMP3::8802255091432924984::1734795029::1735134088::1::::<><>::
+main.gd::GDScript::-1::1735133442::0::1::::<>Control<>::
+Main.tscn::PackedScene::7477940621948692399::1734795029::0::1::::<><>::res://Scene/Main_menu/main.gd<>uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg
+settings_menu.gd::GDScript::-1::1735133442::0::1::::<>Control<>::
+settings_menu.tscn::PackedScene::6528100981958531771::1734795029::0::1::::<><>::uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg<>res://Scene/Main_menu/settings_menu.gd
+sure.gd::GDScript::-1::1734795029::0::1::::<>Control<>::
+Sure.tscn::PackedScene::7499251855688139502::1734795029::0::1::::<><>::res://Scene/Main_menu/sure.gd<>uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg

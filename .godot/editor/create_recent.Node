@@ -1,3 +1,6 @@
+RichTextLabel
+Control
+Container
 CollisionShape2D
 Area2D
 ParallaxLayer
@@ -10,5 +13,3 @@ CanvasModulate
 Node2D
 TextureProgressBar
 Node
-TextureRect
-Label
