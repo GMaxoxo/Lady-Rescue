@@ -1,9 +1,4 @@
-res://Player/player.tscn
-res://Scene/Level_king/Hallway.tscn
-res://Player/player.gd
-res://Scene/Arena/Arena.tscn
-res://Scene/Level_king/tp_to_chill_area.gd
-res://Scene/Level_king/hallway.gd
-res://Scene/Level_1/ScriptPauseMenu.gd
-res://Scene/Arena/arena.gd
 res://Scene/Level_1/level.tscn
+res://Scene/Level_king/Hallway.tscn
+res://Scene/Arena/Arena.tscn
+res://Player/player.tscn
