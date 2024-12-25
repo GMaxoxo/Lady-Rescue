@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1735147420
+::res://::1735149666
 ::res://addons/::1735138075
 ::res://addons/AS2P/::1734795029
 InspectorConvertor.gd::GDScript::-1::1734795029::0::1::::<>EditorInspectorPlugin<>::
@@ -590,25 +590,25 @@ player.tscn::PackedScene::2588067675108664480::1735138081::0::1::::<><>::res://P
 ::res://Scene/::1735142864
 ::res://Scene/Damage_box/::1735138081
 damage_box.tscn::PackedScene::5738743825281728075::1735138081::0::1::::<><>::
-::res://Scene/Global/::1735142855
+::res://Scene/Global/::1735148453
 pause_menu.gd::GDScript::-1::1735140086::0::1::::<>RefCounted<>::
-pause_menu.tscn::PackedScene::6697125956174702823::1735140086::0::1::::<><>::
+pause_menu.tscn::PackedScene::6697125956174702823::1735148453::0::1::::<><>::
 Settings_menu_level.tscn::PackedScene::5454293176359335226::1735140086::0::1::::<><>::
-::res://Scene/Level_1/::1735140824
+::res://Scene/Level_1/::1735148453
 level.gd::GDScript::-1::1735138738::0::1::::<>Node2D<>::
-level.tscn::PackedScene::2253303079465017979::1735140580::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_1/ScriptPauseMenu.gd<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c2oexlb7nyfad::::res://Scene/Global/pause_menu.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://cjydn87y4vqd3::::res://Scene/Global/Settings_menu_level.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
+level.tscn::PackedScene::2253303079465017979::1735148453::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_1/ScriptPauseMenu.gd<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c2oexlb7nyfad::::res://Scene/Global/pause_menu.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://cjydn87y4vqd3::::res://Scene/Global/Settings_menu_level.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
 ScriptPauseMenu.gd::GDScript::-1::1735140824::0::1::::<>Node<>::
 ::res://Scene/Level_1/Background_level_1/::1734795029
 bg_menu.gd::GDScript::-1::1734795029::0::1::::<>ParallaxBackground<>::
 BG_Menu.tscn::PackedScene::6171405604104205247::1734795029::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png
-::res://Scene/Level_king/::1735140838
+::res://Scene/Level_king/::1735147669
 Chill.tscn::PackedScene::7564318978998329495::1735138081::0::1::::<><>::uid://cyge8g8bulccr::::res://Assets/King_castle/background 1/Plan 3.png<>uid://rfg3che86ek1::::res://Assets/King_castle/background 1/Plan 2.png<>uid://035udpxeobol::::res://Assets/King_castle/background 1/Plan 1.png<>uid://cfuhmphn8lal3::::res://Assets/King_castle/background 3/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_king/tp_to_hall_area.gd
-Hallway.tscn::PackedScene::7256743744635029289::1735140838::0::1::::<><>::res://Scene/Level_1/ScriptPauseMenu.gd<>uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/tp_to_chill_area.gd<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
+Hallway.tscn::PackedScene::7256743744635029289::1735147669::0::1::::<><>::res://Scene/Level_1/ScriptPauseMenu.gd<>uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/tp_to_chill_area.gd<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
 tp_to_chill_area.gd::GDScript::-1::1735138081::0::1::::<>Area2D<>::
 tp_to_hall_area.gd::GDScript::-1::1735138081::0::1::::<>Area2D<>::
-::res://Scene/Main_menu/::1735147387
+::res://Scene/Main_menu/::1735148525
 main.gd::GDScript::-1::1735140846::0::1::::<>Control<>::
-Main.tscn::PackedScene::7477940621948692399::1735147387::0::1::::<><>::res://Scene/Main_menu/main.gd<>uid://f313lafgi7xl::::res://Assets/background/BackMainMenu.png
+Main.tscn::PackedScene::7477940621948692399::1735148525::0::1::::<><>::res://Scene/Main_menu/main.gd<>uid://f313lafgi7xl::::res://Assets/background/BackMainMenu.png
 settings_menu.gd::GDScript::-1::1735138081::0::1::::<>Control<>::
 settings_menu.tscn::PackedScene::6528100981958531771::1735140247::0::1::::<><>::res://Scene/Main_menu/settings_menu.gd<>uid://f313lafgi7xl::::res://Assets/background/BackMainMenu.png
 sure.gd::GDScript::-1::1734795029::0::1::::<>Control<>::

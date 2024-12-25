@@ -3433,7 +3433,6 @@ texture = ExtResource("17_65g0f")
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution1" to="ScriptPauseMenu" method="_on_resolution_1_pressed"]
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution2" to="ScriptPauseMenu" method="_on_resolution_2_pressed"]
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution3" to="ScriptPauseMenu" method="_on_resolution_3_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/SettingsExit" to="ScriptPauseMenu" method="_on_settings_exit_pressed"]
 [connection signal="timeout" from="Coins/Coin_Timer" to="Coins" method="_on_coin_timer_timeout"]
 [connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]
 

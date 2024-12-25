@@ -197,9 +197,22 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "Сложная"
 
-[node name="SettingsExit" type="Button" parent="MarginContainer/HBoxContainer"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(80, 60)
+[node name="Other" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Keybindings" type="Button" parent="MarginContainer/HBoxContainer/Other"]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+tooltip_text = "Загрузить игру"
+theme_override_font_sizes/font_size = 16
+text = "управение"
+
+[node name="SettingsExit2" type="Button" parent="MarginContainer/HBoxContainer/Other"]
+custom_minimum_size = Vector2(120, 80)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
@@ -214,4 +227,4 @@ text = "назад
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ResolitonChange/Resolution3" to="." method="_on_resolution_3_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundYes" to="." method="_on_sound_yes_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundNo" to="." method="_on_sound_no_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/SettingsExit" to="." method="_on_settings_exit_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Other/SettingsExit2" to="." method="_on_settings_exit_pressed"]
