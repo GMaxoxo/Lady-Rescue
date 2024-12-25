@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjvj4wqdues07"
-path="res://.godot/imported/Plan 1.png-5d3798fcaaf585ddeac1b7228eb13e99.ctex"
+uid="uid://cdormqepcjdov"
+path="res://.godot/imported/король 1.png-041404e3d12390b36a8932b9df0ffd87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/King_castle/background 1/Plan 1.png"
-dest_files=["res://.godot/imported/Plan 1.png-5d3798fcaaf585ddeac1b7228eb13e99.ctex"]
+source_file="res://Assets/character/King/король анимейшен/король 1.png"
+dest_files=["res://.godot/imported/король 1.png-041404e3d12390b36a8932b9df0ffd87.ctex"]
 
 [params]
 
