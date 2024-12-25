@@ -1,6 +1,9 @@
-res://Assets/decorations/tscn
 res://Scene/Main_menu
+res://Scene/Level_1
 res://Scene/Level_king
+res://Assets
+res://Assets/King_castle/background 4
+res://Assets/decorations/tscn
 res://Assets/character/Skeleton
 <<<<<<< HEAD
 res://Assets/character/Mushroom
@@ -17,4 +20,3 @@ res://Assets/character/Mushroom
 res://Assets/decorations
 res://Assets/character/Player
 res://Coins
-res://Assets/coins

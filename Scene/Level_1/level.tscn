@@ -21,6 +21,7 @@
 [ext_resource type="Texture2D" uid="uid://cafaeq5sec3y3" path="res://Assets/character/Player/Healthbar/Healthbar_color.png" id="18_qwok2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a1scu"]
+resource_name = "Floor"
 texture = ExtResource("1_uipwf")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)

@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734803502
-::res://addons/::1734794761
+::res://::1735129872
+::res://addons/::1735021851
 ::res://addons/AS2P/::1734794761
 InspectorConvertor.gd::GDScript::-1::1734789796::0::1::::<>EditorInspectorPlugin<>::
 NodeSelectorProperty.gd::GDScript::-1::1734789796::0::1::::<>EditorProperty<>::
 plugin.cfg::TextFile::-1::1734789796::0::1::::<><>::
 plugin.gd::GDScript::-1::1734789796::0::1::::<>EditorPlugin<>::
-::res://Assets/::1734803418
+::res://Assets/::1735113750
 oak_woods_tileset.png::CompressedTexture2D::2584249635450658647::1734789793::1734794233::1::::<><>::
 readme.TXT::TextFile::-1::1734789793::0::1::::<><>::
 ::res://Assets/background/::1734794761
@@ -16,7 +16,9 @@ background_layer_3.png::CompressedTexture2D::7556728372061621502::1734789793::17
 luna-krasivo-foto.jpg::CompressedTexture2D::5100224443723350829::1734789793::1734794233::1::::<><>::
 ::res://Assets/Build/::1734794761
 shop.tscn::PackedScene::7615842199035830877::1734789793::0::1::::<><>::uid://bt241ltn7xxr1::::res://Assets/decorations/shop_anim.png
-::res://Assets/character/::1734794761
+::res://Assets/character/::1735130047
+::res://Assets/character/Dummy/::1735130050
+Training Dummy Sprite Sheet.png::CompressedTexture2D::5118221552685808840::1735129960::1735130052::1::::<><>::
 ::res://Assets/character/Flying eye/::1734794761
 Attack.png::CompressedTexture2D::759281528996999460::1734789793::1734794233::1::::<><>::
 Death.png::CompressedTexture2D::121250255946338613::1734789793::1734794233::1::::<><>::
@@ -34,14 +36,14 @@ Death.png::CompressedTexture2D::4071286360200150139::1734789793::1734794233::1::
 Idle.png::CompressedTexture2D::6422965911317591922::1734789793::1734794233::1::::<><>::
 Run.png::CompressedTexture2D::5437017146580759137::1734789793::1734794233::1::::<><>::
 Take Hit.png::CompressedTexture2D::8985871056580021381::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/::1734803451
+::res://Assets/character/Player/::1735021631
 ::res://Assets/character/Player/blue/::1734794761
 char_blue_1.png::CompressedTexture2D::5321193681672335194::1734789793::1734794233::1::::<><>::
 char_blue_2.png::CompressedTexture2D::3960378840092295364::1734789793::1734794233::1::::<><>::
 ::res://Assets/character/Player/green/::1734794761
 char_green_1.png::CompressedTexture2D::4028640927692699331::1734789793::1734794233::1::::<><>::
 char_green_2.png::CompressedTexture2D::8875469202968994278::1734789793::1734794233::1::::<><>::
-::res://Assets/character/Player/Healthbar/::1734806498
+::res://Assets/character/Player/Healthbar/::1735021631
 Healthbar_color.png::CompressedTexture2D::4783171286873150156::1734806483::1734806501::1::::<><>::
 Healthbar_empty.png::CompressedTexture2D::8090330882732200270::1734806410::1734806501::1::::<><>::
 ::res://Assets/character/Player/purple/::1734794761
@@ -85,28 +87,33 @@ sign.png::CompressedTexture2D::322235133629697319::1734789793::1734794233::1::::
 sign.tscn::PackedScene::6023993248013174738::1734793437::0::1::::<><>::uid://eudfvnvqfn8j::::res://Assets/decorations/sign.png
 signLabel.gd::GDScript::-1::1734794478::0::1::::<>Node2D<>::
 SignLabel.tscn::PackedScene::8887092562974767068::1734795216::0::1::::<><>::res://Assets/decorations/tscn/signLabel.gd<>uid://bdr6qk0ph4asy::::res://Assets/decorations/5.png
-::res://Assets/Level_King_Palase/::1734794762
-::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/::1734794762
-::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/PNG/::1734794762
-::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/PNG/background 1/::1734794762
-background 1.png::CompressedTexture2D::8995234268834910510::1734793089::1734794233::1::::<><>::
-Plan 1.png::CompressedTexture2D::4570892286709973611::1734793089::1734794233::1::::<><>::
-Plan 2.png::CompressedTexture2D::3764245004197287978::1734793089::1734794233::1::::<><>::
-Plan 3.png::CompressedTexture2D::2469862568511248078::1734793089::1734794233::1::::<><>::
-Preview 1.png::CompressedTexture2D::7006751319397362238::1734793089::1734794233::1::::<><>::
-::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/PNG/background 2/::1734794762
-background 2.png::CompressedTexture2D::3065776405047789208::1734793089::1734794233::1::::<><>::
-Plan 1.png::CompressedTexture2D::4036296681266480523::1734793089::1734794233::1::::<><>::
-Plan 2.png::CompressedTexture2D::7657191773462369946::1734793089::1734794233::1::::<><>::
-Plan 3.png::CompressedTexture2D::4861429951521985770::1734793089::1734794233::1::::<><>::
-Plan 4.png::CompressedTexture2D::8468078971018915752::1734793089::1734794233::1::::<><>::
-Preview 2.png::CompressedTexture2D::8117898160801729961::1734793089::1734794234::1::::<><>::
-::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/PNG/background 4/::1734794762
-background 4.png::CompressedTexture2D::1323300831808021101::1734793089::1734794233::1::::<><>::
-Custom.png::CompressedTexture2D::5979014722805439934::1734793089::1734794234::1::::<><>::
-Plan 1.png::CompressedTexture2D::4298607814364504796::1734793089::1734794233::1::::<><>::
-Plan 2.png::CompressedTexture2D::304399783380508840::1734793089::1734794233::1::::<><>::
-Preview 4.png::CompressedTexture2D::495370858507687942::1734793089::1734794234::1::::<><>::
+::res://Assets/King_castle/::1726911010
+::res://Assets/King_castle/background 1/::1735113753
+background 1.png::CompressedTexture2D::6777503711461051847::1726751278::1735113752::1::::<><>::
+Plan 1.png::CompressedTexture2D::1814381075518603835::1726751306::1735113752::1::::<><>::
+Plan 2.png::CompressedTexture2D::1203946650890180678::1726751317::1735113752::1::::<><>::
+Plan 3.png::CompressedTexture2D::6470062046584508885::1726751342::1735113752::1::::<><>::
+Preview 1.png::CompressedTexture2D::6437023878625138108::1726751364::1735113753::1::::<><>::
+::res://Assets/King_castle/background 2/::1735113753
+background 2.png::CompressedTexture2D::5058152623748575880::1726751413::1735113752::1::::<><>::
+Plan 1.png::CompressedTexture2D::7142802819035593245::1726751431::1735113752::1::::<><>::
+Plan 2.png::CompressedTexture2D::76467835272137859::1726751442::1735113752::1::::<><>::
+Plan 3.png::CompressedTexture2D::1519524122743203122::1726751452::1735113752::1::::<><>::
+Plan 4.png::CompressedTexture2D::5021507128342329856::1726751468::1735113752::1::::<><>::
+Preview 2.png::CompressedTexture2D::6255156918254015060::1726751485::1735113753::1::::<><>::
+::res://Assets/King_castle/background 3/::1735113753
+background 3.png::CompressedTexture2D::5775638861695769919::1726751517::1735113752::1::::<><>::
+Plan 1.png::CompressedTexture2D::5165520388432858970::1726751529::1735113752::1::::<><>::
+Plan 2.png::CompressedTexture2D::4056245593335263160::1726751539::1735113752::1::::<><>::
+Plan 3.png::CompressedTexture2D::5232080605625853330::1726751552::1735113752::1::::<><>::
+Plan 4.png::CompressedTexture2D::778837089394646156::1726751567::1735113752::1::::<><>::
+Preview 3.png::CompressedTexture2D::4672486585293874219::1726751583::1735113753::1::::<><>::
+::res://Assets/King_castle/background 4/::1735113753
+background 4.png::CompressedTexture2D::8061750680272995089::1726751612::1735113752::1::::<><>::
+Plan 1.png::CompressedTexture2D::4046296727530509213::1726751622::1735113752::1::::<><>::
+Plan 2.png::CompressedTexture2D::4277427722871179954::1726751647::1735113752::1::::<><>::
+Plan 3.png::CompressedTexture2D::3802917752473939889::1726751658::1735113752::1::::<><>::
+Preview 4.png::CompressedTexture2D::5911211208966601411::1726751677::1735113753::1::::<><>::
 ::res://Assets/sound/::1734794763
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/::1734794762
 ::res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/::1734794762
@@ -568,29 +575,32 @@ skeleton-dying.mp3::AudioStreamMP3::125637133635875246::1734789796::1734794231::
 ::res://Coins/::1734794763
 coin.gd::GDScript::-1::1734789796::0::1::::<>Area2D<>::
 coin.tscn::PackedScene::2505349619880988197::1734789796::0::1::::<><>::uid://ckyhh023as28o::::res://Assets/coins/MonedaD.png<>res://Coins/coin.gd
-::res://Enemy/::1734802957
+::res://Enemy/::1735021596
 moshroomhead.gd::GDScript::-1::1734802675::0::1::::<>CharacterBody2D<>::
 moshroomhead.tscn::PackedScene::5879026897986838296::1734802957::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
 skeleton.gd::GDScript::-1::1734802805::0::1::::<>CharacterBody2D<>::
 skeleton.tscn::PackedScene::5571203597947411142::1734802930::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png
-::res://Player/::1734806287
+::res://Player/::1735122434
 player.gd::GDScript::-1::1734806013::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::2588067675108664480::1734806287::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-::res://Scene/::1734801390
+player.tscn::PackedScene::2588067675108664480::1735122434::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
+::res://Scene/::1735021851
 player_signal.gd::GDScript::-1::1734801390::0::1::::<>Node<>::
-::res://Scene/Damage_box/::1734797069
+::res://Scene/Damage_box/::1735021596
 damage_box.tscn::PackedScene::5738743825281728075::1734797069::0::1::::<><>::
-::res://Scene/Level_1/::1734806287
-level.tscn::PackedScene::2253303079465017979::1734806287::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
+::res://Scene/Level_1/::1735129559
 level.gd::GDScript::-1::1734806177::0::1::::<>Node2D<>::
+level.tscn::PackedScene::2253303079465017979::1735129559::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
 ::res://Scene/Level_1/Background_level_1/::1734794759
 bg_menu.gd::GDScript::-1::1734789796::0::1::::<>ParallaxBackground<>::
 BG_Menu.tscn::PackedScene::6171405604104205247::1734789796::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png
-::res://Scene/Level_king/::1734794759
-king_palace.tscn::PackedScene::7256743744635029289::1734793089::0::1::::<><>::uid://hb7xkvm4rsbe::::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/PNG/background 4/Preview 4.png<>uid://b2ijpbyvl2qdo::::res://Assets/Level_King_Palase/Free-Castle-Interior-Pixel-Game-Backgrounds/PNG/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png
-::res://Scene/Main_menu/::1734794759
+::res://Scene/Level_king/::1735129884
+Chill.tscn::PackedScene::7564318978998329495::1735129884::0::1::::<><>::uid://cyge8g8bulccr::::res://Assets/King_castle/background 1/Plan 3.png<>uid://rfg3che86ek1::::res://Assets/King_castle/background 1/Plan 2.png<>uid://035udpxeobol::::res://Assets/King_castle/background 1/Plan 1.png<>uid://cfuhmphn8lal3::::res://Assets/King_castle/background 3/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_king/tp_to_hall_area.gd
+Hallway.tscn::PackedScene::7256743744635029289::1735129884::0::1::::<><>::uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/tp_to_chill_area.gd
+tp_to_hall_area.gd::GDScript::-1::1735128883::0::1::::<>Area2D<>::
+tp_to_chill_area.gd::GDScript::-1::1735128488::0::1::::<>Area2D<>::
+::res://Scene/Main_menu/::1735121253
 elden_ring_01. Elden Ring.mp3::AudioStreamMP3::8802255091432924984::1734793089::1734794231::1::::<><>::
-main.gd::GDScript::-1::1734793503::0::1::::<>Control<>::
+main.gd::GDScript::-1::1735121253::0::1::::<>Control<>::
 Main.tscn::PackedScene::7477940621948692399::1734789796::0::1::::<><>::res://Scene/Main_menu/main.gd<>uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg
 settings_menu.gd::GDScript::-1::1734793503::0::1::::<>Control<>::
 settings_menu.tscn::PackedScene::6528100981958531771::1734793503::0::1::::<><>::uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg<>res://Scene/Main_menu/settings_menu.gd
