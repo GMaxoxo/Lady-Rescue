@@ -1,3 +1,5 @@
+D:/Huita
+res://Assets/ico
 res://Scene/Main_menu
 res://Scene/Level_1
 res://Scene/Global
@@ -8,15 +10,12 @@ res://Assets
 res://Assets/King_castle/background 4
 res://Assets/decorations/tscn
 res://Assets/character/Skeleton
-<<<<<<< HEAD
 res://Assets/character/Mushroom
 res://Assets/character/Player/blue
 res://Scene/Damage_box
 res://Scene
 res://Enemy
-=======
 res://Scene
 res://
 res://Scene/Damage_box
 res://Assets/character/Mushroom
->>>>>>> Flanity
