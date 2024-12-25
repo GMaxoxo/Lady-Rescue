@@ -1,1 +1,4 @@
+res://NPC/King.tscn
+res://Player/player.tscn
 res://Scene/Arena/Arena.tscn
+res://Scene/Level_king/Hallway.tscn
