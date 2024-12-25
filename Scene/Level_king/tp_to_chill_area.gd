@@ -12,4 +12,4 @@ func _process(delta: float) -> void:
 
 
 func _on_area_entered(area: Area2D) -> void:
-	get_tree().change_scene_to_file.bind("res://Scene/Level_king/Chill.tscn").call_deferred()
+	get_tree().change_scene_to_file.bind("res://Scene/Arena/Arena.tscn").call_deferred()

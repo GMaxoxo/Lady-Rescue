@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://desmubp2w8qol"]
 
 [ext_resource type="Script" path="res://Scene/Main_menu/main.gd" id="1_h0kkf"]
-[ext_resource type="Texture2D" uid="uid://cewt7l4igm2u0" path="res://Assets/background/luna-krasivo-foto.jpg" id="2_j7uak"]
+[ext_resource type="Texture2D" uid="uid://f313lafgi7xl" path="res://Assets/background/BackMainMenu.png" id="2_nss0o"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -19,7 +19,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_j7uak")
+texture = ExtResource("2_nss0o")
+expand_mode = 1
 flip_h = true
 
 [node name="MarginContainer" type="MarginContainer" parent="."]

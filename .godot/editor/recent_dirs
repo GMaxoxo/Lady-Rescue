@@ -1,14 +1,9 @@
-res://Assets/character/King
-res://Scene
-res://NPC
-res://Assets/character/Player/purple
-res://Scene/Level_king
-res://Enemy
-res://Assets/character/Dummy
-res://Scene/Arena
 res://Scene/Level_1
-res://Assets/Arena
+res://Scene/Global
+res://Globals
 res://Scene/Main_menu
+res://Scene/Prologue
+res://Scene/Level_king
 res://Assets
 res://Assets/King_castle/background 4
 res://Assets/decorations/tscn
@@ -17,6 +12,11 @@ res://Assets/character/Skeleton
 res://Assets/character/Mushroom
 res://Assets/character/Player/blue
 res://Scene/Damage_box
+res://Scene
+res://Enemy
 =======
+res://Scene
 res://
+res://Scene/Damage_box
+res://Assets/character/Mushroom
 >>>>>>> Flanity
