@@ -1,7 +1,0 @@
-res://Scene/Arena/Arena.tscn
-res://Scene/Level_king/Hallway.tscn
-res://Player/player.tscn
-res://Scene/Level_1/level.tscn
-res://Scene/Level_king/hallway.gd
-res://Scene/Level_1/level.gd
-res://Scene/Arena/arena.gd
