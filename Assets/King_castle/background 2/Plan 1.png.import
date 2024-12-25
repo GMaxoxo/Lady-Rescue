@@ -2,16 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<<< HEAD:Assets/King_castle/background 2/Plan 1.png.import
 uid="uid://c81a6igukaoyv"
 path="res://.godot/imported/Plan 1.png-ad69357660b95f5bb44bf54739c02b64.ctex"
+========
+uid="uid://cfuhmphn8lal3"
+path="res://.godot/imported/Plan 1.png-552b2c88f256d3319442c9973fc5650e.ctex"
+>>>>>>>> Master:Assets/King_castle/background 3/Plan 1.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<<< HEAD:Assets/King_castle/background 2/Plan 1.png.import
 source_file="res://Assets/King_castle/background 2/Plan 1.png"
 dest_files=["res://.godot/imported/Plan 1.png-ad69357660b95f5bb44bf54739c02b64.ctex"]
+========
+source_file="res://Assets/King_castle/background 3/Plan 1.png"
+dest_files=["res://.godot/imported/Plan 1.png-552b2c88f256d3319442c9973fc5650e.ctex"]
+>>>>>>>> Master:Assets/King_castle/background 3/Plan 1.png.import
 
 [params]
 
