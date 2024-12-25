@@ -1,14 +1,15 @@
 extends Node
 
-@onready var pause_menu = $"../HUD/PauseMenu"
-@onready var settings_menu = $"../HUD/Settings_menu_level"
-var game_paused: bool = false
+@onready var pause_menu = $"../HUD/PauseMenu"  # Инициализация меню паузы
+@onready var settings_menu = $"../HUD/Settings_menu_level" # Инициализация меню настроек
+var game_paused: bool = false # Переменная для статуса паузы
 
 func _process(delta):
-	if Input.is_action_just_pressed("ui_cancel"):
+	if Input.is_action_just_pressed("ui_cancel"): # Смена статуса паузы
 		game_paused = !game_paused
 
-	if game_paused == true:
+# если стоит пауза, то открыто меню паузы
+	if game_paused == true: 
 		get_tree().paused = true
 		pause_menu.show()
 	else:
@@ -17,21 +18,21 @@ func _process(delta):
 		settings_menu.hide()
 
 
-func _on_resume_pressed() -> void:
+func _on_resume_pressed() -> void: # Выход из меню паузы
 	game_paused = !game_paused
 
 
-func _on_main_menu_pressed() -> void:
+func _on_main_menu_pressed() -> void: # Выход в главное меню
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://Scene/Main_menu/Main.tscn")
 
 
-func _on_settings_pressed() -> void:
+func _on_settings_pressed() -> void: # Выход в меню настроек
 	settings_menu.show()
 	pause_menu.hide()
 
 
-func _on_settings_exit_pressed() -> void:
+func _on_settings_exit_pressed() -> void: # Выход из меню настроек
 	settings_menu.hide()
 	pause_menu.show()
 

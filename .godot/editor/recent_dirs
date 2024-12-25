@@ -1,4 +1,5 @@
 res://Scene/Main_menu
+res://Scene/Prologue
 res://Scene/Level_1
 res://Scene/Level_king
 res://Assets
@@ -19,4 +20,3 @@ res://Assets/character/Mushroom
 >>>>>>> Flanity
 res://Assets/decorations
 res://Assets/character/Player
-res://Coins
