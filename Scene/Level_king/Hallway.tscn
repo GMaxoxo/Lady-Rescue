@@ -959,6 +959,7 @@ size_flags_vertical = 8
 text = "назад
 "
 
+[connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]
 [connection signal="area_entered" from="Tp_to_chill_area" to="Tp_to_chill_area" method="_on_area_entered"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Resume" to="ScriptPauseMenu" method="_on_resume_pressed"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Settings" to="ScriptPauseMenu" method="_on_settings_pressed"]

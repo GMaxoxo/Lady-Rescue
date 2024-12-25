@@ -60,59 +60,6 @@ tile_map_data = PackedByteArray("AAC4/xAAAAABAAMAAAC5/xAAAAABAAMAAAC6/xAAAAABAAM
 tile_set = SubResource("TileSet_uhgys")
 metadata/_edit_lock_ = true
 
-[node name="Textures" type="ParallaxBackground" parent="."]
-
-[node name="Arena" type="ParallaxLayer" parent="Textures"]
-position = Vector2(0, 347)
-
-[node name="Wall_right" type="Sprite2D" parent="Textures/Arena"]
-position = Vector2(290, 163)
-texture = ExtResource("2_n1rld")
-metadata/_edit_lock_ = true
-
-[node name="Wall_center" type="Sprite2D" parent="Textures/Arena"]
-position = Vector2(-286, 163)
-texture = ExtResource("2_n1rld")
-metadata/_edit_lock_ = true
-
-[node name="Wall_left" type="Sprite2D" parent="Textures/Arena"]
-position = Vector2(-862, 163)
-texture = ExtResource("2_n1rld")
-metadata/_edit_lock_ = true
-
-[node name="NPC" type="Node2D" parent="."]
-
-[node name="Gilbert" parent="NPC" instance=ExtResource("3_ikugt")]
-position = Vector2(434, 212)
-scale = Vector2(1.5, 1.5)
-
-[node name="Enemy" type="Node2D" parent="."]
-
-[node name="Moshroomhead" parent="Enemy" instance=ExtResource("6_bj3bs")]
-position = Vector2(-386, 227)
-collision_layer = 4
-
-[node name="Player" type="Node2D" parent="."]
-
-[node name="Player" parent="Player" instance=ExtResource("4_0a5hc")]
-position = Vector2(310, 229)
-collision_layer = 1
-
-[node name="Border_right" type="Sprite2D" parent="."]
-position = Vector2(286, 149)
-texture = ExtResource("4_wkjqf")
-metadata/_edit_lock_ = true
-
-[node name="Border_center" type="Sprite2D" parent="."]
-position = Vector2(-290, 149)
-texture = ExtResource("4_wkjqf")
-metadata/_edit_lock_ = true
-
-[node name="Border_left" type="Sprite2D" parent="."]
-position = Vector2(-866, 149)
-texture = ExtResource("4_wkjqf")
-metadata/_edit_lock_ = true
-
 [node name="HUD" type="CanvasLayer" parent="."]
 process_priority = 1
 process_physics_priority = 1
@@ -374,6 +321,59 @@ size_flags_vertical = 8
 text = "назад
 "
 
+[node name="Textures" type="ParallaxBackground" parent="."]
+
+[node name="Arena" type="ParallaxLayer" parent="Textures"]
+position = Vector2(0, 347)
+
+[node name="Wall_right" type="Sprite2D" parent="Textures/Arena"]
+position = Vector2(290, 163)
+texture = ExtResource("2_n1rld")
+metadata/_edit_lock_ = true
+
+[node name="Wall_center" type="Sprite2D" parent="Textures/Arena"]
+position = Vector2(-286, 163)
+texture = ExtResource("2_n1rld")
+metadata/_edit_lock_ = true
+
+[node name="Wall_left" type="Sprite2D" parent="Textures/Arena"]
+position = Vector2(-862, 163)
+texture = ExtResource("2_n1rld")
+metadata/_edit_lock_ = true
+
+[node name="NPC" type="Node2D" parent="."]
+
+[node name="Gilbert" parent="NPC" instance=ExtResource("3_ikugt")]
+position = Vector2(434, 212)
+scale = Vector2(1.5, 1.5)
+
+[node name="Enemy" type="Node2D" parent="."]
+
+[node name="Moshroomhead" parent="Enemy" instance=ExtResource("6_bj3bs")]
+position = Vector2(-386, 227)
+collision_layer = 4
+
+[node name="Player" type="Node2D" parent="."]
+
+[node name="Player" parent="Player" instance=ExtResource("4_0a5hc")]
+position = Vector2(310, 229)
+collision_layer = 1
+
+[node name="Border_right" type="Sprite2D" parent="."]
+position = Vector2(286, 149)
+texture = ExtResource("4_wkjqf")
+metadata/_edit_lock_ = true
+
+[node name="Border_center" type="Sprite2D" parent="."]
+position = Vector2(-290, 149)
+texture = ExtResource("4_wkjqf")
+metadata/_edit_lock_ = true
+
+[node name="Border_left" type="Sprite2D" parent="."]
+position = Vector2(-866, 149)
+texture = ExtResource("4_wkjqf")
+metadata/_edit_lock_ = true
+
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Resume" to="ScriptPauseMenu" method="_on_resume_pressed"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Settings" to="ScriptPauseMenu" method="_on_settings_pressed"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/MainMenu" to="ScriptPauseMenu" method="_on_main_menu_pressed"]
@@ -384,3 +384,4 @@ text = "назад
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution2" to="ScriptPauseMenu" method="_on_resolution_2_pressed"]
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution3" to="ScriptPauseMenu" method="_on_resolution_3_pressed"]
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/SettingsExit" to="ScriptPauseMenu" method="_on_settings_exit_pressed"]
+[connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]

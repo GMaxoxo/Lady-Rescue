@@ -8,7 +8,6 @@ func _ready() -> void:
 	healthbar.max_value = player.max_health
 	healthbar.value = healthbar.max_value
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
