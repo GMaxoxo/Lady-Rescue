@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdormqepcjdov"
-path="res://.godot/imported/король 1.png-041404e3d12390b36a8932b9df0ffd87.ctex"
+uid="uid://ifp583xk6ljg"
+path="res://.godot/imported/King.png-cb7b64b05556231b7031829be1ea6b77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/character/King/король анимейшен/король 1.png"
-dest_files=["res://.godot/imported/король 1.png-041404e3d12390b36a8932b9df0ffd87.ctex"]
+source_file="res://Assets/character/King/King.png"
+dest_files=["res://.godot/imported/King.png-cb7b64b05556231b7031829be1ea6b77.ctex"]
 
 [params]
 

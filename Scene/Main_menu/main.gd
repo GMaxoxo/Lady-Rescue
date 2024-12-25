@@ -1,7 +1,7 @@
 extends Control
 
 func _on_new_game_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scene/Level_king/Hallway.tscn") # переход на форму игры
+	get_tree().change_scene_to_file("res://Scene/Prologue/prologue.tscn") # переход на форму игры
 
 func _on_load_game_pressed() -> void: 
 	pass # здесь должна быть реализована функция загрузки игры

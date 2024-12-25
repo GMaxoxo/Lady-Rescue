@@ -10,6 +10,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jigcx"]
 size = Vector2(17, 32)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_8icmb"]
+radius = 44.0202
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_t7faf"]
 atlas = ExtResource("2_jmune")
 region = Rect2(0, 56, 56, 56)
@@ -1088,9 +1091,6 @@ _data = {
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_qic6d"]
 polygon = PackedVector2Array(-4, 15, 2, 15, 6, 18, -8, 18)
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_41640"]
-radius = 45.5729
-
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(0, 506)
 scale = Vector2(1.5, 1.5)
@@ -1100,6 +1100,11 @@ script = ExtResource("1_68ddx")
 [node name="Player_Collision" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, -1)
 shape = SubResource("RectangleShape2D_jigcx")
+
+[node name="NPC_detecter_area" type="Area2D" parent="."]
+
+[node name="NPC_detecter_collision" type="CollisionShape2D" parent="NPC_detecter_area"]
+shape = SubResource("CircleShape2D_8icmb")
 
 [node name="Player_Anim" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -13)
@@ -1150,13 +1155,8 @@ collision_mask = 32
 [node name="Hitbox_collision" parent="Attack_area/Damage_box/Hitbox" index="0"]
 position = Vector2(18, 0)
 
-[node name="Dialog_Trigger" type="Area2D" parent="."]
-
-[node name="Dialog_trigger_collision" type="CollisionShape2D" parent="Dialog_Trigger"]
-shape = SubResource("CircleShape2D_41640")
-
+[connection signal="body_entered" from="NPC_detecter_area" to="." method="_on_npc_detecter_area_body_entered"]
+[connection signal="body_exited" from="NPC_detecter_area" to="." method="_on_npc_detecter_area_body_exited"]
 [connection signal="area_entered" from="Attack_area/Damage_box/Hitbox" to="." method="_on_hitbox_area_entered"]
-[connection signal="body_entered" from="Dialog_Trigger" to="." method="_on_dialog_trigger_body_entered"]
-[connection signal="body_exited" from="Dialog_Trigger" to="." method="_on_dialog_trigger_body_exited"]
 
 [editable path="Attack_area/Damage_box"]

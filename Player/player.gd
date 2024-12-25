@@ -33,8 +33,8 @@ var player_pos                  # Позиция игрока
 var damage_basic = 20           # Базовый урон
 var combo_damage = 1            # Коэффициент увеличения урона для комбо
 var damage_current              # Текущий урон
-var king_on_range = false       # Отстутвие короля для старта диалога
-var gilbert_on_range = false    # Отстутвие тренера для старта диалога
+var king_on_range = false       # Проверка на короля
+var gilbert_on_range = false    # Проверка на тренера
 
 
 # Инициализация
@@ -45,13 +45,15 @@ func _ready() -> void:
 
 # Основной цикл обработки физики
 func _physics_process(delta: float) -> void:
+	
 	# Взаимодействие с диалогами
 	if Input.is_action_just_pressed("Accept"):
 		if king_on_range:
 			DialogueManager.show_dialogue_balloon(load("res://Scene/Dialog/dialogue.dialogue"), "dialog")
 		elif gilbert_on_range:
 			DialogueManager.show_dialogue_balloon(load("res://Scene/Dialog/dialogue_with_Gilbert.dialogue"), "dialog_with_Gilbert")
-
+	
+	
 	# Добавление гравитации, если игрок не на земле
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -228,13 +230,14 @@ func _on_hitbox_area_entered(area: Area2D) -> void:
 	PlayerSignal.emit_signal("player_attack", damage_current)
 
 
-func _on_dialog_trigger_body_entered(body: Node2D) -> void:
+func _on_npc_detecter_area_body_entered(body: Node2D) -> void:
 	if body.name == "King":
 		king_on_range = true
 	elif body.name == "Gilbert":
 		gilbert_on_range = true
 
-func _on_dialog_trigger_body_exited(body: Node2D) -> void:
+
+func _on_npc_detecter_area_body_exited(body: Node2D) -> void:
 	if body.name == "King":
 		king_on_range = false
 	elif body.name == "Gilbert":
