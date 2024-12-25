@@ -1,4 +1,4 @@
-[gd_scene load_steps=108 format=3 uid="uid://bc4xdjsl460ie"]
+[gd_scene load_steps=109 format=3 uid="uid://bc4xdjsl460ie"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_68ddx"]
 [ext_resource type="Texture2D" uid="uid://b6noykxhcy4hi" path="res://Assets/character/Player/char_blue.png" id="1_s7x7y"]
@@ -1088,6 +1088,9 @@ _data = {
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_qic6d"]
 polygon = PackedVector2Array(-4, 15, 2, 15, 6, 18, -8, 18)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_41640"]
+radius = 45.5729
+
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(0, 506)
 scale = Vector2(1.5, 1.5)
@@ -1147,6 +1150,13 @@ collision_mask = 32
 [node name="Hitbox_collision" parent="Attack_area/Damage_box/Hitbox" index="0"]
 position = Vector2(18, 0)
 
+[node name="Dialog_Trigger" type="Area2D" parent="."]
+
+[node name="Dialog_trigger_collision" type="CollisionShape2D" parent="Dialog_Trigger"]
+shape = SubResource("CircleShape2D_41640")
+
 [connection signal="area_entered" from="Attack_area/Damage_box/Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="body_entered" from="Dialog_Trigger" to="." method="_on_dialog_trigger_body_entered"]
+[connection signal="body_exited" from="Dialog_Trigger" to="." method="_on_dialog_trigger_body_exited"]
 
 [editable path="Attack_area/Damage_box"]

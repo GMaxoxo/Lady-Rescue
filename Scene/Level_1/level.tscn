@@ -1,16 +1,13 @@
-[gd_scene load_steps=28 format=4 uid="uid://7drtp223lbux"]
+[gd_scene load_steps=24 format=4 uid="uid://7drtp223lbux"]
 
 [ext_resource type="Script" path="res://Scene/Level_1/level.gd" id="1_p1u5u"]
 [ext_resource type="Texture2D" uid="uid://bc23hjknnv04b" path="res://Assets/oak_woods_tileset.png" id="1_uipwf"]
 [ext_resource type="PackedScene" uid="uid://bc4xdjsl460ie" path="res://Player/player.tscn" id="2_k3q0u"]
-[ext_resource type="Script" path="res://Scene/Level_1/ScriptPauseMenu.gd" id="2_rbrgd"]
 [ext_resource type="Texture2D" uid="uid://c8gqmjxnsiduu" path="res://Assets/background/background_layer_1.png" id="3_s1vjy"]
 [ext_resource type="Texture2D" uid="uid://bx22ebdtyhf64" path="res://Assets/background/background_layer_2.png" id="4_33i7t"]
 [ext_resource type="Texture2D" uid="uid://dfwshhlyvw3y5" path="res://Assets/background/background_layer_3.png" id="5_vd7kf"]
-[ext_resource type="PackedScene" uid="uid://c2oexlb7nyfad" path="res://Scene/Global/pause_menu.tscn" id="8_3wl6j"]
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_84km8"]
 [ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Enemy/moshroomhead.tscn" id="8_wxrvj"]
-[ext_resource type="PackedScene" uid="uid://cjydn87y4vqd3" path="res://Scene/Global/Settings_menu_level.tscn" id="9_ghu4h"]
 [ext_resource type="PackedScene" uid="uid://clmy56e64g4dm" path="res://Enemy/skeleton.tscn" id="9_qax7l"]
 [ext_resource type="Texture2D" uid="uid://c6imptj4jwa25" path="res://Assets/decorations/grass_1.png" id="10_0ktuh"]
 [ext_resource type="Texture2D" uid="uid://c1dyctgn284dp" path="res://Assets/decorations/grass_2.png" id="11_0pdqw"]
@@ -455,9 +452,6 @@ texture = ExtResource("1_uipwf")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_a1scu")
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bixdd"]
-bg_color = Color(0.301669, 0.332912, 0.334529, 1)
-
 [sub_resource type="GDScript" id="GDScript_s6eah"]
 script/source = "extends Node2D
 
@@ -476,10 +470,6 @@ polygon = PackedVector2Array(-877, 613, -877, 658, 5651, 658, 5651, 613, 320, 61
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_p1u5u")
-
-[node name="ScriptPauseMenu" type="Node" parent="."]
-process_mode = 3
-script = ExtResource("2_rbrgd")
 
 [node name="BG_level_1" type="ParallaxBackground" parent="."]
 layer = -1
@@ -521,25 +511,6 @@ offset_bottom = 631.0
 nine_patch_stretch = true
 texture_under = ExtResource("17_puksy")
 texture_progress = ExtResource("18_qwok2")
-
-[node name="PauseMenu" parent="HUD" instance=ExtResource("8_3wl6j")]
-
-[node name="Panel" parent="HUD/PauseMenu" index="0"]
-anchors_preset = 15
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="Settings_menu_level" parent="HUD" instance=ExtResource("9_ghu4h")]
-process_mode = 3
-
-[node name="Panel" parent="HUD/Settings_menu_level" index="0"]
-theme_override_styles/panel = SubResource("StyleBoxFlat_bixdd")
 
 [node name="Coins" type="Node2D" parent="."]
 script = SubResource("GDScript_s6eah")
@@ -664,6 +635,7 @@ texture_scale = 1.5
 
 [node name="Moshroomhead" parent="Enemy" instance=ExtResource("8_wxrvj")]
 position = Vector2(343, 590)
+collision_layer = 2
 
 [node name="Skeleton" parent="Enemy" instance=ExtResource("9_qax7l")]
 position = Vector2(-126, 593)
@@ -3424,17 +3396,5 @@ z_index = -1
 position = Vector2(2500, 579)
 texture = ExtResource("17_65g0f")
 
-[connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Resume" to="ScriptPauseMenu" method="_on_resume_pressed"]
-[connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Settings" to="ScriptPauseMenu" method="_on_settings_pressed"]
-[connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/MainMenu" to="ScriptPauseMenu" method="_on_main_menu_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode/DisplayMode1" to="ScriptPauseMenu" method="_on_display_mode_1_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode/DisplayMode2" to="ScriptPauseMenu" method="_on_display_mode_2_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode/DisplayMode3" to="ScriptPauseMenu" method="_on_display_mode_3_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution1" to="ScriptPauseMenu" method="_on_resolution_1_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution2" to="ScriptPauseMenu" method="_on_resolution_2_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution3" to="ScriptPauseMenu" method="_on_resolution_3_pressed"]
 [connection signal="timeout" from="Coins/Coin_Timer" to="Coins" method="_on_coin_timer_timeout"]
 [connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]
-
-[editable path="HUD/PauseMenu"]
-[editable path="HUD/Settings_menu_level"]

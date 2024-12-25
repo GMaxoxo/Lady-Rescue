@@ -1,14 +1,12 @@
-[gd_scene load_steps=18 format=4 uid="uid://dbnhrkxt6l330"]
+[gd_scene load_steps=12 format=4 uid="uid://dbnhrkxt6l330"]
 
-[ext_resource type="Script" path="res://Scene/Level_1/ScriptPauseMenu.gd" id="1_s84vd"]
 [ext_resource type="Texture2D" uid="uid://bxwb6e20w3vmr" path="res://Assets/King_castle/background 4/Plan 1.png" id="2_pttas"]
 [ext_resource type="PackedScene" uid="uid://bc4xdjsl460ie" path="res://Player/player.tscn" id="3_7ieq7"]
 [ext_resource type="Texture2D" uid="uid://bugfq8y7wil4l" path="res://Assets/King_castle/background 4/Plan 3.png" id="3_acmli"]
+[ext_resource type="PackedScene" uid="uid://d3wxmasaexnk4" path="res://NPC/King.tscn" id="3_jeuy6"]
 [ext_resource type="Texture2D" uid="uid://b17auy053f531" path="res://Assets/King_castle/background 4/Plan 2.png" id="4_3n3is"]
 [ext_resource type="Texture2D" uid="uid://bc23hjknnv04b" path="res://Assets/oak_woods_tileset.png" id="4_m0eri"]
-[ext_resource type="Script" path="res://Scene/Level_king/tp_to_chill_area.gd" id="6_sxbv2"]
-[ext_resource type="Texture2D" uid="uid://dnjatkf8xc8de" path="res://Assets/character/Player/Healthbar/Healthbar_empty.png" id="7_2xdsa"]
-[ext_resource type="Texture2D" uid="uid://cafaeq5sec3y3" path="res://Assets/character/Player/Healthbar/Healthbar_color.png" id="8_hqslh"]
+[ext_resource type="Script" path="res://Scene/Level_king/training_teleport_area.gd" id="7_7nuvj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r5j8d"]
 resource_name = "Floor"
@@ -594,40 +592,26 @@ terrain_set_0/mode = 0
 sources/0 = SubResource("TileSetAtlasSource_r5j8d")
 sources/1 = SubResource("TileSetAtlasSource_du7py")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_21cwa"]
-size = Vector2(79, 140)
-
-[sub_resource type="Animation" id="Animation_1kd6p"]
-length = 0.001
-
-[sub_resource type="Animation" id="Animation_hcqse"]
-resource_name = "Screen_change"
-length = 0.7
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_pynku"]
-_data = {
-"RESET": SubResource("Animation_1kd6p"),
-"Screen_change": SubResource("Animation_hcqse")
-}
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ro0dw"]
-bg_color = Color(0.301669, 0.332912, 0.334529, 1)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fdujd"]
+size = Vector2(26, 123.5)
 
 [node name="Hallway" type="Node2D"]
-
-[node name="ScriptPauseMenu" type="Node" parent="."]
-process_mode = 3
-script = ExtResource("1_s84vd")
 
 [node name="Tile_map_layer" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAD1/yQAAAAAABIAAAD1/yUAAAAAABMAAAD2/yQAAAABABIAAAD2/yUAAAABABMAAAD3/yQAAAACABIAAAD3/yUAAAACABMAAAD4/yQAAAADABIAAAD4/yUAAAADABMAAAD5/yQAAAAEABIAAAD5/yUAAAAEABMAAAD6/yQAAAAFABIAAAD6/yUAAAAFABMAAAD7/yQAAAAGABIAAAD7/yUAAAAGABMAAAD8/yQAAAAHABIAAAD8/yUAAAAHABMAAAD9/yQAAAAIABIAAAD9/yUAAAAIABMAAAD+/yQAAAAJABIAAAD+/yUAAAAJABMAAAD//yQAAAAKABIAAAD//yUAAAAKABMAAAAAACQAAAALABIAAAAAACUAAAALABMAAAABACQAAAAMABIAAAABACUAAAAMABMAAAACACQAAAANABIAAAACACUAAAANABMAAAADACQAAAAOABIAAAADACUAAAAOABMAAAAEACQAAAAPABIAAAAEACUAAAAPABMAAAAFACQAAAAQABIAAAAFACUAAAAQABMAAAAGACQAAAARABIAAAAGACUAAAARABMAAAAHACQAAAASABIAAAAHACUAAAASABMAAAAIACQAAAATABIAAAAIACUAAAATABMAAAAJACQAAAAUABIAAAAJACUAAAAUABMAAAAKACQAAAAVABIAAAAKACUAAAAVABMAAAALACQAAAAWABIAAAALACUAAAAWABMAAAAMACQAAAAXABIAAAAMACUAAAAXABMAAAANACQAAAAYABIAAAANACUAAAAYABMAAAAOACQAAAAZABIAAAAOACUAAAAZABMAAAAPACQAAAAaABIAAAAPACUAAAAaABMAAAAQACQAAAAbABIAAAAQACUAAAAbABMAAAARACQAAAAcABIAAAARACUAAAAcABMAAAASACQAAAAdABIAAAASACUAAAAdABMAAAATACQAAAAeABIAAAATACUAAAAeABMAAAAUACQAAAAfABIAAAAUACUAAAAfABMAAAAVACQAAAAgABIAAAAVACUAAAAgABMAAAAWACQAAAAhABIAAAAWACUAAAAhABMAAAAXACQAAAAiABIAAAAXACUAAAAiABMAAAAYACQAAAAjABIAAAAYACUAAAAjABMAAAAZACQAAAAAABIAAAAZACUAAAAAABMAAAAaACQAAAABABIAAAAaACUAAAABABMAAAAbACQAAAACABIAAAAbACUAAAACABMAAAAcACQAAAADABIAAAAcACUAAAADABMAAAAdACQAAAAEABIAAAAdACUAAAAEABMAAAAeACQAAAAFABIAAAAeACUAAAAFABMAAAAfACQAAAAGABIAAAAfACUAAAAGABMAAAAgACQAAAAHABIAAAAgACUAAAAHABMAAAAhACQAAAAIABIAAAAhACUAAAAIABMAAADR/yQAAAAAABIAAADR/yUAAAAAABMAAADS/yQAAAABABIAAADS/yUAAAABABMAAADT/yQAAAACABIAAADT/yUAAAACABMAAADU/yQAAAADABIAAADU/yUAAAADABMAAADV/yQAAAAEABIAAADV/yUAAAAEABMAAADW/yQAAAAFABIAAADW/yUAAAAFABMAAADX/yQAAAAGABIAAADX/yUAAAAGABMAAADY/yQAAAAHABIAAADY/yUAAAAHABMAAADZ/yQAAAAIABIAAADZ/yUAAAAIABMAAADa/yQAAAAJABIAAADa/yUAAAAJABMAAADb/yQAAAAKABIAAADb/yUAAAAKABMAAADc/yQAAAALABIAAADc/yUAAAALABMAAADd/yQAAAAMABIAAADd/yUAAAAMABMAAADe/yQAAAANABIAAADe/yUAAAANABMAAADf/yQAAAAOABIAAADf/yUAAAAOABMAAADg/yQAAAAPABIAAADg/yUAAAAPABMAAADh/yQAAAAQABIAAADh/yUAAAAQABMAAADi/yQAAAARABIAAADi/yUAAAARABMAAADj/yQAAAASABIAAADj/yUAAAASABMAAADk/yQAAAATABIAAADk/yUAAAATABMAAADl/yQAAAAUABIAAADl/yUAAAAUABMAAADm/yQAAAAVABIAAADm/yUAAAAVABMAAADn/yQAAAAWABIAAADn/yUAAAAWABMAAADo/yQAAAAXABIAAADo/yUAAAAXABMAAADp/yQAAAAYABIAAADp/yUAAAAYABMAAADq/yQAAAAZABIAAADq/yUAAAAZABMAAADr/yQAAAAaABIAAADr/yUAAAAaABMAAADs/yQAAAAbABIAAADs/yUAAAAbABMAAADt/yQAAAAcABIAAADt/yUAAAAcABMAAADu/yQAAAAdABIAAADu/yUAAAAdABMAAADv/yQAAAAeABIAAADv/yUAAAAeABMAAADw/yQAAAAfABIAAADw/yUAAAAfABMAAADx/yQAAAAgABIAAADx/yUAAAAgABMAAADy/yQAAAAhABIAAADy/yUAAAAhABMAAADz/yQAAAAiABIAAADz/yUAAAAiABMAAAD0/yQAAAAjABIAAAD0/yUAAAAjABMAAAC9/yQAAAAQABIAAAC9/yUAAAAQABMAAAC+/yQAAAARABIAAAC+/yUAAAARABMAAAC//yQAAAASABIAAAC//yUAAAASABMAAADA/yQAAAATABIAAADA/yUAAAATABMAAADB/yQAAAAUABIAAADB/yUAAAAUABMAAADC/yQAAAAVABIAAADC/yUAAAAVABMAAADD/yQAAAAWABIAAADD/yUAAAAWABMAAADE/yQAAAAXABIAAADE/yUAAAAXABMAAADF/yQAAAAYABIAAADF/yUAAAAYABMAAADG/yQAAAAZABIAAADG/yUAAAAZABMAAADH/yQAAAAaABIAAADH/yUAAAAaABMAAADI/yQAAAAbABIAAADI/yUAAAAbABMAAADJ/yQAAAAcABIAAADJ/yUAAAAcABMAAADK/yQAAAAdABIAAADK/yUAAAAdABMAAADL/yQAAAAeABIAAADL/yUAAAAeABMAAADM/yQAAAAfABIAAADM/yUAAAAfABMAAADN/yQAAAAgABIAAADN/yUAAAAgABMAAADO/yQAAAAhABIAAADO/yUAAAAhABMAAADP/yQAAAAiABIAAADP/yUAAAAiABMAAADQ/yQAAAAjABIAAADQ/yUAAAAjABMAAAD0/yYAAQABAAEAAAD0/ycAAQABAAEAAAD1/yYAAQABAAEAAAD1/ycAAQABAAIAAAD0/ygAAQABAAIAAAD1/ygAAQABAAIAAAD2/ycAAQABAAIAAAD2/ygAAQACAAIAAAD2/yYAAQABAAEAAAD3/yYAAQACAAEAAAD3/ycAAQABAAEAAAD3/ygAAQABAAIAAAD4/ycAAQABAAEAAAD4/ygAAQABAAIAAAD4/yYAAQABAAEAAAD5/yYAAQABAAEAAAD5/ycAAQABAAIAAAD5/ygAAQABAAIAAAD6/ycAAQABAAEAAAD6/ygAAQABAAIAAAD6/yYAAQABAAEAAAD7/yYAAQABAAEAAAD7/ycAAQABAAIAAAD7/ygAAQABAAIAAAD8/ycAAQABAAEAAAD8/ygAAQABAAIAAAD8/yYAAQABAAEAAAD9/yYAAQABAAEAAAD9/ycAAQABAAIAAAD9/ygAAQABAAIAAAD+/ycAAQABAAIAAAD+/ygAAQACAAIAAAD+/yYAAQABAAEAAAD//yYAAQACAAEAAAD//ycAAQABAAEAAAD//ygAAQABAAIAAAAAACcAAQABAAIAAAAAACgAAQABAAIAAAABACcAAQABAAIAAAABACgAAQABAAIAAAAAACYAAQABAAEAAAABACYAAQABAAEAAAACACcAAQABAAEAAAACACgAAQABAAIAAAACACYAAQABAAEAAAADACYAAQACAAEAAAADACcAAQACAAEAAAADACgAAQACAAIAAAAEACcAAQABAAIAAAAEACgAAQABAAIAAAAFACcAAQABAAEAAAAFACgAAQABAAIAAAAEACYAAQABAAEAAAAFACYAAQABAAEAAAAGACYAAQACAAEAAAAGACcAAQACAAEAAAAGACgAAQACAAIAAAAHACcAAQABAAIAAAAHACgAAQABAAIAAAAIACcAAQABAAEAAAAIACgAAQABAAIAAAAHACYAAQABAAEAAAAIACYAAQABAAEAAAAJACYAAQABAAEAAAAJACcAAQABAAIAAAAJACgAAQABAAIAAAAKACcAAQACAAIAAAAKACgAAQACAAIAAAAKACYAAQACAAEAAAALACYAAQABAAEAAAALACcAAQABAAEAAAAMACYAAQABAAEAAAAMACcAAQABAAIAAAALACgAAQABAAIAAAAMACgAAQABAAIAAAANACcAAQABAAIAAAANACgAAQACAAIAAAANACYAAQABAAEAAAAOACYAAQACAAEAAAAOACcAAQABAAEAAAAOACgAAQABAAIAAAAPACcAAQABAAIAAAAPACgAAQABAAIAAAAQACcAAQABAAEAAAAQACgAAQABAAIAAAAPACYAAQABAAEAAAAQACYAAQACAAEAAAARACYAAQABAAEAAAARACcAAQACAAEAAAASACYAAQABAAEAAAASACcAAQABAAIAAAARACgAAQACAAIAAAASACgAAQABAAIAAAATACcAAQABAAEAAAATACgAAQABAAIAAAATACYAAQABAAEAAAAUACYAAQACAAEAAAAUACcAAQACAAEAAAAUACgAAQACAAIAAAAVACcAAQABAAIAAAAVACgAAQABAAIAAAAWACcAAQACAAIAAAAWACgAAQACAAIAAAAVACYAAQABAAEAAAAWACYAAQACAAEAAAAXACcAAQABAAIAAAAXACgAAQABAAIAAAAYACcAAQABAAIAAAAYACgAAQACAAIAAAAXACYAAQABAAEAAAAYACYAAQABAAEAAAAZACYAAQACAAEAAAAZACcAAQABAAEAAAAZACgAAQABAAIAAAAaACcAAQABAAIAAAAaACgAAQABAAIAAAAbACcAAQACAAIAAAAbACgAAQACAAIAAAAaACYAAQABAAEAAAAbACYAAQACAAEAAAAcACYAAQABAAEAAAAcACcAAQABAAEAAAAdACYAAQACAAEAAAAdACcAAQACAAEAAAAcACgAAQABAAIAAAAdACgAAQACAAIAAAAeACcAAQABAAIAAAAeACgAAQABAAIAAAAfACcAAQABAAEAAAAfACgAAQABAAIAAAAeACYAAQABAAEAAAAfACYAAQABAAEAAAAgACYAAQACAAEAAAAgACcAAQACAAEAAAAgACgAAQACAAIAAAAhACcAAQABAAIAAAAhACgAAQABAAIAAAAhACYAAQABAAEAAADy/yYAAQABAAEAAADy/ycAAQABAAEAAADz/yYAAQACAAEAAADz/ycAAQACAAEAAADy/ygAAQABAAIAAADz/ygAAQACAAIAAADw/ycAAQABAAIAAADw/ygAAQABAAIAAADx/ycAAQACAAIAAADx/ygAAQACAAIAAADw/yYAAQABAAEAAADx/yYAAQACAAEAAADu/yYAAQABAAEAAADu/ycAAQACAAEAAADv/yYAAQACAAEAAADv/ycAAQACAAEAAADu/ygAAQACAAIAAADv/ygAAQACAAIAAADt/ycAAQACAAIAAADt/ygAAQABAAIAAADr/yYAAQABAAEAAADr/ycAAQABAAEAAADs/yYAAQABAAEAAADs/ycAAQACAAEAAADt/yYAAQACAAEAAADr/ygAAQABAAIAAADs/ygAAQACAAIAAADp/yYAAQABAAEAAADp/ycAAQABAAEAAADq/yYAAQACAAEAAADq/ycAAQACAAEAAADp/ygAAQABAAIAAADq/ygAAQACAAIAAADn/ycAAQACAAIAAADn/ygAAQABAAIAAADo/ycAAQACAAIAAADo/ygAAQACAAIAAADn/yYAAQACAAEAAADo/yYAAQACAAEAAADm/yYAAQABAAEAAADm/ycAAQACAAEAAADl/ycAAQACAAEAAADl/ygAAQACAAIAAADm/ygAAQACAAIAAADk/yYAAQABAAEAAADk/ycAAQABAAEAAADl/yYAAQACAAEAAADk/ygAAQABAAIAAADi/ycAAQABAAIAAADi/ygAAQABAAIAAADj/ycAAQACAAIAAADj/ygAAQACAAIAAADi/yYAAQABAAEAAADj/yYAAQACAAEAAADg/yYAAQABAAEAAADg/ycAAQABAAEAAADh/yYAAQACAAEAAADh/ycAAQACAAEAAADg/ygAAQABAAIAAADh/ygAAQACAAIAAADe/ycAAQABAAIAAADe/ygAAQABAAIAAADf/ycAAQACAAIAAADf/ygAAQACAAIAAADe/yYAAQABAAEAAADf/yYAAQACAAEAAADc/yYAAQABAAEAAADc/ycAAQABAAEAAADd/yYAAQACAAEAAADd/ycAAQACAAEAAADc/ygAAQABAAIAAADd/ygAAQACAAIAAADa/ycAAQABAAIAAADa/ygAAQABAAIAAADb/ycAAQACAAIAAADb/ygAAQACAAIAAADa/yYAAQABAAEAAADb/yYAAQACAAEAAADY/yYAAQABAAEAAADY/ycAAQABAAEAAADZ/yYAAQACAAEAAADZ/ycAAQACAAEAAADY/ygAAQABAAIAAADZ/ygAAQACAAIAAADW/ycAAQABAAIAAADW/ygAAQABAAIAAADX/ycAAQACAAIAAADX/ygAAQACAAIAAADW/yYAAQABAAEAAADX/yYAAQACAAEAAADU/yYAAQABAAEAAADU/ycAAQABAAEAAADV/yYAAQACAAEAAADV/ycAAQACAAEAAADU/ygAAQABAAIAAADV/ygAAQACAAIAAADS/ycAAQABAAIAAADS/ygAAQABAAIAAADT/ycAAQACAAIAAADT/ygAAQACAAIAAADS/yYAAQABAAEAAADT/yYAAQACAAEAAADQ/yYAAQABAAEAAADQ/ycAAQABAAEAAADR/yYAAQACAAEAAADR/ycAAQACAAEAAADQ/ygAAQABAAIAAADR/ygAAQACAAIAAADO/ycAAQACAAIAAADO/ygAAQABAAIAAADP/ycAAQACAAIAAADP/ygAAQACAAIAAADO/yYAAQACAAEAAADP/yYAAQACAAEAAADN/yYAAQACAAEAAADN/ycAAQACAAEAAADM/yYAAQABAAEAAADM/ycAAQABAAEAAADM/ygAAQABAAIAAADN/ygAAQACAAIAAADK/ycAAQABAAIAAADK/ygAAQABAAIAAADL/ycAAQACAAIAAADL/ygAAQACAAIAAADK/yYAAQABAAEAAADL/yYAAQACAAEAAADH/yYAAQABAAEAAADH/ycAAQABAAEAAADI/yYAAQABAAEAAADI/ycAAQACAAEAAADJ/yYAAQACAAEAAADJ/ycAAQACAAEAAADI/ygAAQACAAIAAADJ/ygAAQACAAIAAADH/ygAAQABAAIAAADF/yYAAQABAAEAAADF/ycAAQABAAEAAADG/yYAAQACAAEAAADG/ycAAQACAAEAAADF/ygAAQABAAIAAADG/ygAAQACAAIAAADD/ycAAQABAAIAAADD/ygAAQABAAIAAADE/ycAAQACAAIAAADE/ygAAQACAAIAAADD/yYAAQABAAEAAADE/yYAAQACAAEAAADB/yYAAQABAAEAAADB/ycAAQABAAEAAADC/yYAAQACAAEAAADC/ycAAQACAAEAAADB/ygAAQABAAIAAADC/ygAAQACAAIAAAC//ycAAQABAAIAAAC//ygAAQABAAIAAADA/ycAAQACAAIAAADA/ygAAQACAAIAAAC//yYAAQABAAEAAADA/yYAAQACAAEAAAC9/yYAAQABAAEAAAC9/ycAAQABAAEAAAC+/yYAAQACAAEAAAC+/ycAAQACAAEAAAC9/ygAAQABAAIAAAC+/ygAAQACAAIAAAA=")
 tile_set = SubResource("TileSet_80yic")
 
+[node name="King" type="Node2D" parent="."]
+
+[node name="King" parent="King" instance=ExtResource("3_jeuy6")]
+position = Vector2(490, 565)
+scale = Vector2(0.4, 0.4)
+
 [node name="Player" type="Node2D" parent="."]
 position = Vector2(-913, 574)
 
 [node name="Player" parent="Player" instance=ExtResource("3_7ieq7")]
-position = Vector2(34, -5)
+position = Vector2(1317, -3)
 collision_layer = 1
 
 [node name="Back_layer" type="ParallaxBackground" parent="."]
@@ -675,304 +659,12 @@ position = Vector2(-43.0002, 497)
 scale = Vector2(0.674383, 0.694444)
 texture = ExtResource("2_pttas")
 
-[node name="Tp_to_chill_area" type="Area2D" parent="."]
+[node name="Training_teleport_area" type="Area2D" parent="."]
 collision_mask = 16
-script = ExtResource("6_sxbv2")
+script = ExtResource("7_7nuvj")
 
-[node name="Tp_to_chill_collision" type="CollisionShape2D" parent="Tp_to_chill_area"]
-position = Vector2(-1031.5, 533)
-shape = SubResource("RectangleShape2D_21cwa")
+[node name="Training_teleport_collision" type="CollisionShape2D" parent="Training_teleport_area"]
+position = Vector2(-131, 542.75)
+shape = SubResource("RectangleShape2D_fdujd")
 
-[node name="CanvasModulate" type="CanvasModulate" parent="Tp_to_chill_area"]
-
-[node name="Screen_teleport" type="AnimationPlayer" parent="Tp_to_chill_area"]
-root_node = NodePath("../..")
-libraries = {
-"": SubResource("AnimationLibrary_pynku")
-}
-
-[node name="HUD" type="CanvasLayer" parent="."]
-process_priority = 1
-process_physics_priority = 1
-layer = 2
-
-[node name="Healthbar" type="TextureProgressBar" parent="HUD"]
-offset_top = 593.0
-offset_right = 145.0
-offset_bottom = 631.0
-nine_patch_stretch = true
-texture_under = ExtResource("7_2xdsa")
-texture_progress = ExtResource("8_hqslh")
-
-[node name="PauseMenu" type="Control" parent="HUD"]
-process_mode = 3
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-
-[node name="Panel" type="Panel" parent="HUD/PauseMenu"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="MarginContainer" type="MarginContainer" parent="HUD/PauseMenu/Panel"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/margin_left = 5
-theme_override_constants/margin_top = 10
-theme_override_constants/margin_right = 5
-theme_override_constants/margin_bottom = 10
-
-[node name="VBoxContainer" type="VBoxContainer" parent="HUD/PauseMenu/Panel/MarginContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 15
-alignment = 1
-
-[node name="Label" type="Label" parent="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer"]
-custom_minimum_size = Vector2(80, 40)
-layout_mode = 2
-theme_override_font_sizes/font_size = 36
-text = "Пауза"
-horizontal_alignment = 1
-
-[node name="Resume" type="Button" parent="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer"]
-custom_minimum_size = Vector2(120, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 18
-text = "Продолжить"
-
-[node name="Settings" type="Button" parent="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer"]
-custom_minimum_size = Vector2(120, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 18
-text = "Настройки"
-
-[node name="MainMenu" type="Button" parent="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer"]
-custom_minimum_size = Vector2(120, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 18
-text = "Главное меню"
-
-[node name="Settings_menu_level" type="Control" parent="HUD"]
-process_mode = 3
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="Panel" type="Panel" parent="HUD/Settings_menu_level"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_ro0dw")
-
-[node name="MarginContainer2" type="MarginContainer" parent="HUD/Settings_menu_level/Panel"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/margin_left = 35
-theme_override_constants/margin_top = 50
-theme_override_constants/margin_right = 35
-theme_override_constants/margin_bottom = 50
-
-[node name="HBoxContainer" type="HBoxContainer" parent="HUD/Settings_menu_level/Panel/MarginContainer2"]
-custom_minimum_size = Vector2(80, 240)
-layout_mode = 2
-theme_override_constants/separation = 40
-alignment = 1
-
-[node name="DisplayMode" type="VBoxContainer" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 30
-alignment = 1
-
-[node name="LabelDisplayMode" type="Label" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "Режим отображения
-"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="DisplayMode1" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "Полноэкранный
-"
-
-[node name="DisplayMode2" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "Оконный"
-
-[node name="DisplayMode3" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 16
-text = "Окно без рамки"
-
-[node name="ResolitonChange" type="VBoxContainer" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 30
-alignment = 1
-
-[node name="LabelDisplayMode" type="Label" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "Разрешение экрана"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Resolution1" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "1280x720"
-
-[node name="Resolution2" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "1920x1080"
-
-[node name="Resolution3" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 16
-text = "2560x1440"
-
-[node name="Sound" type="VBoxContainer" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 30
-alignment = 1
-
-[node name="LabelSound" type="Label" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Sound"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "Звук"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="SoundYes" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Sound"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "Включить"
-
-[node name="NoVisible" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Sound"]
-modulate = Color(1, 1, 1, 0)
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 16
-text = "Новая игра"
-
-[node name="SoundNo" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Sound"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "Выключить"
-
-[node name="Difficulty" type="VBoxContainer" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 30
-alignment = 1
-
-[node name="LabelDifficulty" type="Label" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Difficulty"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "Сложность
-"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="DifficultyEasy" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Difficulty"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "Легкая"
-
-[node name="DifficultyNormal" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Difficulty"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "Средняя"
-
-[node name="DifficultyHard" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Difficulty"]
-custom_minimum_size = Vector2(80, 60)
-layout_mode = 2
-theme_override_font_sizes/font_size = 16
-text = "Сложная"
-
-[node name="Other" type="VBoxContainer" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 30
-alignment = 1
-
-[node name="Keybindings" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Other"]
-custom_minimum_size = Vector2(120, 80)
-layout_mode = 2
-tooltip_text = "Загрузить игру"
-theme_override_font_sizes/font_size = 16
-text = "управение"
-
-[node name="SettingsExit2" type="Button" parent="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Other"]
-custom_minimum_size = Vector2(120, 80)
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 8
-text = "назад
-"
-
-[connection signal="area_entered" from="Tp_to_chill_area" to="Tp_to_chill_area" method="_on_area_entered"]
-[connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Resume" to="ScriptPauseMenu" method="_on_resume_pressed"]
-[connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Settings" to="ScriptPauseMenu" method="_on_settings_pressed"]
-[connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/MainMenu" to="ScriptPauseMenu" method="_on_main_menu_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode/DisplayMode1" to="ScriptPauseMenu" method="_on_display_mode_1_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode/DisplayMode2" to="ScriptPauseMenu" method="_on_display_mode_2_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/DisplayMode/DisplayMode3" to="ScriptPauseMenu" method="_on_display_mode_3_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution1" to="ScriptPauseMenu" method="_on_resolution_1_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution2" to="ScriptPauseMenu" method="_on_resolution_2_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution3" to="ScriptPauseMenu" method="_on_resolution_3_pressed"]
-[connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/Other/SettingsExit2" to="ScriptPauseMenu" method="_on_settings_exit_pressed"]
+[connection signal="area_entered" from="Training_teleport_area" to="Training_teleport_area" method="_on_area_entered"]
