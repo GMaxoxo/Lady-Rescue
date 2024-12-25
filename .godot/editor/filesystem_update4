@@ -1,8 +1,4 @@
-res://Scene/Level_1/level.tscn
-res://Scene/Prologue/prologue.tscn
 res://Scene/Main_menu/Main.tscn
-res://Scene/Main_menu/settings_menu.tscn
-res://Scene/Main_menu/main.gd
 res://Scene/Level_king/Hallway.tscn
-res://Scene/Level_1/ScriptPauseMenu.gd
-res://Scene/Prologue/prologue.gd
+res://Scene/Level_1/level.tscn
+res://Scene/Global/pause_menu.tscn

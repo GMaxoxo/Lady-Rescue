@@ -20,7 +20,8 @@ buses/default_bus_layout=""
 
 [autoload]
 
-PlayerSignal="*res://Scene/player_signal.gd"
+PlayerSignal="*res://Globals/player_signal.gd"
+ConfigFileHandler="*res://Globals/ConfigFileHandler.gd"
 
 [display]
 
