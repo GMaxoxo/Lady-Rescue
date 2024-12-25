@@ -1089,6 +1089,8 @@ _data = {
 polygon = PackedVector2Array(-4, 15, 2, 15, 6, 18, -8, 18)
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(0, 506)
+scale = Vector2(1.5, 1.5)
 collision_layer = 4
 script = ExtResource("1_68ddx")
 
@@ -1110,8 +1112,9 @@ libraries = {
 [node name="Player_Camera" type="Camera2D" parent="."]
 zoom = Vector2(2.5, 2.5)
 process_callback = 0
-limit_left = -3200
-limit_right = 3200
+limit_left = -1070
+limit_top = 384
+limit_right = 540
 limit_bottom = 650
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
