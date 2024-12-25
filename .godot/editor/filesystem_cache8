@@ -1,87 +1,87 @@
 c693a20e708c4e09bfa9edf12a750cf8
-::res://::1735151778
-::res://addons/::1735151638
+::res://::1735151951
+::res://addons/::1735151951
 ::res://addons/AS2P/::1735149304
 InspectorConvertor.gd::GDScript::-1::1734789796::0::1::::<>EditorInspectorPlugin<>::
 NodeSelectorProperty.gd::GDScript::-1::1734789796::0::1::::<>EditorProperty<>::
 plugin.cfg::TextFile::-1::1734789796::0::1::::<><>::
 plugin.gd::GDScript::-1::1734789796::0::1::::<>EditorPlugin<>::
-::res://addons/dialogue_manager/::1735151638
-constants.gd::GDScript::-1::1735151638::0::1::::<>Node<>::
+::res://addons/dialogue_manager/::1735151951
+constants.gd::GDScript::-1::1735151951::0::1::::<>Node<>::
 DialogueManager.cs::CSharpScript::-1::1735151638::0::1::::<><>::
-dialogue_label.gd::GDScript::-1::1735151638::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_label.gd::GDScript::-1::1735151951::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
 dialogue_label.tscn::PackedScene::5518490004210093266::1735151638::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
-dialogue_line.gd::GDScript::-1::1735151638::0::1::::DialogueLine<>RefCounted<>::
-dialogue_manager.gd::GDScript::-1::1735151638::0::1::::<>Node<>::
-dialogue_reponses_menu.gd::GDScript::-1::1735151638::0::1::::DialogueResponsesMenu<>Container<>res://addons/dialogue_manager/assets/responses_menu.svg::
-dialogue_resource.gd::GDScript::-1::1735151638::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_response.gd::GDScript::-1::1735151638::0::1::::DialogueResponse<>RefCounted<>::
-editor_translation_parser_plugin.gd::GDScript::-1::1735151638::0::1::::<>EditorTranslationParserPlugin<>::
-import_plugin.gd::GDScript::-1::1735151638::0::1::::<>EditorImportPlugin<>::
-inspector_plugin.gd::GDScript::-1::1735151638::0::1::::<>EditorInspectorPlugin<>::
+dialogue_line.gd::GDScript::-1::1735151951::0::1::::DialogueLine<>RefCounted<>::
+dialogue_manager.gd::GDScript::-1::1735151951::0::1::::<>Node<>::
+dialogue_reponses_menu.gd::GDScript::-1::1735151951::0::1::::DialogueResponsesMenu<>Container<>res://addons/dialogue_manager/assets/responses_menu.svg::
+dialogue_resource.gd::GDScript::-1::1735151951::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_response.gd::GDScript::-1::1735151951::0::1::::DialogueResponse<>RefCounted<>::
+editor_translation_parser_plugin.gd::GDScript::-1::1735151951::0::1::::<>EditorTranslationParserPlugin<>::
+import_plugin.gd::GDScript::-1::1735151951::0::1::::<>EditorImportPlugin<>::
+inspector_plugin.gd::GDScript::-1::1735151951::0::1::::<>EditorInspectorPlugin<>::
 plugin.cfg::TextFile::-1::1735151638::0::1::::<><>::
-plugin.gd::GDScript::-1::1735151638::0::1::::<>EditorPlugin<>::
-settings.gd::GDScript::-1::1735151638::0::1::::<>Node<>::
-test_scene.gd::GDScript::-1::1735151638::0::1::::BaseDialogueTestScene<>Node2D<>::
+plugin.gd::GDScript::-1::1735151951::0::1::::<>EditorPlugin<>::
+settings.gd::GDScript::-1::1735151951::0::1::::<>Node<>::
+test_scene.gd::GDScript::-1::1735151951::0::1::::BaseDialogueTestScene<>Node2D<>::
 test_scene.tscn::PackedScene::-1::1735151638::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
-::res://addons/dialogue_manager/assets/::1735151638
-icon.svg::CompressedTexture2D::9148339284877624195::1735151638::1735151782::1::::<><>::
-responses_menu.svg::CompressedTexture2D::8371359403825774630::1735151638::1735151782::1::::<><>::
-update.svg::CompressedTexture2D::9126631778427806641::1735151638::1735151781::1::::<><>::
-::res://addons/dialogue_manager/components/::1735151638
-code_edit.gd::GDScript::-1::1735151638::0::1::::<>CodeEdit<>::
-code_edit.tscn::PackedScene::5379618807048408118::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
-code_edit_syntax_highlighter.gd::GDScript::-1::1735151638::0::1::::<>SyntaxHighlighter<>::
-dialogue_cache.gd::GDScript::-1::1735151638::0::1::::<>Node<>::
-download_update_panel.gd::GDScript::-1::1735151638::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
-errors_panel.gd::GDScript::-1::1735151638::0::1::::<>HBoxContainer<>::
-errors_panel.tscn::PackedScene::6105315990352960875::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
-files_list.gd::GDScript::-1::1735151638::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
-find_in_files.gd::GDScript::-1::1735151638::0::1::::<>Control<>::
-find_in_files.tscn::PackedScene::1783514634430556025::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/find_in_files.gd
-parser.gd::GDScript::-1::1735151638::0::1::::DialogueManagerParser<>Object<>::
-parse_result.gd::GDScript::-1::1735151638::0::1::::DialogueManagerParseResult<>RefCounted<>::
-resolved_line_data.gd::GDScript::-1::1735151638::0::1::::<>RefCounted<>::
-resolved_tag_data.gd::GDScript::-1::1735151638::0::1::::<>RefCounted<>::
-search_and_replace.gd::GDScript::-1::1735151638::0::1::::<>VBoxContainer<>::
-search_and_replace.tscn::PackedScene::458254375860855630::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
-title_list.gd::GDScript::-1::1735151638::0::1::::<>VBoxContainer<>::
-title_list.tscn::PackedScene::6134415340044566558::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
-update_button.gd::GDScript::-1::1735151638::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
-::res://addons/dialogue_manager/components/editor_property/::1735151638
-editor_property.gd::GDScript::-1::1735151638::0::1::::<>EditorProperty<>::
-editor_property_control.gd::GDScript::-1::1735151638::0::1::::<>HBoxContainer<>::
-editor_property_control.tscn::PackedScene::1689506734256736329::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/editor_property/editor_property_control.gd<>uid://b16uuqjuof3n5::::res://addons/dialogue_manager/components/editor_property/resource_button.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn
-resource_button.gd::GDScript::-1::1735151638::0::1::::<>Button<>::
-resource_button.tscn::PackedScene::4276577239595711888::1735151638::0::1::::<><>::res://addons/dialogue_manager/components/editor_property/resource_button.gd
-::res://addons/dialogue_manager/example_balloon/::1735151638
+::res://addons/dialogue_manager/assets/::1735151951
+icon.svg::CompressedTexture2D::9148339284877624195::1735151951::1735151962::1::::<><>::
+responses_menu.svg::CompressedTexture2D::8371359403825774630::1735151951::1735151962::1::::<><>::
+update.svg::CompressedTexture2D::9126631778427806641::1735151951::1735151962::1::::<><>::
+::res://addons/dialogue_manager/components/::1735151951
+code_edit.gd::GDScript::-1::1735151951::0::1::::<>CodeEdit<>::
+code_edit.tscn::PackedScene::5379618807048408118::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
+code_edit_syntax_highlighter.gd::GDScript::-1::1735151951::0::1::::<>SyntaxHighlighter<>::
+dialogue_cache.gd::GDScript::-1::1735151951::0::1::::<>Node<>::
+download_update_panel.gd::GDScript::-1::1735151951::0::1::::<>Control<>::
+download_update_panel.tscn::PackedScene::1130642722554629364::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+errors_panel.gd::GDScript::-1::1735151951::0::1::::<>HBoxContainer<>::
+errors_panel.tscn::PackedScene::6105315990352960875::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
+files_list.gd::GDScript::-1::1735151951::0::1::::<>VBoxContainer<>::
+files_list.tscn::PackedScene::8113335055803740416::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+find_in_files.gd::GDScript::-1::1735151951::0::1::::<>Control<>::
+find_in_files.tscn::PackedScene::1783514634430556025::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/find_in_files.gd
+parser.gd::GDScript::-1::1735151951::0::1::::DialogueManagerParser<>Object<>::
+parse_result.gd::GDScript::-1::1735151951::0::1::::DialogueManagerParseResult<>RefCounted<>::
+resolved_line_data.gd::GDScript::-1::1735151951::0::1::::<>RefCounted<>::
+resolved_tag_data.gd::GDScript::-1::1735151951::0::1::::<>RefCounted<>::
+search_and_replace.gd::GDScript::-1::1735151951::0::1::::<>VBoxContainer<>::
+search_and_replace.tscn::PackedScene::458254375860855630::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
+title_list.gd::GDScript::-1::1735151951::0::1::::<>VBoxContainer<>::
+title_list.tscn::PackedScene::6134415340044566558::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
+update_button.gd::GDScript::-1::1735151951::0::1::::<>Button<>::
+update_button.tscn::PackedScene::5825087957514786930::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+::res://addons/dialogue_manager/components/editor_property/::1735151951
+editor_property.gd::GDScript::-1::1735151951::0::1::::<>EditorProperty<>::
+editor_property_control.gd::GDScript::-1::1735151951::0::1::::<>HBoxContainer<>::
+editor_property_control.tscn::PackedScene::1689506734256736329::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/editor_property/editor_property_control.gd<>uid://b16uuqjuof3n5::::res://addons/dialogue_manager/components/editor_property/resource_button.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn
+resource_button.gd::GDScript::-1::1735151951::0::1::::<>Button<>::
+resource_button.tscn::PackedScene::4276577239595711888::1735151951::0::1::::<><>::res://addons/dialogue_manager/components/editor_property/resource_button.gd
+::res://addons/dialogue_manager/example_balloon/::1735151951
 ExampleBalloon.cs::CSharpScript::-1::1735151638::0::1::::<><>::
-example_balloon.gd::GDScript::-1::1735151638::0::1::::DialogueManagerExampleBalloon<>CanvasLayer<>::
+example_balloon.gd::GDScript::-1::1735151951::0::1::::DialogueManagerExampleBalloon<>CanvasLayer<>::
 example_balloon.tscn::PackedScene::2304415056852043862::1735151638::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
 small_example_balloon.tscn::PackedScene::1883859960814163368::1735151638::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-::res://addons/dialogue_manager/l10n/::1735151638
+::res://addons/dialogue_manager/l10n/::1735151951
 en.mo::Translation::-1::1735151638::0::1::::<><>::
 en.po::Translation::-1::1735151638::0::1::::<><>::
 es.po::Translation::-1::1735151638::0::1::::<><>::
 uk.po::Translation::-1::1735151638::0::1::::<><>::
 zh.po::Translation::-1::1735151638::0::1::::<><>::
 zh_TW.po::Translation::-1::1735151638::0::1::::<><>::
-::res://addons/dialogue_manager/utilities/::1735151638
-builtins.gd::GDScript::-1::1735151638::0::1::::<>Object<>::
-::res://addons/dialogue_manager/views/::1735151638
-main_view.gd::GDScript::-1::1735151638::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1735151638::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
-settings_view.gd::GDScript::-1::1735151638::0::1::::<>TabContainer<>::
-settings_view.tscn::PackedScene::5839841081119266502::1735151638::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://Assets/::1735151638
+::res://addons/dialogue_manager/utilities/::1735151951
+builtins.gd::GDScript::-1::1735151951::0::1::::<>Object<>::
+::res://addons/dialogue_manager/views/::1735151951
+main_view.gd::GDScript::-1::1735151951::0::1::::<>Control<>::
+main_view.tscn::PackedScene::4884668666408697448::1735151951::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
+settings_view.gd::GDScript::-1::1735151951::0::1::::<>TabContainer<>::
+settings_view.tscn::PackedScene::5839841081119266502::1735151951::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
+::res://Assets/::1735151951
 oak_woods_tileset.png::CompressedTexture2D::2584249635450658647::1734789793::1734794233::1::::<><>::
 readme.TXT::TextFile::-1::1734789793::0::1::::<><>::
-::res://Assets/Arena/::1735151638
-Arena.png::CompressedTexture2D::4902947488354479276::1735151638::1735151782::1::::<><>::
-::res://Assets/background/::1735149811
+::res://Assets/Arena/::1735151951
+Arena.png::CompressedTexture2D::4902947488354479276::1735151951::1735151962::1::::<><>::
+::res://Assets/background/::1735151782
 background_layer_1.png::CompressedTexture2D::7102452884232437640::1734789793::1734794233::1::::<><>::
 background_layer_2.png::CompressedTexture2D::4058148846761164455::1734789793::1734794233::1::::<><>::
 background_layer_3.png::CompressedTexture2D::7556728372061621502::1734789793::1734794233::1::::<><>::
@@ -89,7 +89,7 @@ BackMainMenu.png::CompressedTexture2D::410376017337499737::1735149811::173515178
 luna-krasivo-foto.jpg::CompressedTexture2D::5100224443723350829::1734789793::1734794233::1::::<><>::
 ::res://Assets/Build/::1735149304
 shop.tscn::PackedScene::7615842199035830877::1734789793::0::1::::<><>::uid://bt241ltn7xxr1::::res://Assets/decorations/shop_anim.png
-::res://Assets/character/::1735151638
+::res://Assets/character/::1735151951
 ::res://Assets/character/Dummy/::1735149304
 Training Dummy Sprite Sheet.png::CompressedTexture2D::5118221552685808840::1735129960::1735130052::1::::<><>::
 ::res://Assets/character/Flying eye/::1735149304
@@ -103,12 +103,12 @@ Death.png::CompressedTexture2D::7725056976177581333::1734789793::1734794233::1::
 Idle.png::CompressedTexture2D::5437923233980342162::1734789793::1734794233::1::::<><>::
 Run.png::CompressedTexture2D::2040600434395037305::1734789793::1734794233::1::::<><>::
 Take Hit.png::CompressedTexture2D::3131113383839073740::1734789793::1734794233::1::::<><>::
-::res://Assets/character/King/::1735151750
-король 2.0.png::CompressedTexture2D::7438383266649235686::1735151638::1735151782::1::::<><>::
-::res://Assets/character/King/король анимейшен/::1735151646
-король 1.png::CompressedTexture2D::5013363652498406469::1735151469::1735151781::1::::<><>::
-король 2.png::CompressedTexture2D::4214379818615355606::1735151560::1735151781::1::::<><>::
-король 3.png::CompressedTexture2D::4969069945135478102::1735151646::1735151781::1::::<><>::
+::res://Assets/character/King/::1735151951
+король 2.0.png::CompressedTexture2D::7438383266649235686::1735151951::1735151962::1::::<><>::
+::res://Assets/character/King/король анимейшен/::1735151951
+король 1.png::CompressedTexture2D::5013363652498406469::1735151951::1735151962::1::::<><>::
+король 2.png::CompressedTexture2D::4214379818615355606::1735151951::1735151962::1::::<><>::
+король 3.png::CompressedTexture2D::4969069945135478102::1735151951::1735151962::1::::<><>::
 ::res://Assets/character/Mushroom/::1735149304
 Attack.png::CompressedTexture2D::6585747805519951558::1734789793::1734794233::1::::<><>::
 Death.png::CompressedTexture2D::4071286360200150139::1734789793::1734794233::1::::<><>::
@@ -167,22 +167,22 @@ sign.tscn::PackedScene::6023993248013174738::1734793437::0::1::::<><>::uid://eud
 signLabel.gd::GDScript::-1::1734794478::0::1::::<>Node2D<>::
 SignLabel.tscn::PackedScene::8887092562974767068::1734795216::0::1::::<><>::res://Assets/decorations/tscn/signLabel.gd<>uid://bdr6qk0ph4asy::::res://Assets/decorations/5.png
 ::res://Assets/King_castle/::1735149304
-::res://Assets/King_castle/background 1/::1735151638
+::res://Assets/King_castle/background 1/::1735151951
 background 1.png::CompressedTexture2D::6777503711461051847::1726751278::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::5448492314315674746::1726751306::1735151781::1::::<><>::
+Plan 1.png::CompressedTexture2D::5448492314315674746::1726751306::1735151962::1::::<><>::
 Plan 2.png::CompressedTexture2D::1203946650890180678::1726751317::1735113752::1::::<><>::
 Plan 3.png::CompressedTexture2D::6470062046584508885::1726751342::1735113752::1::::<><>::
 Preview 1.png::CompressedTexture2D::6437023878625138108::1726751364::1735113753::1::::<><>::
-::res://Assets/King_castle/background 2/::1735151638
+::res://Assets/King_castle/background 2/::1735151951
 background 2.png::CompressedTexture2D::5058152623748575880::1726751413::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::7466642100599166290::1726751431::1735151781::1::::<><>::
+Plan 1.png::CompressedTexture2D::7466642100599166290::1726751431::1735151962::1::::<><>::
 Plan 2.png::CompressedTexture2D::76467835272137859::1726751442::1735113752::1::::<><>::
 Plan 3.png::CompressedTexture2D::1519524122743203122::1726751452::1735113752::1::::<><>::
 Plan 4.png::CompressedTexture2D::5021507128342329856::1726751468::1735113752::1::::<><>::
 Preview 2.png::CompressedTexture2D::6255156918254015060::1726751485::1735113753::1::::<><>::
-::res://Assets/King_castle/background 3/::1735151638
+::res://Assets/King_castle/background 3/::1735151951
 background 3.png::CompressedTexture2D::5775638861695769919::1726751517::1735113752::1::::<><>::
-Plan 1.png::CompressedTexture2D::7906802557115066739::1726751529::1735151781::1::::<><>::
+Plan 1.png::CompressedTexture2D::7906802557115066739::1726751529::1735151962::1::::<><>::
 Plan 2.png::CompressedTexture2D::4056245593335263160::1726751539::1735113752::1::::<><>::
 Plan 3.png::CompressedTexture2D::5232080605625853330::1726751552::1735113752::1::::<><>::
 Plan 4.png::CompressedTexture2D::778837089394646156::1726751567::1735113752::1::::<><>::
@@ -654,52 +654,52 @@ skeleton-dying.mp3::AudioStreamMP3::125637133635875246::1734789796::1734794231::
 ::res://Coins/::1735149306
 coin.gd::GDScript::-1::1734789796::0::1::::<>Area2D<>::
 coin.tscn::PackedScene::2505349619880988197::1734789796::0::1::::<><>::uid://ckyhh023as28o::::res://Assets/coins/MonedaD.png<>res://Coins/coin.gd
-::res://Enemy/::1735151638
-dummy.gd::GDScript::-1::1735151638::0::1::::<>CharacterBody2D<>::
+::res://Enemy/::1735151951
+dummy.gd::GDScript::-1::1735151951::0::1::::<>CharacterBody2D<>::
 dummy.tscn::PackedScene::6172119732803605::1735151638::0::1::::<><>::res://Enemy/dummy.gd<>uid://ce6kmjsi2xbki::::res://Assets/character/Dummy/Training Dummy Sprite Sheet.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
 moshroomhead.gd::GDScript::-1::1735141727::0::1::::<>CharacterBody2D<>::
 moshroomhead.tscn::PackedScene::5879026897986838296::1735151638::0::1::::<><>::uid://c03gklu8p7f2m::::res://Assets/character/Mushroom/Attack.png<>res://Enemy/moshroomhead.gd<>uid://d1a28o4rhiqqv::::res://Assets/character/Mushroom/Take Hit.png<>uid://byafqyhdngkyd::::res://Assets/character/Mushroom/Death.png<>uid://cxrlksshy6yna::::res://Assets/character/Mushroom/Idle.png<>uid://cjpy44aysb4rd::::res://Assets/character/Mushroom/Run.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
 skeleton.gd::GDScript::-1::1734802805::0::1::::<>CharacterBody2D<>::
 skeleton.tscn::PackedScene::5571203597947411142::1735131037::0::1::::<><>::uid://dipnobt3v1qmc::::res://Assets/character/Skeleton/Take Hit.png<>res://Enemy/skeleton.gd<>uid://bgkcqw606s2m8::::res://Assets/character/Skeleton/Attack.png<>uid://cqaaal6fsskhd::::res://Assets/character/Skeleton/Death.png<>uid://c1fpvp2gte2dj::::res://Assets/character/Skeleton/Idle.png<>uid://jjhrqrlsdqyj::::res://Assets/character/Skeleton/Walk.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png
-::res://Globals/::1735149811
-ConfigFileHandler.gd::GDScript::-1::1735149811::0::1::::<>Node<>::
+::res://Globals/::1735151896
+ConfigFileHandler.gd::GDScript::-1::1735151896::0::1::::<>Node<>::
 player_signal.gd::GDScript::-1::1735149811::0::1::::<>Node<>::
-::res://NPC/::1735151638
-gilbert.gd::GDScript::-1::1735151638::0::1::::<>CharacterBody2D<>::
+::res://NPC/::1735151951
+gilbert.gd::GDScript::-1::1735151951::0::1::::<>CharacterBody2D<>::
 Gilbert.tscn::PackedScene::2519802736391598948::1735151638::0::1::::<><>::res://NPC/gilbert.gd<>uid://dfcs2l7grh654::::res://Assets/character/Player/purple/char_purple_1.png
-king.gd::GDScript::-1::1735151638::0::1::::<>CharacterBody2D<>::
+king.gd::GDScript::-1::1735151951::0::1::::<>CharacterBody2D<>::
 King.tscn::PackedScene::9171383931706756637::1735151638::0::1::::<><>::uid://dd8hc6aaidvle::::res://Assets/character/King/король 2.0.png<>res://NPC/king.gd
-::res://Player/::1735151638
-player.gd::GDScript::-1::1735151638::0::1::::<>CharacterBody2D<>::
+::res://Player/::1735151951
+player.gd::GDScript::-1::1735151951::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::2588067675108664480::1735151638::0::1::::<><>::res://Player/player.gd<>uid://b6noykxhcy4hi::::res://Assets/character/Player/char_blue.png<>uid://ch2vjutojqmes::::res://Assets/character/Player/blue/char_blue_1.png<>uid://bwoo4jf65xf8w::::res://Assets/character/Player/blue/char_blue_2.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cn05ji35m1xp8::::res://Scene/Damage_box/damage_box.tscn
-::res://Scene/::1735151638
-ConfigFileHandler.gd::GDScript::-1::1735151638::0::1::::<>Node<>::
-::res://Scene/Arena/::1735151638
+::res://Scene/::1735151951
+ConfigFileHandler.gd::GDScript::-1::1735151951::0::1::::<>Node<>::
+::res://Scene/Arena/::1735151951
 Arena.tscn::PackedScene::8221112260480578677::1735151638::0::1::::<><>::uid://cb4a3gdkdhs1i::::res://Assets/Arena/Arena.png<>uid://cyge8g8bulccr::::res://Assets/King_castle/background 1/Plan 3.png<>uid://bb5u1vb57vgmm::::res://NPC/Gilbert.tscn<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://cfuhmphn8lal3::::res://Assets/King_castle/background 3/Plan 1.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn
 ::res://Scene/Damage_box/::1735149306
 damage_box.tscn::PackedScene::5738743825281728075::1734797069::0::1::::<><>::
-::res://Scene/Dialog/::1735151638
-dialogue.dialogue::Resource::5574522037798014187::1735151804::1735151804::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-dialogue_with_Gilbert.dialogue::Resource::890456251484103970::1735151804::1735151804::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-::res://Scene/Global/::1735149811
+::res://Scene/Dialog/::1735151951
+dialogue.dialogue::Resource::5574522037798014187::1735151951::1735151962::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+dialogue_with_Gilbert.dialogue::Resource::890456251484103970::1735151951::1735151962::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+::res://Scene/Global/::1735151896
 pause_menu.gd::GDScript::-1::1735149811::0::1::::<>RefCounted<>::
 pause_menu.tscn::PackedScene::6697125956174702823::1735149811::0::1::::<><>::
 Settings_menu_level.tscn::PackedScene::5454293176359335226::1735149811::0::1::::<><>::
-::res://Scene/Level_1/::1735151638
+::res://Scene/Level_1/::1735151951
 level.gd::GDScript::-1::1734806177::0::1::::<>Node2D<>::
 level.tscn::PackedScene::2253303079465017979::1735151638::0::1::::<><>::res://Scene/Level_1/level.gd<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png<>uid://c5ajo5vy1xj7m::::res://Assets/decorations/circle.png<>uid://cp03yjp62rk53::::res://Enemy/moshroomhead.tscn<>uid://clmy56e64g4dm::::res://Enemy/skeleton.tscn<>uid://c6imptj4jwa25::::res://Assets/decorations/grass_1.png<>uid://c1dyctgn284dp::::res://Assets/decorations/grass_2.png<>uid://cm6ey7bwofjtt::::res://Assets/decorations/grass_3.png<>uid://c30r6844o6u2i::::res://Assets/decorations/rock_1.png<>uid://bxn2igiesc653::::res://Assets/decorations/rock_2.png<>uid://dvtkxkjmy0fa7::::res://Assets/decorations/lamp.png<>uid://dyu8d7g4stuye::::res://Assets/decorations/tscn/SignLabel.tscn<>uid://dnjatkf8xc8de::::res://Assets/character/Player/Healthbar/Healthbar_empty.png<>uid://cr3cj2yhjgauk::::res://Assets/decorations/tscn/sign.tscn<>uid://cafaeq5sec3y3::::res://Assets/character/Player/Healthbar/Healthbar_color.png
 ScriptPauseMenu.gd::GDScript::-1::1735149811::0::1::::<>Node<>::
 ::res://Scene/Level_1/Background_level_1/::1735149306
 bg_menu.gd::GDScript::-1::1734789796::0::1::::<>ParallaxBackground<>::
 BG_Menu.tscn::PackedScene::6171405604104205247::1734789796::0::1::::<><>::uid://c8gqmjxnsiduu::::res://Assets/background/background_layer_1.png<>res://Scene/Level_1/Background_level_1/bg_menu.gd<>uid://bx22ebdtyhf64::::res://Assets/background/background_layer_2.png<>uid://dfwshhlyvw3y5::::res://Assets/background/background_layer_3.png
-::res://Scene/Level_king/::1735151638
+::res://Scene/Level_king/::1735151951
 Chill.tscn::PackedScene::7564318978998329495::1735129884::0::1::::<><>::uid://cyge8g8bulccr::::res://Assets/King_castle/background 1/Plan 3.png<>uid://rfg3che86ek1::::res://Assets/King_castle/background 1/Plan 2.png<>uid://035udpxeobol::::res://Assets/King_castle/background 1/Plan 1.png<>uid://cfuhmphn8lal3::::res://Assets/King_castle/background 3/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>res://Scene/Level_king/tp_to_hall_area.gd
-Hallway.tscn::PackedScene::7256743744635029289::1735151638::0::1::::<><>::uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://d3wxmasaexnk4::::res://NPC/King.tscn<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/training_teleport_area.gd
+Hallway.tscn::PackedScene::7256743744635029289::1735151805::0::1::::<><>::uid://bxwb6e20w3vmr::::res://Assets/King_castle/background 4/Plan 1.png<>uid://bc4xdjsl460ie::::res://Player/player.tscn<>uid://bugfq8y7wil4l::::res://Assets/King_castle/background 4/Plan 3.png<>uid://d3wxmasaexnk4::::res://NPC/King.tscn<>uid://b17auy053f531::::res://Assets/King_castle/background 4/Plan 2.png<>uid://bc23hjknnv04b::::res://Assets/oak_woods_tileset.png<>res://Scene/Level_king/training_teleport_area.gd
 tp_to_chill_area.gd::GDScript::-1::1735128488::0::1::::<>Area2D<>::
 tp_to_hall_area.gd::GDScript::-1::1735128883::0::1::::<>Area2D<>::
-training_teleport_area.gd::GDScript::-1::1735151638::0::1::::<>Area2D<>::
-::res://Scene/Main_menu/::1735151638
-main.gd::GDScript::-1::1735151638::0::1::::<>Control<>::
+training_teleport_area.gd::GDScript::-1::1735151951::0::1::::<>Area2D<>::
+::res://Scene/Main_menu/::1735151951
+main.gd::GDScript::-1::1735151951::0::1::::<>Control<>::
 Main.tscn::PackedScene::7477940621948692399::1735149811::0::1::::<><>::res://Scene/Main_menu/main.gd<>uid://f313lafgi7xl::::res://Assets/background/BackMainMenu.png
 settings_menu.gd::GDScript::-1::1734793503::0::1::::<>Control<>::
 settings_menu.tscn::PackedScene::6528100981958531771::1735151638::0::1::::<><>::uid://cewt7l4igm2u0::::res://Assets/background/luna-krasivo-foto.jpg<>res://Scene/Main_menu/settings_menu.gd
