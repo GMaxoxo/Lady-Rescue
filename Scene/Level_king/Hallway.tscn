@@ -593,7 +593,7 @@ sources/0 = SubResource("TileSetAtlasSource_r5j8d")
 sources/1 = SubResource("TileSetAtlasSource_du7py")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fdujd"]
-size = Vector2(26, 123.5)
+size = Vector2(20, 51)
 
 [node name="Hallway" type="Node2D"]
 
@@ -664,7 +664,7 @@ collision_mask = 16
 script = ExtResource("7_7nuvj")
 
 [node name="Training_teleport_collision" type="CollisionShape2D" parent="Training_teleport_area"]
-position = Vector2(-131, 542.75)
+position = Vector2(-128, 579)
 shape = SubResource("RectangleShape2D_fdujd")
 
 [connection signal="area_entered" from="Training_teleport_area" to="Training_teleport_area" method="_on_area_entered"]
