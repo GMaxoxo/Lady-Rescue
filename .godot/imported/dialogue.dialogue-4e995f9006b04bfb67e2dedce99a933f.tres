@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_m2pcu"]
+
+[resource]
+script = ExtResource("1_m2pcu")
+using_states = PackedStringArray()
+titles = {
+"dialog": "2"
+}
+character_names = PackedStringArray("Сэм", "Король Филипп")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "dialog",
+"type": &"title"
+},
+"10": {
+"character": "Король Филипп",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "11",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Направляйся к Гилберту, он заведует распределением новичков и занимается обучением. Пройди в тренировочный зал, что находится в конце комнаты. Вот письмо, вручи его Гилберту.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Направляйся к Гилберту, он заведует распределением новичков и занимается обучением. Пройди в тренировочный зал, что находится в конце комнаты. Вот письмо, вручи его Гилберту.",
+"type": &"dialogue"
+},
+"11": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "13",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Благодарю, Милорд! Вы очень добры.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Благодарю, Милорд! Вы очень добры.",
+"type": &"dialogue"
+},
+"13": {
+"id": "13",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+},
+"2": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Ваше Величество, я пришёл к вам с просьбой о помощи. Деревня была разорена врагами, и мы нуждаемся в вашей поддержке.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ваше Величество, я пришёл к вам с просьбой о помощи. Деревня была разорена врагами, и мы нуждаемся в вашей поддержке.",
+"type": &"dialogue"
+},
+"3": {
+"character": "Король Филипп",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Расскажи подробнее, что произошло.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Расскажи подробнее, что произошло.",
+"type": &"dialogue"
+},
+"5": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "7",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Сэм рассказывает королю о том, как враги напали на деревню, разрушили дома, забрали скот и урожай. Многие жители остались без крова и средств к существованию.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Сэм рассказывает королю о том, как враги напали на деревню, разрушили дома, забрали скот и урожай. Многие жители остались без крова и средств к существованию.",
+"type": &"dialogue"
+},
+"7": {
+"character": "Король Филипп",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "8",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Понимаю вашу боль. Я готов помочь. Я посодействую в решении вашей проблемы.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Понимаю вашу боль. Я готов помочь. Я посодействую в решении вашей проблемы.",
+"type": &"dialogue"
+},
+"8": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "10",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Благодарю, Ваше Величество. Не сочтите за наглость, но у меня будет к вам просьба. Я хочу вступить в ваше войско для борьбы с теми, кто отнял у нас дом.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Благодарю, Ваше Величество. Не сочтите за наглость, но у меня будет к вам просьба. Я хочу вступить в ваше войско для борьбы с теми, кто отнял у нас дом.",
+"type": &"dialogue"
+}
+}
+raw_text = "~ dialog
+Сэм: Ваше Величество, я пришёл к вам с просьбой о помощи. Деревня была разорена врагами, и мы нуждаемся в вашей поддержке.
+Король Филипп: Расскажи подробнее, что произошло.
+
+Сэм рассказывает королю о том, как враги напали на деревню, разрушили дома, забрали скот и урожай. Многие жители остались без крова и средств к существованию.
+
+Король Филипп: Понимаю вашу боль. Я готов помочь. Я посодействую в решении вашей проблемы. 
+Сэм: Благодарю, Ваше Величество. Не сочтите за наглость, но у меня будет к вам просьба. Я хочу вступить в ваше войско для борьбы с теми, кто отнял у нас дом.
+
+Король Филипп: Направляйся к Гилберту, он заведует распределением новичков и занимается обучением. Пройди в тренировочный зал, что находится в конце комнаты. Вот письмо, вручи его Гилберту.
+Сэм: Благодарю, Милорд! Вы очень добры.
+
+=> END"
+metadata/dialogue_manager_version = "2.44.0"

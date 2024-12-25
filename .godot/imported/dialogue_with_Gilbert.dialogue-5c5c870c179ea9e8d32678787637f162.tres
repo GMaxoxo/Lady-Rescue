@@ -1,0 +1,244 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_dc72a"]
+
+[resource]
+script = ExtResource("1_dc72a")
+using_states = PackedStringArray()
+titles = {
+"dialog_with_Gilbert": "2"
+}
+character_names = PackedStringArray("Сэм", "Гилберт (не поднимая глаз)", "Гилберт (бросает кинжал и берёт письмо)", "Гилберт (задумчиво, читая дальше)", "Гилберт", "Сэм (честно)", "Гилберт (смеётся)", "Гилберт (встаёт)", "Гилберт (хмуро)", "Гилберт (с ухмылкой)")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "dialog_with_Gilbert",
+"type": &"title"
+},
+"11": {
+"character": "Гилберт",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "12",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Ха! Король что-то знает, чего не вижу я. Посмотрим, из чего ты сделан. Ты хоть меч в руках держал?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ха! Король что-то знает, чего не вижу я. Посмотрим, из чего ты сделан. Ты хоть меч в руках держал?",
+"type": &"dialogue"
+},
+"12": {
+"character": "Сэм (честно)",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "14",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Нет, господин. Я крестьянин.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Нет, господин. Я крестьянин.",
+"type": &"dialogue"
+},
+"14": {
+"character": "Гилберт (смеётся)",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Ну, хоть честный. Это уже лучше, чем у большинства молодых выскочек. Ладно, раз король велел, обучу. Но сразу скажу: я тебе не нянька.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ну, хоть честный. Это уже лучше, чем у большинства молодых выскочек. Ладно, раз король велел, обучу. Но сразу скажу: я тебе не нянька.",
+"type": &"dialogue"
+},
+"15": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "17",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Я готов учиться, господин Гилберт.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Я готов учиться, господин Гилберт.",
+"type": &"dialogue"
+},
+"17": {
+"character": "Гилберт (встаёт)",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "18",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Если хочешь быть воином, забудь про лень и страх.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Если хочешь быть воином, забудь про лень и страх.",
+"type": &"dialogue"
+},
+"18": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "20",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Я не подведу.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Я не подведу.",
+"type": &"dialogue"
+},
+"2": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Добрый день, господин Гилберт.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Добрый день, господин Гилберт.",
+"type": &"dialogue"
+},
+"20": {
+"character": "Гилберт (хмуро)",
+"character_replacements": Array[Dictionary]([]),
+"id": "20",
+"next_id": "21",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Не спеши с обещаниями, парень. На войне много кто верил в себя, а потом лежал лицом в грязи. Посмотрим, выживешь ли ты хотя бы до конца моей тренировки.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Не спеши с обещаниями, парень. На войне много кто верил в себя, а потом лежал лицом в грязи. Посмотрим, выживешь ли ты хотя бы до конца моей тренировки.",
+"type": &"dialogue"
+},
+"21": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "22",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Я докажу, что король не ошибся.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Я докажу, что король не ошибся.",
+"type": &"dialogue"
+},
+"22": {
+"character": "Гилберт (с ухмылкой)",
+"character_replacements": Array[Dictionary]([]),
+"id": "22",
+"next_id": "24",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Доказывай. Но лучше готовься к тому, что я начну ломать из тебя крестьянина и собирать солдата.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Доказывай. Но лучше готовься к тому, что я начну ломать из тебя крестьянина и собирать солдата.",
+"type": &"dialogue"
+},
+"24": {
+"character": "Гилберт",
+"character_replacements": Array[Dictionary]([]),
+"id": "24",
+"next_id": "25",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Слева от тебя имеется наша зверушка. Каждый новичёк проходит бой с ней. Ступай и покажи всё, что можешь.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Слева от тебя имеется наша зверушка. Каждый новичёк проходит бой с ней. Ступай и покажи всё, что можешь.",
+"type": &"dialogue"
+},
+"25": {
+"id": "25",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+},
+"3": {
+"character": "Гилберт (не поднимая глаз)",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "День как день. Кто ты и что тебе нужно?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "День как день. Кто ты и что тебе нужно?",
+"type": &"dialogue"
+},
+"5": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Меня зовут Сэм. Король велел мне явиться к вам для обучения. Вот его приказ.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Меня зовут Сэм. Король велел мне явиться к вам для обучения. Вот его приказ.",
+"type": &"dialogue"
+},
+"6": {
+"character": "Гилберт (бросает кинжал и берёт письмо)",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "8",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "\"К Гилберту, ветерану гвардии. Настоятельно приказываю взять под своё крыло данного человека. Он необходим для выполнения важной миссии во славу королевства.\"",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "\"К Гилберту, ветерану гвардии. Настоятельно приказываю взять под своё крыло данного человека. Он необходим для выполнения важной миссии во славу королевства.\"",
+"type": &"dialogue"
+},
+"8": {
+"character": "Гилберт (задумчиво, читая дальше)",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Хм. Сэм, значит. Интересное имя. И что, тебя из всех выбрали, чтобы прославить королевство?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Хм. Сэм, значит. Интересное имя. И что, тебя из всех выбрали, чтобы прославить королевство?",
+"type": &"dialogue"
+},
+"9": {
+"character": "Сэм",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "11",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Похоже, да. Сам я не понимаю, чем заслужил такую честь, но приказ есть приказ.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Похоже, да. Сам я не понимаю, чем заслужил такую честь, но приказ есть приказ.",
+"type": &"dialogue"
+}
+}
+raw_text = "~ dialog_with_Gilbert
+Сэм: Добрый день, господин Гилберт.
+Гилберт (не поднимая глаз): День как день. Кто ты и что тебе нужно?
+
+Сэм: Меня зовут Сэм. Король велел мне явиться к вам для обучения. Вот его приказ.
+Гилберт (бросает кинжал и берёт письмо): \"К Гилберту, ветерану гвардии. Настоятельно приказываю взять под своё крыло данного человека. Он необходим для выполнения важной миссии во славу королевства.\"
+
+Гилберт (задумчиво, читая дальше): Хм. Сэм, значит. Интересное имя. И что, тебя из всех выбрали, чтобы прославить королевство?
+Сэм: Похоже, да. Сам я не понимаю, чем заслужил такую честь, но приказ есть приказ.
+
+Гилберт: Ха! Король что-то знает, чего не вижу я. Посмотрим, из чего ты сделан. Ты хоть меч в руках держал?
+Сэм (честно): Нет, господин. Я крестьянин.
+
+Гилберт (смеётся): Ну, хоть честный. Это уже лучше, чем у большинства молодых выскочек. Ладно, раз король велел, обучу. Но сразу скажу: я тебе не нянька.
+Сэм: Я готов учиться, господин Гилберт.
+
+Гилберт (встаёт): Если хочешь быть воином, забудь про лень и страх.
+Сэм: Я не подведу.
+
+Гилберт (хмуро): Не спеши с обещаниями, парень. На войне много кто верил в себя, а потом лежал лицом в грязи. Посмотрим, выживешь ли ты хотя бы до конца моей тренировки.
+Сэм: Я докажу, что король не ошибся.
+Гилберт (с ухмылкой): Доказывай. Но лучше готовься к тому, что я начну ломать из тебя крестьянина и собирать солдата.
+
+Гилберт: Слева от тебя имеется наша зверушка. Каждый новичёк проходит бой с ней. Ступай и покажи всё, что можешь.
+=> END"
+metadata/dialogue_manager_version = "2.44.0"

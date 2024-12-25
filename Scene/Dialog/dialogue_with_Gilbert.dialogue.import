@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://mxlxjejel2dy"
+path="res://.godot/imported/dialogue_with_Gilbert.dialogue-5c5c870c179ea9e8d32678787637f162.tres"
+
+[deps]
+
+source_file="res://Scene/Dialog/dialogue_with_Gilbert.dialogue"
+dest_files=["res://.godot/imported/dialogue_with_Gilbert.dialogue-5c5c870c179ea9e8d32678787637f162.tres"]
+
+[params]
+
+defaults=true
