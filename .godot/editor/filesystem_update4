@@ -1,10 +1,4 @@
-res://Scene/Level_king/king_palace.tscn
+res://Scene/Main_menu/Main.tscn
 res://Scene/Level_1/level.tscn
-res://Scene/Main_menu/main.gd
-res://Player/player.tscn
-res://Scene/Level_king/Chill.tscn
-res://Scene/Level_king/Hallway.tscn
-res://Scene/Level_king/tp_to_chill_area.gd
-res://Scene/Level_king/tp_to_hallway_area.gd
-res://Scene/Level_king/tp_to_hall_area.gd
-res://Enemy/skeleton.tscn
+res://Scene/Main_menu/settings_menu.tscn
+res://Scene/Main_menu/Sure.tscn

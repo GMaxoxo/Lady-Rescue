@@ -1,3 +1,5 @@
+Panel
+Node
 CollisionShape2D
 Area2D
 ParallaxLayer
@@ -9,6 +11,4 @@ AnimationPlayer
 CanvasModulate
 Node2D
 TextureProgressBar
-Node
 TextureRect
-Label
