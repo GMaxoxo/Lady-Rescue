@@ -1,8 +1,0 @@
-res://Scene/Main_menu/Main.tscn
-res://Scene/Main_menu/settings_menu.gd
-res://Globals/ConfigFileHandler.gd
-res://Scene/Global/Settings_menu_level.tscn
-res://Scene/Main_menu/settings_menu.tscn
-res://Scene/Level_king/Hallway.tscn
-res://Scene/Level_king/Chill.tscn
-res://Scene/Level_1/level.tscn
