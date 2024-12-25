@@ -2,11 +2,10 @@ extends Control
 
 
 func _ready():
-	ready
+	var video_settings = ConfigFileHandler.load_video_settings()
 
 func _on_settings_exit_pressed() -> void:
 	get_tree().change_scene_to_file("res://Scene/Main_menu/Main.tscn") #Переход на главное менюФ
-
 
 func _on_display_mode_1_pressed() -> void:
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN) # Меняем режим отображения на полный экран
