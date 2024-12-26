@@ -1,4 +1,4 @@
-[gd_scene load_steps=113 format=3 uid="uid://bc4xdjsl460ie"]
+[gd_scene load_steps=119 format=3 uid="uid://bc4xdjsl460ie"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_68ddx"]
 [ext_resource type="Texture2D" uid="uid://b6noykxhcy4hi" path="res://Assets/character/Player/char_blue.png" id="1_s7x7y"]
@@ -6,9 +6,13 @@
 [ext_resource type="Texture2D" uid="uid://bwoo4jf65xf8w" path="res://Assets/character/Player/blue/char_blue_2.png" id="3_i7pid"]
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="5_jn0db"]
 [ext_resource type="PackedScene" uid="uid://cn05ji35m1xp8" path="res://Scene/Damage_box/damage_box.tscn" id="6_5tk1y"]
+[ext_resource type="AudioStream" uid="uid://cn3aufgmilkia" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/Wood Walk 1.ogg" id="7_8ssw1"]
 [ext_resource type="AudioStream" uid="uid://dvhe7au6ul5f3" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 1.ogg" id="7_l1kpa"]
 [ext_resource type="AudioStream" uid="uid://dc6f07a44njbu" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 2.ogg" id="8_8m2p2"]
+[ext_resource type="AudioStream" uid="uid://cxbrr8mx557cl" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/Wood Walk 2.ogg" id="8_ujxb4"]
+[ext_resource type="AudioStream" uid="uid://cnorhmadbueej" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/Wood Run 1.ogg" id="9_4gqnu"]
 [ext_resource type="AudioStream" uid="uid://cndbxh03ucp32" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Attacks/Sword Attacks Hits and Blocks/Sword Attack 3.ogg" id="9_ovc0e"]
+[ext_resource type="AudioStream" uid="uid://c07qe44evloyq" path="res://Assets/sound/Free Fantasy SFX Pack By TomMusic/OGG Files/SFX/Footsteps/Wood/Wood Run 2.ogg" id="10_m27vw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jigcx"]
 size = Vector2(17, 32)
@@ -726,7 +730,7 @@ tracks/4/path = NodePath("Sounds/Attack:playing")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.233333, 0.6),
+"times": PackedFloat32Array(0, 0.0333333, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -1191,6 +1195,16 @@ _data = {
 polygon = PackedVector2Array(-4, 15, 2, 15, 6, 18, -8, 18)
 
 [sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_l4nxc"]
+streams_count = 2
+stream_0/stream = ExtResource("7_8ssw1")
+stream_1/stream = ExtResource("8_ujxb4")
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_2cq7p"]
+streams_count = 2
+stream_0/stream = ExtResource("9_4gqnu")
+stream_1/stream = ExtResource("10_m27vw")
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_ol7ja"]
 streams_count = 3
 stream_0/stream = ExtResource("7_l1kpa")
 stream_1/stream = ExtResource("8_8m2p2")
@@ -1216,7 +1230,7 @@ position = Vector2(1, -13)
 sprite_frames = SubResource("SpriteFrames_bi57i")
 animation = &"Combo Attack 2"
 autoplay = "Idle"
-frame = 7
+frame = 6
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -1266,14 +1280,17 @@ position = Vector2(18, 0)
 [node name="Walk" type="AudioStreamPlayer" parent="Sounds"]
 stream = SubResource("AudioStreamRandomizer_l4nxc")
 volume_db = -13.0
+bus = &"Walk"
 
 [node name="Sprint" type="AudioStreamPlayer" parent="Sounds"]
-stream = SubResource("AudioStreamRandomizer_l4nxc")
-volume_db = -13.0
+stream = SubResource("AudioStreamRandomizer_2cq7p")
+volume_db = -10.0
+bus = &"Sprint"
 
 [node name="Attack" type="AudioStreamPlayer" parent="Sounds"]
-stream = SubResource("AudioStreamRandomizer_l4nxc")
-volume_db = -13.0
+stream = SubResource("AudioStreamRandomizer_ol7ja")
+volume_db = -10.0
+bus = &"Attack"
 
 [connection signal="body_entered" from="NPC_detecter_area" to="." method="_on_npc_detecter_area_body_entered"]
 [connection signal="body_exited" from="NPC_detecter_area" to="." method="_on_npc_detecter_area_body_exited"]
