@@ -12,8 +12,8 @@ dest_files=["res://.godot/imported/Forest Night.ogg-d5647ea58f97646d97f908659e63
 
 [params]
 
-loop=false
-loop_offset=0
-bpm=0
+loop=true
+loop_offset=0.0
+bpm=0.0
 beat_count=0
 bar_beats=4
