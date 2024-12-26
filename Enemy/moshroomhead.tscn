@@ -10,10 +10,10 @@
 [ext_resource type="PackedScene" uid="uid://cn05ji35m1xp8" path="res://Scene/Damage_box/damage_box.tscn" id="8_rbr2x"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nb18k"]
-size = Vector2(22, 37)
+size = Vector2(22, 45.8571)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vxlpp"]
-radius = 162.0
+radius = 113.888
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n2lkt"]
 atlas = ExtResource("1_1sk4l")
@@ -351,7 +351,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_mkab7"]
-length = 3.0
+length = 0.6
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -375,18 +375,6 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": ["Death"]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:modulate")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(2, 2.8),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_w5dls"]
@@ -430,18 +418,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_b1534"]
@@ -514,11 +490,13 @@ _data = {
 polygon = PackedVector2Array(-3, 18, -8, 21, 0, 21, 7, 21, 3, 18)
 
 [node name="Moshroomhead" type="CharacterBody2D"]
+scale = Vector2(1.4, 1.4)
 collision_layer = 2
 script = ExtResource("1_q2ax3")
 
 [node name="Moshroomhead_collision" type="CollisionShape2D" parent="."]
-position = Vector2(0, -0.5)
+position = Vector2(0, -4.92857)
+scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_nb18k")
 
 [node name="Agro_zone_Moshroom" type="Area2D" parent="."]
@@ -529,7 +507,7 @@ shape = SubResource("CircleShape2D_vxlpp")
 [node name="Moshroomhead_anim" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_g5jtd")
-animation = &"Attack"
+animation = &"Death"
 autoplay = "Idle"
 
 [node name="Moshroomhead_anim_player" type="AnimationPlayer" parent="."]

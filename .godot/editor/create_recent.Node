@@ -1,5 +1,10 @@
-Area2D
+Timer
+AnimationPlayer
+AnimatedSprite2D
+Node2D
+CanvasModulate
 CollisionShape2D
+Area2D
 Panel
 Node
 ParallaxLayer
@@ -7,8 +12,4 @@ Parallax2D
 ParallaxBackground
 TileMapLayer
 TileMap
-AnimationPlayer
-CanvasModulate
-Node2D
 TextureProgressBar
-TextureRect

@@ -10,10 +10,10 @@
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_u6q5n"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_eyxjy"]
-radius = 142.0
+radius = 110.067
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rgo25"]
-size = Vector2(20, 32)
+size = Vector2(20, 45.7143)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8onkq"]
 atlas = ExtResource("2_mt2rs")
@@ -460,6 +460,8 @@ _data = {
 polygon = PackedVector2Array(-3, 15, -7, 18, 0, 18, 9, 18, 4, 15)
 
 [node name="Skeleton" type="CharacterBody2D"]
+scale = Vector2(1.4, 1.4)
+collision_layer = 2
 script = ExtResource("1_ln7qe")
 
 [node name="Skeleton_Agro_Area" type="Area2D" parent="."]
@@ -468,7 +470,8 @@ script = ExtResource("1_ln7qe")
 shape = SubResource("CircleShape2D_eyxjy")
 
 [node name="Skeleton_Collision" type="CollisionShape2D" parent="."]
-position = Vector2(0, -1)
+position = Vector2(0, -7.85714)
+scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_rgo25")
 
 [node name="Skeleton_Anim" type="AnimatedSprite2D" parent="."]

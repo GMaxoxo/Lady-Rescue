@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=4 uid="uid://7drtp223lbux"]
+[gd_scene load_steps=31 format=4 uid="uid://7drtp223lbux"]
 
 [ext_resource type="Script" path="res://Scene/Level_1/level.gd" id="1_p1u5u"]
 [ext_resource type="Texture2D" uid="uid://bc23hjknnv04b" path="res://Assets/oak_woods_tileset.png" id="1_uipwf"]
@@ -9,7 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://dfwshhlyvw3y5" path="res://Assets/background/background_layer_3.png" id="5_vd7kf"]
 [ext_resource type="PackedScene" uid="uid://c2oexlb7nyfad" path="res://Scene/Global/pause_menu.tscn" id="8_3wl6j"]
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_84km8"]
+[ext_resource type="PackedScene" uid="uid://cp03yjp62rk53" path="res://Enemy/moshroomhead.tscn" id="8_wxrvj"]
 [ext_resource type="PackedScene" uid="uid://cjydn87y4vqd3" path="res://Scene/Global/Settings_menu_level.tscn" id="9_ghu4h"]
+[ext_resource type="PackedScene" uid="uid://clmy56e64g4dm" path="res://Enemy/skeleton.tscn" id="9_qax7l"]
 [ext_resource type="Texture2D" uid="uid://c6imptj4jwa25" path="res://Assets/decorations/grass_1.png" id="10_0ktuh"]
 [ext_resource type="Texture2D" uid="uid://c1dyctgn284dp" path="res://Assets/decorations/grass_2.png" id="11_0pdqw"]
 [ext_resource type="Texture2D" uid="uid://cm6ey7bwofjtt" path="res://Assets/decorations/grass_3.png" id="12_icspn"]
@@ -26,50 +28,14 @@ resource_name = "Location_visibility"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/path = NodePath("Node2D/CanvasModulate:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0, 1),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("BG_level_1/ParallaxLayer/BackgroundLayer1:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("BG_level_1/ParallaxLayer2/BackgroundLayer2:modulate")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("BG_level_1/ParallaxLayer3/BackgroundLayer3:modulate")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_4uh34"]
@@ -77,50 +43,14 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/path = NodePath("Node2D/CanvasModulate:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Color(1, 1, 1, 1)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("BG_level_1/ParallaxLayer/BackgroundLayer1:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("BG_level_1/ParallaxLayer2/BackgroundLayer2:modulate")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("BG_level_1/ParallaxLayer3/BackgroundLayer3:modulate")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
+"values": [Color(1, 1, 1, 0)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_8yqup"]
@@ -574,17 +504,20 @@ polygon = PackedVector2Array(-1069, 613, -1069, 674, 547, 674, 547, 611, 320, 61
 [node name="Level" type="Node2D"]
 script = ExtResource("1_p1u5u")
 
-[node name="ScriptPauseMenu" type="Node" parent="."]
-process_mode = 3
-script = ExtResource("2_rbrgd")
+[node name="Node2D" type="Node2D" parent="."]
 
-[node name="CanvasModulate" type="CanvasModulate" parent="."]
+[node name="CanvasModulate" type="CanvasModulate" parent="Node2D"]
+color = Color(1, 1, 1, 0)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Node2D"]
+root_node = NodePath("../..")
 libraries = {
 "": SubResource("AnimationLibrary_8yqup")
 }
-autoplay = "Location_visibility"
+
+[node name="ScriptPauseMenu" type="Node" parent="."]
+process_mode = 3
+script = ExtResource("2_rbrgd")
 
 [node name="BG_level_1" type="ParallaxBackground" parent="."]
 layer = -1
@@ -670,16 +603,8 @@ shadow_enabled = true
 texture = ExtResource("8_84km8")
 texture_scale = 1.5
 
-[node name="Lamps_light4" type="PointLight2D" parent="Light/Ligts_lamps"]
-position = Vector2(-506, 572)
-scale = Vector2(0.148125, 0.148125)
-energy = 0.7
-shadow_enabled = true
-texture = ExtResource("8_84km8")
-texture_scale = 1.5
-
-[node name="Lamps_light3" type="PointLight2D" parent="Light/Ligts_lamps"]
-position = Vector2(-506, 573)
+[node name="Lamps_light13" type="PointLight2D" parent="Light/Ligts_lamps"]
+position = Vector2(-506, 571)
 scale = Vector2(0.148125, 0.148125)
 energy = 0.7
 shadow_enabled = true
@@ -704,9 +629,12 @@ texture_scale = 1.5
 
 [node name="Enemy" type="Node2D" parent="."]
 
-[node name="Spawner" type="Timer" parent="Enemy"]
-wait_time = 5.0
-autostart = true
+[node name="Moshroomhead" parent="Enemy" instance=ExtResource("8_wxrvj")]
+position = Vector2(-255, 578)
+
+[node name="Skeleton" parent="Enemy" instance=ExtResource("9_qax7l")]
+position = Vector2(-883, 588)
+collision_layer = 2
 
 [node name="Player" type="Node2D" parent="."]
 
@@ -1396,7 +1324,7 @@ texture = ExtResource("17_65g0f")
 
 [node name="Lamp14" type="Sprite2D" parent="Lights"]
 z_index = -1
-position = Vector2(-1000, 579)
+position = Vector2(-950, 579)
 texture = ExtResource("17_65g0f")
 
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Resume" to="ScriptPauseMenu" method="_on_resume_pressed"]
@@ -1410,7 +1338,6 @@ texture = ExtResource("17_65g0f")
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/ResolitonChange/Resolution3" to="ScriptPauseMenu" method="_on_resolution_3_pressed"]
 [connection signal="pressed" from="HUD/Settings_menu_level/Panel/MarginContainer2/HBoxContainer/SettingsExit" to="ScriptPauseMenu" method="_on_settings_exit_pressed"]
 [connection signal="timeout" from="Coins/Coin_Timer" to="Coins" method="_on_coin_timer_timeout"]
-[connection signal="timeout" from="Enemy/Spawner" to="." method="_on_spawner_timeout"]
 [connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]
 
 [editable path="HUD/PauseMenu"]

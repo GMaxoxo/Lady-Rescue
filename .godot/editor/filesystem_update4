@@ -1,0 +1,9 @@
+res://Enemy/spawner.tscn
+res://Enemy/spawner.gd
+res://Scene/Level_1/level.tscn
+res://Scene/Arena/Arena.tscn
+res://Scene/Level_king/Hallway.tscn
+res://Enemy/skeleton.tscn
+res://Enemy/moshroomhead.tscn
+res://Scene/player_signal.gd
+res://Scene/Level_1/level.gd
