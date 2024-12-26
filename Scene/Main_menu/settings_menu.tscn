@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://c0ai4tbdxqp4v"]
+[gd_scene load_steps=8 format=3 uid="uid://c0ai4tbdxqp4v"]
 
 [ext_resource type="Script" path="res://Scene/Main_menu/settings_menu.gd" id="1_xvyrh"]
 [ext_resource type="Texture2D" uid="uid://f313lafgi7xl" path="res://Assets/background/BackMainMenu.png" id="2_e2wb8"]
+[ext_resource type="PackedScene" uid="uid://dgjmjbh0uu6hs" path="res://Globals/keybindings.tscn" id="2_or5eu"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pwmy8"]
 bg_color = Color(0, 0, 0, 0.392157)
@@ -34,6 +35,14 @@ grow_vertical = 2
 texture = ExtResource("2_e2wb8")
 expand_mode = 1
 flip_h = true
+
+[node name="Keybindings" parent="." instance=ExtResource("2_or5eu")]
+process_mode = 3
+visible = false
+top_level = true
+layout_mode = 1
+size_flags_horizontal = 4
+size_flags_vertical = 4
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -147,7 +156,7 @@ tooltip_text = "Загрузить игру"
 theme_override_font_sizes/font_size = 16
 text = "Включить"
 
-[node name="NoVisible" type="Button" parent="MarginContainer/HBoxContainer/Sound"]
+[node name="Spacer" type="Button" parent="MarginContainer/HBoxContainer/Sound"]
 modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(80, 60)
 layout_mode = 2
@@ -197,9 +206,22 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "Сложная"
 
-[node name="SettingsExit" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="Difficulty2" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Binds" type="Button" parent="MarginContainer/HBoxContainer/Difficulty2"]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Управление"
+
+[node name="SettingsExit" type="Button" parent="MarginContainer/HBoxContainer/Difficulty2"]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(80, 60)
+custom_minimum_size = Vector2(120, 80)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
@@ -214,4 +236,5 @@ text = "назад
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ResolitonChange/Resolution3" to="." method="_on_resolution_3_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundYes" to="." method="_on_sound_yes_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/Sound/SoundNo" to="." method="_on_sound_no_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/SettingsExit" to="." method="_on_settings_exit_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Difficulty2/Binds" to="." method="_on_binds_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Difficulty2/SettingsExit" to="." method="_on_settings_exit_pressed"]

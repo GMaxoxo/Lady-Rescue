@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=4 uid="uid://dbnhrkxt6l330"]
+[gd_scene load_steps=19 format=4 uid="uid://dbnhrkxt6l330"]
 
 [ext_resource type="Script" path="res://Scene/Level_1/ScriptPauseMenu.gd" id="1_s84vd"]
 [ext_resource type="Script" path="res://Scene/Level_king/hallway.gd" id="1_u38ke"]
@@ -8,7 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://b17auy053f531" path="res://Assets/King_castle/background 4/Plan 2.png" id="4_3n3is"]
 [ext_resource type="Texture2D" uid="uid://bc23hjknnv04b" path="res://Assets/oak_woods_tileset.png" id="4_m0eri"]
 [ext_resource type="PackedScene" uid="uid://d3wxmasaexnk4" path="res://NPC/King.tscn" id="5_81f6k"]
-[ext_resource type="Script" path="res://Scene/Level_king/tp_to_chill_area.gd" id="6_sxbv2"]
 [ext_resource type="Texture2D" uid="uid://dnjatkf8xc8de" path="res://Assets/character/Player/Healthbar/Healthbar_empty.png" id="7_2xdsa"]
 [ext_resource type="Texture2D" uid="uid://cafaeq5sec3y3" path="res://Assets/character/Player/Healthbar/Healthbar_color.png" id="8_hqslh"]
 
@@ -881,11 +880,10 @@ position = Vector2(-43.0002, 497)
 scale = Vector2(0.674383, 0.694444)
 texture = ExtResource("2_pttas")
 
-[node name="Tp_to_chill_area" type="Area2D" parent="."]
+[node name="Tp_to_arena_area" type="Area2D" parent="."]
 collision_mask = 16
-script = ExtResource("6_sxbv2")
 
-[node name="Tp_to_chill_collision" type="CollisionShape2D" parent="Tp_to_chill_area"]
+[node name="Tp_to_arena_collision" type="CollisionShape2D" parent="Tp_to_arena_area"]
 position = Vector2(-125, 563)
 shape = SubResource("RectangleShape2D_21cwa")
 
@@ -1151,7 +1149,7 @@ text = "назад
 "
 
 [connection signal="health_changed" from="Player/Player" to="." method="_on_player_health_changed"]
-[connection signal="area_entered" from="Tp_to_chill_area" to="Tp_to_chill_area" method="_on_area_entered"]
+[connection signal="area_entered" from="Tp_to_arena_area" to="." method="_on_tp_to_arena_area_area_entered"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Resume" to="ScriptPauseMenu" method="_on_resume_pressed"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/Settings" to="ScriptPauseMenu" method="_on_settings_pressed"]
 [connection signal="pressed" from="HUD/PauseMenu/Panel/MarginContainer/VBoxContainer/MainMenu" to="ScriptPauseMenu" method="_on_main_menu_pressed"]

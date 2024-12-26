@@ -1,3 +1,5 @@
+CollisionShape2D
+Area2D
 AudioStreamPlayer
 Node2D
 AudioStreamPlayer2D
@@ -5,8 +7,6 @@ Timer
 AnimationPlayer
 AnimatedSprite2D
 CanvasModulate
-CollisionShape2D
-Area2D
 Panel
 Node
 ParallaxLayer

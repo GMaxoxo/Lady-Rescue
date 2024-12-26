@@ -1280,17 +1280,14 @@ position = Vector2(18, 0)
 [node name="Walk" type="AudioStreamPlayer" parent="Sounds"]
 stream = SubResource("AudioStreamRandomizer_l4nxc")
 volume_db = -13.0
-bus = &"Walk"
 
 [node name="Sprint" type="AudioStreamPlayer" parent="Sounds"]
 stream = SubResource("AudioStreamRandomizer_2cq7p")
 volume_db = -10.0
-bus = &"Sprint"
 
 [node name="Attack" type="AudioStreamPlayer" parent="Sounds"]
 stream = SubResource("AudioStreamRandomizer_ol7ja")
 volume_db = -10.0
-bus = &"Attack"
 
 [connection signal="body_entered" from="NPC_detecter_area" to="." method="_on_npc_detecter_area_body_entered"]
 [connection signal="body_exited" from="NPC_detecter_area" to="." method="_on_npc_detecter_area_body_exited"]

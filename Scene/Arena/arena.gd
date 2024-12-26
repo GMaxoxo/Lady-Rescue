@@ -16,3 +16,7 @@ func _process(delta: float) -> void:
 
 func _on_player_health_changed(new_health: Variant) -> void:
 	healthbar.value = new_health
+
+
+func _on_tp_to_forest_area_area_entered(area: Area2D) -> void:
+	get_tree().change_scene_to_file.bind().call_deferred("res://Scene/Level_1/level.tscn")

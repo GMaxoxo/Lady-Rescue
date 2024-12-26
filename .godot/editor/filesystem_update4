@@ -1,3 +1,8 @@
 res://Scene/Main_menu/Main.tscn
 res://Player/player.tscn
 res://Enemy/skeleton.tscn
+res://Scene/Level_king/Hallway.tscn
+res://Scene/Level_king/hallway.gd
+res://Scene/Arena/arena.gd
+res://Scene/Arena/Arena.tscn
+res://Scene/Level_1/level.tscn

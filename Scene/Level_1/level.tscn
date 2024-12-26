@@ -7,9 +7,9 @@
 [ext_resource type="Texture2D" uid="uid://c8gqmjxnsiduu" path="res://Assets/background/background_layer_1.png" id="3_s1vjy"]
 [ext_resource type="Texture2D" uid="uid://bx22ebdtyhf64" path="res://Assets/background/background_layer_2.png" id="4_33i7t"]
 [ext_resource type="Texture2D" uid="uid://dfwshhlyvw3y5" path="res://Assets/background/background_layer_3.png" id="5_vd7kf"]
-[ext_resource type="PackedScene" uid="uid://c2oexlb7nyfad" path="res://Scene/Global/pause_menu.tscn" id="8_3wl6j"]
+[ext_resource type="PackedScene" uid="uid://c2oexlb7nyfad" path="res://Scene/Level_1/Background_level_1/Global/pause_menu.tscn" id="8_3wl6j"]
 [ext_resource type="Texture2D" uid="uid://c5ajo5vy1xj7m" path="res://Assets/decorations/circle.png" id="8_84km8"]
-[ext_resource type="PackedScene" uid="uid://cjydn87y4vqd3" path="res://Scene/Global/Settings_menu_level.tscn" id="9_ghu4h"]
+[ext_resource type="PackedScene" uid="uid://cjydn87y4vqd3" path="res://Scene/Level_1/Background_level_1/Global/Settings_menu_level.tscn" id="9_ghu4h"]
 [ext_resource type="Texture2D" uid="uid://c6imptj4jwa25" path="res://Assets/decorations/grass_1.png" id="10_0ktuh"]
 [ext_resource type="Texture2D" uid="uid://c1dyctgn284dp" path="res://Assets/decorations/grass_2.png" id="11_0pdqw"]
 [ext_resource type="Texture2D" uid="uid://cm6ey7bwofjtt" path="res://Assets/decorations/grass_3.png" id="12_icspn"]
@@ -624,7 +624,6 @@ tile_map_data = PackedByteArray("AAABACYAAAACAAAAAAACACYAAAADAAAAAAADACYAAAAEAAA
 tile_set = SubResource("TileSet_afths")
 
 [node name="HUD" type="CanvasLayer" parent="."]
-visible = false
 
 [node name="Healthbar" type="TextureProgressBar" parent="HUD"]
 offset_top = 593.0
